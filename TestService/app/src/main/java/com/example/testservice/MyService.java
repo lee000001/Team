@@ -8,6 +8,9 @@ import android.os.Binder;
 import android.os.IBinder;
 import android.os.SystemClock;
 import android.util.Log;
+import android.widget.Toast;
+
+import org.greenrobot.eventbus.EventBus;
 
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
@@ -84,6 +87,8 @@ public class MyService extends Service {
                     @Override
                     public void onNext(String s) {
                         Log.d(TAG, "onNext: "+s);
+                        EventBus.getDefault().post(s);
+//                        Toast.makeText("")
                     }
 
 
