@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 分页标签 -->
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color"/>
+        <attr name="pstsUnderlineColor" format="color"/>
+        <attr name="pstsDividerColor" format="color"/>
+        <attr name="pstsCheckedTextColor" format="reference"/>
+        <attr name="pstsUncheckedTextColor" format="reference"/>
+        <attr name="pstsIndicatorHeight" format="dimension"/>
+        <attr name="pstsUnderlineHeight" format="dimension"/>
+        <attr name="pstsDividerPadding" format="dimension"/>
+        <attr name="pstsTabPaddingLeftRight" format="dimension"/>
+        <attr name="pstsScrollOffset" format="dimension"/>
+        <attr name="pstsTabBackground" format="reference"/>
+        <attr name="pstsShouldExpand" format="boolean"/>
+        <attr name="pstsTextAllCaps" format="boolean"/>
+    </declare-styleable>
+
+    <!-- 左右文本 -->
+    <declare-styleable name="TwoTextView">
+
+        <!-- 左边文本内容 -->
+        <attr name="ttLeftText" format="string|reference"/>
+        <!-- 右边文本内容 -->
+        <attr name="ttRightText" format="string|reference"/>
+        <!-- 左边文本字体大小 -->
+        <attr name="ttLeftTextSize" format="dimension"/>
+        <!-- 右边文本字体大小 -->
+        <attr name="ttRightTextSize" format="dimension"/>
+        <!-- 左边文本颜色 -->
+        <attr name="ttLeftTextColor" format="reference"/>
+        <!-- 右边文本颜色 -->
+        <attr name="ttRightTextColor" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="LRTextView">
+        <attr name="left_text" format="string|reference" />
+        <attr name="right_text" format="string|reference" />
+    </declare-styleable>
+
+    <!--带节点进度条-->
+    <declare-styleable name="NodeProgressView">
+        <attr name="width" format="dimension"/>
+        <attr name="nodeRadius" format="dimension"/>
+    </declare-styleable>
+
+    !-- 选框样式 -->
+    <declare-styleable name="KylinCheckListViewStyle">
+        <!-- checkbox的margin -->
+        <attr name="cb_margin_left" format="dimension"/>
+        <attr name="cb_margin_right" format="dimension"/>
+        <attr name="cb_margin_top" format="dimension"/>
+        <attr name="cb_margin_bottom" format="dimension"/>
+        <!-- checkbox的背景-->
+        <attr name="cb_backgroup" format="reference"/>
+        <!-- item的背景-->
+        <attr name="item_backgroup" format="reference"/>
+        <!-- item的gravity-->
+        <attr name="item_gravity" format="integer"/>
+        <!-- recyclerview的分割线-->
+        <attr name="item_decoration" format="dimension"/>
+        <!-- 展示位置-->
+        <attr name="show_location" format="integer"/>
+        <!-- 单选/多选-->
+        <attr name="show_type" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomCalendar">
+        <!--这四个颜色分别是月份、星期、日期、任务的背景色，只是方便调试测量时使用，正式试用时可配置透明色-->
+        <attr name="mBgMonth" format="color" />
+        <attr name="mBgWeek" format="color" />
+        <attr name="mBgDay" format="color" />
+        <attr name="mBgPre" format="color" />
+
+        <attr name="mTextColorMonth" format="color" />           <!--标题字体颜色-->
+        <attr name="mTextColorWeek" format="color" />            <!--星期字体颜色-->
+        <attr name="mSelectWeekTextColor" format="color" />      <!--当前星期字体颜色-->
+        <attr name="mTextColorDay" format="color" />             <!--日期字体颜色-->
+        <attr name="mTextColorPreFinish" format="color" />       <!--任务次数字体颜色-->
+        <attr name="mTextColorPreUnFinish" format="color" />
+        <attr name="mTextColorPreNull" format="color" />
+
+        <attr name="mTextSizeMonth" format="dimension" />        <!--标题字体大小-->
+        <attr name="mTextSizeWeek" format="dimension" />         <!--星期字体大小-->
+        <attr name="mTextSizeDay" format="dimension" />          <!--日期字体大小-->
+        <attr name="mTextSizePre" format="dimension" />          <!--任务次数字体大小-->
+
+        <attr name="mMonthRowL" format="reference" />            <!--月份箭头-->
+        <attr name="mMonthRowR" format="reference" />            <!--月份箭头-->
+        <attr name="mMonthRowSpac" format="dimension" />
+
+        <attr name="mSelectTextColor" format="color" />          <!--选中日期字体颜色-->
+        <attr name="mSelectBg" format="color" />                 <!--选中日期背景-->
+        <attr name="mSelectRadius" format="dimension" />         <!--选中日期背景半径-->
+        <attr name="mCurrentBg" format="color" />                <!--当天日期背景-->
+        <attr name="mCurrentBgStrokeWidth" format="dimension" /> <!--当天日期背景虚线宽度-->
+        <attr name="mCurrentBgDashPath" format="reference" />    <!--当天日期背景虚线数组-->
+
+        <attr name="mMonthSpac" format="dimension" />            <!--标题月份上下间隔-->
+        <attr name="mLineSpac" format="dimension" />             <!--日期行间距-->
+        <attr name="mTextSpac" format="dimension" />             <!--日期和任务次数字体上下间距-->
+    </declare-styleable>
+
+</resources>

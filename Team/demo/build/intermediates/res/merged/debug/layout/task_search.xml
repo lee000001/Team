@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorBackground"
+    tools:context=".mangement.activity.TaskSearchActivity"
+    android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:textSizeSearch="5dp"
+        app:textColorSearch="#9b9b9b"
+        app:textHintSearch="输入查询关键字"
+        app:searchBlockHeight="150"
+        app:searchBlockColor="#ffffff"
+        />
+    <LinearLayout
+        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_tip_creator"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:text="我创建"
+            android:textSize="25sp" />
+
+        <com.suke.widget.SwitchButton
+            android:id="@+id/switch_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/searchListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+    <include layout="@layout/message_search_empty_view"/>
+</LinearLayout>

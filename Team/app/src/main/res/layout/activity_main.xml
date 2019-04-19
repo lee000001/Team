@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lee="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.twotextview.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        lee:right_button_drawable="@drawable/plus"
+        lee:title_background_color="@color/green"
+        lee:title_text="标题1" />
+
+    <com.example.twotextview.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        lee:right_button_visible="false"
+        lee:title_background_color="@color/green"
+        lee:title_text="标题2" />
+
+    <com.example.twotextview.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        lee:left_button_text="左边"
+        lee:right_button_text="右边"
+        lee:title_background_color="@color/red"
+        lee:title_text="标题3" />
+
+    <com.example.twotextview.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        lee:left_button_text="左边"
+        lee:right_button_drawable="@drawable/plus"
+        lee:title_background_color="@color/red"
+        lee:title_text="标题4" />
+
+    <com.example.twotextview.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        lee:left_button_text="左边"
+        lee:left_button_text_color="@color/red"
+        lee:right_button_drawable="@drawable/plus"
+        lee:title_background_color="@color/blue"
+        lee:title_text="标题5" />
+
+    <com.example.twotextview.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        lee:left_button_text="左边"
+        lee:left_button_text_color="@color/red"
+        lee:right_button_drawable="@drawable/plus"
+        lee:title_background_color="@color/blue"
+        lee:title_text="标题6"
+        lee:title_text_color="@color/black" />
+
+</LinearLayout>

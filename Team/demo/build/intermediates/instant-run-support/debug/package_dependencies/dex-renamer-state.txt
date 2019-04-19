@@ -1,0 +1,7 @@
+#Wed Apr 17 19:20:00 CST 2019
+base.0=C\:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\transforms\\dexMerger\\debug\\11\\classes2.dex
+base.1=C\:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+file.0=C\:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\transforms\\dexMerger\\debug\\11\\classes.dex

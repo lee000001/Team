@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\lee\Desktop\Team\rtskit\libs"><file name="nim-basesdk-6.1.2.jar" path="C:\Users\lee\Desktop\Team\rtskit\libs\nim-basesdk-6.1.2.jar"/><file name="nim-rts-6.1.2.jar" path="C:\Users\lee\Desktop\Team\rtskit\libs\nim-rts-6.1.2.jar"/></source></dataSet><dataSet config="debug"><source path="C:\Users\lee\Desktop\Team\rtskit\src\debug\jniLibs"/></dataSet></merger>

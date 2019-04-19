@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_uncheck_circle.xml",
+        "source": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_uncheck_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\323b378a625ae1633bfb4f398527f8d0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\323b378a625ae1633bfb4f398527f8d0\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\leak_canary_icon_foreground.xml",
+        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\leakcanary-android-1.6.1.aar\\fd11780e0e19d7f0e23545f2358fd318\\res\\drawable-anydpi-v21\\leak_canary_icon_foreground.xml"
+    }
+]
