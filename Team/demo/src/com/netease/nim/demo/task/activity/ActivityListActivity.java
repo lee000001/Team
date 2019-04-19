@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.bean.ActivityBean;
 import com.netease.nim.demo.bean.TaskBean;
+import com.netease.nim.demo.config.preference.Preferences;
 import com.netease.nim.demo.task.adapter.ActivityListAdapter;
 import com.netease.nim.demo.task.helper.ActivityHelper;
 import com.netease.nim.uikit.api.wrapper.NimToolBarOptions;
@@ -25,7 +26,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
 /**
- * 显示gai任务的activity列表
+ * 显示该任务的activity列表
  */
 public class ActivityListActivity extends UI {
 
@@ -35,6 +36,7 @@ public class ActivityListActivity extends UI {
     private List<ActivityBean> activityBeanList=new ArrayList<>();
     private ActivityListAdapter adapter;
     private static final String TAG = "ActivityListActivity";
+    private Boolean isCreator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,8 +47,12 @@ public class ActivityListActivity extends UI {
         options.titleId = R.string.activity_list;
         setToolBar(R.id.toolbar, options);
 
+        //活动传值获取task初始信息
         Intent intent = getIntent();
         task = (TaskBean) intent.getSerializableExtra("task");
+
+        isCreator= Preferences.getUserAccount().equals(task.getTcreator());
+
         tv_name = findViewById(R.id.tv_task_name);
         listView = findViewById(R.id.listView_activity);
 //        View empty_view= LayoutInflater.from(this).inflate(R.layout.layout_empty,null,false);
@@ -81,8 +87,7 @@ public class ActivityListActivity extends UI {
 
 
     private void initListviewAdapter(List<ActivityBean> activityBeanList) {
-        adapter = new ActivityListAdapter(ActivityListActivity.this, this.activityBeanList,task);
-
+        adapter = new ActivityListAdapter(ActivityListActivity.this, this.activityBeanList,task,isCreator);
         listView.setAdapter(adapter);
     }
 }

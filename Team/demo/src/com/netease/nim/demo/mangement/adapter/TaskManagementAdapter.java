@@ -1,6 +1,7 @@
 package com.netease.nim.demo.mangement.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,7 @@ import android.widget.TextView;
 
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.bean.TaskBean;
+import com.netease.nim.demo.task.activity.TaskDetailActivity;
 import com.netease.nim.uikit.common.ui.imageview.CircleImageView;
 
 import java.util.List;
@@ -92,8 +94,8 @@ public class TaskManagementAdapter extends BaseAdapter {
         holder.ibtn_del.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               list.remove(position);
-                list.get(position).setEdit(false);
+//               list.remove(position);
+//                list.get(position).setEdit(false);
                 onItemClick.onDelete(position,task);
                 refresh();
 
@@ -117,7 +119,7 @@ public class TaskManagementAdapter extends BaseAdapter {
      * @param task
      * @return
      */
-    private View show(final int position, View convertView, ViewGroup parent, TaskBean task) {
+    private View show(final int position, View convertView, ViewGroup parent, final TaskBean task) {
         final ViewHolder_Show holder;//判断是否有缓存
         if (convertView == null||!ViewHolder_Show.class.isInstance(convertView.getTag())) {
             //通过LayoutInflate实例化布局
@@ -146,6 +148,14 @@ public class TaskManagementAdapter extends BaseAdapter {
                 refresh();
             }
         });
+        holder.btn_detail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(context, TaskDetailActivity.class);
+                intent.putExtra("task",task);
+                context.startActivity(intent);
+            }
+        });
 
         return convertView;
     }
@@ -162,6 +172,7 @@ public class TaskManagementAdapter extends BaseAdapter {
         TextView tv_task_creator;
         TextView tv_task_type;
         Button  btn_edit;
+        Button  btn_detail;
         TextView tv_state;
         public ViewHolder_Show(View itemView) {
             tv_task_createDate=itemView.findViewById(R.id.tv_task_creatDate);
@@ -169,6 +180,8 @@ public class TaskManagementAdapter extends BaseAdapter {
             tv_task_name=itemView.findViewById(R.id.tv_task_name);
             tv_task_type=itemView.findViewById(R.id.tv_task_type);
             btn_edit=itemView.findViewById(R.id.btn_edit);
+            btn_detail=itemView.findViewById(R.id.btn_detail);
+
             tv_state=itemView.findViewById(R.id.tv_state);
         }
     }

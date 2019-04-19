@@ -23,9 +23,20 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 
 public class ActivityListAdapter extends BaseAdapter{
-     Context context;
-     List<ActivityBean> list;
-     private TaskBean task;
+    Context context;
+    List<ActivityBean> list;
+    private TaskBean task;
+    private Boolean isCreator=false;
+
+
+    public ActivityListAdapter(Context context, List<ActivityBean> list, TaskBean task, Boolean isCreator) {
+        this.context = context;
+        this.list = list;
+        this.task = task;
+        this.isCreator = isCreator;
+    }
+
+
 
 
 
@@ -63,6 +74,9 @@ public class ActivityListAdapter extends BaseAdapter{
         }
         else {
             holder= (ViewHolder) convertView.getTag();
+        }
+        if(isCreator==false||activity.getAstate()==2 ){
+            holder.btn_finish.setVisibility(View.GONE); //不是创建者设置不可见
         }
         holder.tv_name.setText(activity.getAname());
         holder.tv_content.setText(activity.getContent());
@@ -106,15 +120,18 @@ public class ActivityListAdapter extends BaseAdapter{
         TextView tv_result;
         TextView tv_state;
         Button btn_detail;
+        Button btn_finish;
 
 
         public ViewHolder(View convertView) {
 
             btn_detail=convertView.findViewById(R.id.btn_detail);
+            btn_detail=convertView.findViewById(R.id.btn_finish);
             tv_name = convertView.findViewById(R.id.tv_name);
             tv_content = convertView.findViewById(R.id.tv_content);
             tv_result = convertView.findViewById(R.id.tv_result);
             tv_state=convertView.findViewById(R.id.tv_state);
+
         }
     }
 }

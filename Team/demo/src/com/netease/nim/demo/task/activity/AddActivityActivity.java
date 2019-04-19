@@ -256,6 +256,8 @@ public class AddActivityActivity extends UI {
     private View.OnClickListener onClickListener_save=new View.OnClickListener() {
         @Override
         public void onClick(View v) {
+
+            //构造任务
             ActivityBean activityBean=new ActivityBean();
             Boolean flag=true;
             activityBean.setAname(et_name.getText().toString());
@@ -269,6 +271,14 @@ public class AddActivityActivity extends UI {
             activityBean.setSelectedMembers(selectedAccount);
             activityBeanList.add(activityBean);
             addActivityListAdapter.notifyDataSetChanged();
+
+            //更新开始时间范围
+            try {
+                sDate=sdf.parse(activityBean.getEndDate());
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+
 
             et_name.setText("");
             et_content.setText("");

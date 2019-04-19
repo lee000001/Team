@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title></title>
+		<!-- 引用JQuery文件 -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+
+	</head>
+	<body>
+		<input type="button" onclick="ajaxJson()" value="recive Json"></input>
+		<hr/>
+		<table width="40%" border="1px" cellspacing="0">
+			<tr>
+				<td>id</td>
+				<td>name</td>
+				<td>password</td>
+			</tr>
+			<tbody id="content">
+			</tbody>
+		</table>
+	</body>
+	<script type="text/javascript">
+		function ajaxJson(){
+			//使用$.ajax()请求数据
+			$.ajax({
+				type:"post",
+				url:"api/json",
+				success:function(data){
+					var html="";
+					for(var i = 0; i < data.length; i++){
+						html += "<tr>"+
+									"<td>"+data[i].accid+"</td>"+
+									"<td>"+data[i].nickname+"</td>"+
+									"<td>"+data[i].upassword+"</td>"+
+								"</tr>";
+					}
+					$("#content").html(html);
+				}
+			});
+			
+			//使用$.post()请求数据
+			//$.post("ajax/json",function(data){
+			//	var html="";
+			//	for(var i = 0; i < data.length; i++){
+			//		html += "<tr>"+
+			//				"<td>"+data[i].id+"</td>"+
+			//				"<td>"+data[i].name+"</td>"+
+			//				"<td>"+data[i].password+"</td>"+
+			//			"</tr>";
+			//	}
+			//	$("#content").html(html);
+			//});
+		}
+	</script>
+</html>

@@ -59,15 +59,15 @@ public class TaskScheduleActivity extends UI {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 //        initAdapter();
 
-        timelineDecoration = new TimelineDecoration(getDimen(R.dimen.time_line_width),
-                getDimen(R.dimen.time_line_top),
-                ContextCompat.getDrawable(this, R.drawable.ic_check_circle),
-                getDimen(R.dimen.time_going_size),
-                1);
-
-//        设置itemDecoration实现时光轴特效
-        recyclerView.addItemDecoration(
-                timelineDecoration);
+//        timelineDecoration = new TimelineDecoration(getDimen(R.dimen.time_line_width),
+//                getDimen(R.dimen.time_line_top),
+//                ContextCompat.getDrawable(this, R.drawable.ic_check_circle),
+//                getDimen(R.dimen.time_going_size),
+//                1);
+//
+////        设置itemDecoration实现时光轴特效
+//        recyclerView.addItemDecoration(
+//                timelineDecoration);
         //获取数据
         getData();
 

@@ -29,8 +29,8 @@ public final class R {
     }
     public static final class id {
         public static final int item_touch_helper_previous_elevation = 0x7f10000a;
-        public static final int pb_loading_more = 0x7f10018a;
-        public static final int tv_loading_more = 0x7f10018b;
+        public static final int pb_loading_more = 0x7f10018c;
+        public static final int tv_loading_more = 0x7f10018d;
     }
     public static final class layout {
         public static final int glorious_recyclerview_layout_load_more = 0x7f040065;

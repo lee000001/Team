@@ -15,6 +15,7 @@ import com.bumptech.glide.util.LogTime;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.bean.ActivityBean;
 import com.netease.nim.demo.bean.TaskBean;
+import com.netease.nim.demo.config.preference.Preferences;
 import com.netease.nim.demo.login.bean.UserBean;
 import com.netease.nim.demo.task.adapter.MemberAdapter;
 import com.netease.nim.demo.task.api.RxActivityService;
@@ -49,6 +50,7 @@ public class ActivityDetailActivity extends UI implements View.OnClickListener {
     private String TAG="ActivityDetailActivity";
     private TaskBean task;
     private Button btn_set_state;
+    private Boolean isCreator=false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,9 +63,11 @@ public class ActivityDetailActivity extends UI implements View.OnClickListener {
         options.titleId = R.string.activity_detail;
         setToolBar(R.id.toolbar, options);
         Intent intent=getIntent();
+        //活动间传值
         activityBean = (ActivityBean) intent.getSerializableExtra("activity");
         task = (TaskBean) intent.getSerializableExtra("task");
 
+        isCreator=task.getTcreator().equals(Preferences.getUserAccount());
         init();
 
         getMember(activityBean);
@@ -80,6 +84,10 @@ public class ActivityDetailActivity extends UI implements View.OnClickListener {
         tv_state = findViewById(R.id.tv_state);
         btn_set_state = findViewById(R.id.btn_set_state);
         btn_set_state.setOnClickListener(this);
+
+        if(!isCreator){
+            btn_set_state.setVisibility(View.INVISIBLE);
+        }
 
         tv_name.setText(activityBean.getAname());
         tv_start.setText(activityBean.getStartDate());
@@ -142,7 +150,7 @@ public class ActivityDetailActivity extends UI implements View.OnClickListener {
 
     private void initMemberAdapter(List<UserBean> userBeans) {
         userBeanList.addAll(userBeans);
-        memberAdapter = new MemberAdapter(ActivityDetailActivity.this,userBeanList);
+        memberAdapter = new MemberAdapter(ActivityDetailActivity.this,userBeanList,isCreator);
         recyclerView.setAdapter(memberAdapter);
 
     }

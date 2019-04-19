@@ -9,5 +9,7 @@
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></ListView>
+        android:layout_height="wrap_content"
+        android:divider="#020202"
+        android:dividerHeight="2px"></ListView>
 </LinearLayout>

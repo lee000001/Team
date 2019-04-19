@@ -66,13 +66,24 @@
 
                 android:background="@drawable/editview"
                 android:text="关键成果" />
-            <Button
-                android:id="@+id/btn_detail"
-                android:text="查看详情"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:background="@drawable/editview"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_finish"
+                    android:text="设为完成"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/editview"/>
+                <Button
+                    android:id="@+id/btn_detail"
+                    android:text="查看详情"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/editview"/>
+            </RelativeLayout>
         </LinearLayout>
 
     </android.support.v7.widget.CardView>

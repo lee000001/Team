@@ -10,6 +10,8 @@ import com.netease.nim.demo.bean.TaskBean;
 import com.netease.nim.demo.config.preference.Preferences;
 import com.netease.nim.demo.mangement.ManagementHelper;
 import com.netease.nim.demo.mangement.adapter.TaskManagementAdapter;
+import com.netease.nim.demo.task.api.OnAlterDialogSelected;
+import com.netease.nim.demo.task.helper.AlterDialogHelper;
 import com.netease.nim.demo.task.helper.TaskHepler;
 import com.netease.nim.uikit.api.wrapper.NimToolBarOptions;
 import com.netease.nim.uikit.common.activity.ToolBarOptions;
@@ -85,9 +87,22 @@ public class DataManagementActivity extends UI {
             }
 
             @Override
-            public void onDelete(int index, TaskBean task) {
+            public void onDelete(final int index, final TaskBean task) {
+
                 //删除任务
-                ManagementHelper.deleteTask(task,context);
+                AlterDialogHelper.initSelectDialog("是否删除", context, new OnAlterDialogSelected() {
+                    @Override
+                    public void onComfirm() {
+                        ManagementHelper.deleteTask(task,context);
+                        adapter.list.remove(index);
+                    }
+
+                    @Override
+                    public void onCancel() {
+
+                    }
+                });
+
             }
         });
         listView.setAdapter(adapter);
