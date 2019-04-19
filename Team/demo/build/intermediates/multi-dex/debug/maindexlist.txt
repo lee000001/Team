@@ -1049,8 +1049,8 @@ android/support/v7/app/NotificationCompat$MediaStyle.class
 me/leolin/shortcutbadger/impl/LGHomeBadger.class
 com/alibaba/fastjson/serializer/JSONSerializer.class
 com/netease/nimlib/d/d/b/b.class
+com/netease/nim/demo/mangement/api/RxTask.class
 com/google/gson/reflect/TypeToken.class
-com/netease/nim/demo/mangement/api/RxMangementService.class
 org/apache/lucene/util/BytesRef$a.class
 com/netease/nrtc/monitor/statistics/b/a/b.class
 com/amap/api/col/fu.class
@@ -1273,6 +1273,7 @@ com/netease/nimlib/sdk/chatroom/ChatRoomServiceObserver.class
 com/github/mikephil/charting/data/PieEntry.class
 com/bumptech/glide/load/resource/bitmap/BitmapTransformation.class
 com/netease/nimlib/chatroom/d/e.class
+com/netease/nim/demo/mangement/api/RxManagementService.class
 com/netease/nimlib/d/d/g/j.class
 android/support/v4/view/KeyEventCompat.class
 rx/plugins/RxJavaSingleExecutionHook.class

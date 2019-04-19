@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
+            "outputFile": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\values-zh-rCN\\values-zh-rCN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\push-2.6.0.301.aar\\d3d95eb2e7ab85d6178199c7e915591d\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -125,7 +125,7 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\values-zh-rCN\\values-zh-rCN.xml",
+            "outputFile": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\push-2.6.0.301.aar\\d3d95eb2e7ab85d6178199c7e915591d\\res\\values-zh-rCN\\values-zh-rCN.xml",

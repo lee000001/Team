@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\values-en\\values-en.xml",
+            "outputFile": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lee\\Desktop\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\values-en\\array.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "219"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "258"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -21,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lee\\Desktop\\Team\\demo\\res\\values-en\\strings.xml",
+                    "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\values-en\\strings.xml",
                     "from": {
                         "startLines": "2,3,4,5,13,9,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,34 +54,34 @@
                         "startOffsets": "263,463,556,650,732,821,907,998,1102,1185,1269,1363",
                         "endColumns": "45,92,93,81,88,85,90,103,82,83,93,91",
                         "endOffsets": "304,551,645,727,816,902,993,1097,1180,1264,1358,1450"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\lee\\Desktop\\Team\\demo\\res\\values-en\\array.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "219"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "258"
                     }
                 }
             ]
         },
         {
-            "outputFile": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "outputFile": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\values-en\\values-en.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lee\\Desktop\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\values-en\\array.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "219"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "258"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -79,7 +98,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lee\\Desktop\\Team\\demo\\res\\values-en\\strings.xml",
+                    "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\values-en\\strings.xml",
                     "from": {
                         "startLines": "2,3,4,5,13,9,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -93,25 +112,6 @@
                         "startOffsets": "263,463,556,650,732,821,907,998,1102,1185,1269,1363",
                         "endColumns": "45,92,93,81,88,85,90,103,82,83,93,91",
                         "endOffsets": "304,551,645,727,816,902,993,1097,1180,1264,1358,1450"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\lee\\Desktop\\Team\\demo\\res\\values-en\\array.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "219"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "258"
                     }
                 }
             ]

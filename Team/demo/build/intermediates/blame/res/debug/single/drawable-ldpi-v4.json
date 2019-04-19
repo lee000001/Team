@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\leak_canary_icon_foreground.png",
-        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\leakcanary-android-1.6.1.aar\\fd11780e0e19d7f0e23545f2358fd318\\res\\drawable-ldpi-v4\\leak_canary_icon_foreground.png"
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_uncheck_circle.png",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_uncheck_circle.png"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_uncheck_circle.png",
-        "source": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_uncheck_circle.png"
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\leak_canary_icon_foreground.png",
+        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\leakcanary-android-1.6.1.aar\\fd11780e0e19d7f0e23545f2358fd318\\res\\drawable-ldpi-v4\\leak_canary_icon_foreground.png"
     }
 ]

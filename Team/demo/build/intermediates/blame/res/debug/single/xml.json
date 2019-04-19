@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\xml\\leak_canary_file_paths.xml",
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\xml\\nrtc_setting_pref.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\avchatkit\\build\\intermediates\\bundles\\debug\\res\\xml\\nrtc_setting_pref.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\xml\\leak_canary_file_paths.xml",
         "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\leakcanary-android-1.6.1.aar\\fd11780e0e19d7f0e23545f2358fd318\\res\\xml\\leak_canary_file_paths.xml"
-    },
-    {
-        "merged": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\xml\\nrtc_setting_pref.xml",
-        "source": "C:\\Users\\lee\\Desktop\\Team\\avchatkit\\build\\intermediates\\bundles\\debug\\res\\xml\\nrtc_setting_pref.xml"
-    },
-    {
-        "merged": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
-        "source": "C:\\Users\\lee\\Desktop\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\xml\\provider_paths.xml"
     }
 ]

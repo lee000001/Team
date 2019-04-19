@@ -15,7 +15,504 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13728fa4-867c-46f6-ada6-df900e0f3e61" name="Default" comment="" />
+    <list default="true" id="13728fa4-867c-46f6-ada6-df900e0f3e61" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/javaCompile/taskJars.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/taskHistory/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_avchatkit_libs_fastjson_1_1_34_android_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_avchatkit_libs_nim_avchat_6_1_2_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_avchatkit_libs_nim_basesdk_6_1_2_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_avchatkit_libs_nrtc_sdk_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_demo_libs_AMap2DMap_3_0_0_AMapSearch_3_6_1_AMapLocation_3_2_1_20161228_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_demo_libs_MiPush_SDK_Client_3_6_2_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_demo_libs_nim_avchat_6_1_2_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_demo_libs_nim_push_6_1_2_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_demo_libs_nim_rts_6_1_2_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_demo_libs_nrtc_sdk_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_faceunity_libs_nama_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_jrmfRpWalletlib_libs_JrmfRpWallet_2_2_0_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_jrmfRpWalletlib_libs_alipaySingle_20170510_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_jrmfRpWalletlib_libs_okio_1_11_0_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_rtskit_libs_nim_basesdk_6_1_2_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_rtskit_libs_nim_rts_6_1_2_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_uikit_libs_fastjson_1_1_34_android_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_uikit_libs_java_json_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_uikit_libs_nim_basesdk_6_1_2_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_uikit_libs_nim_chatroom_6_1_2_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_lee_Desktop_Team_uikit_libs_nim_lucene_6_1_2_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avchatkit/avchatkit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/avchatkit/avchatkit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avchatkit/build/intermediates/annotations/debug/annotations.zip" beforeDir="false" afterPath="$PROJECT_DIR$/avchatkit/build/intermediates/annotations/debug/annotations.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/avchatkit/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avchatkit/build/outputs/aar/avchatkit-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/avchatkit/build/outputs/aar/avchatkit-debug.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avchatkit/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/avchatkit/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/generated/source/buildConfig/debug/com/netease/nim/demo/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/generated/source/buildConfig/debug/com/netease/nim/demo/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/netease/nim/demo/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/netease/nim/demo/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/layout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-af.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-am.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-as.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-as.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-az.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-az.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-b+jv+Latn.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-b+jv+Latn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-be.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-be.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-bg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-bn.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-bn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-bo-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-bo-rCN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-bs.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-bs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-cs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-da.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-de.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-el.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-en.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-et.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-et.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-eu.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-eu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-fi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-gl.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-gl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-gu.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-gu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-h720dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-h720dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-hdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-hdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-hi.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-hi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-hr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-hy.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-hy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-in.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-in.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-is.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-is.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-it.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-it.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-iw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ka.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ka.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-kk.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-kk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-km.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-km.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-kn.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-kn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ky.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ky.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-land.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-land.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-large-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-large-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ldltr-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ldltr-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-lo.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-lo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-lt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-lv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-mai.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-mai.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-mi.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-mi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-mk.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-mk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ml.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ml.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-mn.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-mn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-mr.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-mr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ms.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ms.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-my-rMM.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-my-rMM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-my-rZG.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-my-rZG.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-my.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-my.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-nb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ne.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ne.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-night-v8.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-night-v8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-nl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-or.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-or.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-pa.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-pa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-port.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-port.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-pt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ro.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-si.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-si.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sq.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sq.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sr.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sw.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sw600dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-sw600dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ta.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-te.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-te.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-th.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-th.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-tl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-tr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-uk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ur.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-ur.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-uz.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-uz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v11.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v12.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v14.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v18.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v22.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v23.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v24.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v25.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v26.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-v26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-vi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-w820dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-w820dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-xlarge-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-xlarge-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-zu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-zz-rZX.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values-zz-rZX.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/anim-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/anim-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/anim.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/anim.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/animator-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/animator-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/color-v11.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/color-v11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/color-v23.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/color-v23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/color.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/color.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-anydpi-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-anydpi-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-nodpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-nodpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-v23.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-v23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-iw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-sw600dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-sw600dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-ur.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-ur.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-v16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-v26.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout-v26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/menu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-anydpi-v26.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-anydpi-v26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-hdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-hdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-mdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-mdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-xhdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-xhdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-xxhdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-xxhdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-xxxhdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/mipmap-xxxhdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/raw.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/raw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/xml.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/xml.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/build-info/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/build-info/debug/build-info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$bool.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$bool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$dimen.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$dimen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$mipmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$raw.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$raw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$xml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/AboutActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/AboutActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$bool.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$bool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$dimen.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$dimen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$mipmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$raw.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$raw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/R$xml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/AboutActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/AboutActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+PplAaarB5_qGO5XrHsHEpgNNeg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6gYIWv_LcuQw63Sn63pePyY0pzY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/7wlu6U8+9AdXSWqReMCC_zPlRIA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8Na30OqPp5Gzyl2iIJZD7K3SPDw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/B7SgsYNdwI1OwO8Xftj+91LC4zc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/GibSDlr0kYBV3FQE1chDduI7zjU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JQYWJ6R1HLubfF5cG0bWjy_VxI0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Jk2QtoFkIAShovT4CHwuK3X6PU8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/YAJugwZWJoR1kIioDJhx6zs2rD4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Z0HN0w1IkV35XDnmq49LPVdhwZg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/aNsdTDM9p1y0AHTQQ37aXjuk4zE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ehGN4IfuOC5DpNc_aNQ7kcrEMb8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/heBFliRj9lwP7CuHhsL_IlT1bt0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/imbLUXHD_EheYn8r6uA5NlaM_eE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jTQJVxzt2PAjvOZdDk61MIIRU5A=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mlptNbIxgmZ75h9TuQHJ72O6DRw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ofxHofeEOMnBMgnAVXPNff6s288=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tLFqsApBGLsi6gWus1wH0ne8aag=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xyfIOHBZwfOI5atDIR4JEE+UJzY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yX8wbVy6XOBOw43EIf2iIZbdqKk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/+PplAaarB5_qGO5XrHsHEpgNNeg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/6gYIWv_LcuQw63Sn63pePyY0pzY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/7wlu6U8+9AdXSWqReMCC_zPlRIA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/8Na30OqPp5Gzyl2iIJZD7K3SPDw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/B7SgsYNdwI1OwO8Xftj+91LC4zc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/GibSDlr0kYBV3FQE1chDduI7zjU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/JQYWJ6R1HLubfF5cG0bWjy_VxI0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Jk2QtoFkIAShovT4CHwuK3X6PU8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/YAJugwZWJoR1kIioDJhx6zs2rD4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Z0HN0w1IkV35XDnmq49LPVdhwZg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/aNsdTDM9p1y0AHTQQ37aXjuk4zE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/ehGN4IfuOC5DpNc_aNQ7kcrEMb8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/heBFliRj9lwP7CuHhsL_IlT1bt0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/imbLUXHD_EheYn8r6uA5NlaM_eE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/jTQJVxzt2PAjvOZdDk61MIIRU5A=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/mlptNbIxgmZ75h9TuQHJ72O6DRw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/ofxHofeEOMnBMgnAVXPNff6s288=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/tLFqsApBGLsi6gWus1wH0ne8aag=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/xyfIOHBZwfOI5atDIR4JEE+UJzY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/yX8wbVy6XOBOw43EIf2iIZbdqKk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageDebug/debug/zip-cache/DVBcTqujQmgpm+5kcQPrCXg+E2k=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageDebug/debug/zip-cache/yJQrdjwDc6HBhfjQZ7FucHVCkYo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/zip-cache/yJQrdjwDc6HBhfjQZ7FucHVCkYo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-resources/resources-debug.ir.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/manifests/full/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/componentClasses.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/componentClasses.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/components.flags" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/components.flags" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/maindexlist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/maindexlist.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/dep/dependencies.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/dep/dependencies.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_0.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_0.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_1.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_1.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_2.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_2.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_3.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_3.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_4.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_4.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_5.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_5.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_6.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_6.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_7.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_7.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_8.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_8.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_9.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_9.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/10.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/10.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/105.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/105.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/106.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/106.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/107.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/107.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/108.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/108.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/109.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/109.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/110.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/110.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/111.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/111.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/112.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/112.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/113.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/113.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/114.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/114.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/115.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/115.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/116.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/116.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/117.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/117.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/118.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/118.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/119.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/119.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/12.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/13.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/14.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/15.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/15.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/16.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/16.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/17.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/18.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/18.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/19.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/19.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/191.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/191.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/20.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/20.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/21.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/22.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/22.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/23.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/23.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/24.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/24.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/25.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/25.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/26.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/26.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/27.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/27.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/28.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/28.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/29.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/29.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/35.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/35.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/36.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/36.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/37.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/37.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/38.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/38.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/39.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/39.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/40.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/40.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/42.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/42.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/43.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/43.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/45.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/45.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/46.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/46.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/47.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/47.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/48.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/48.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/49.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/49.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/50.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/50.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/51.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/51.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/52.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/52.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/53.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/53.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/54.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/54.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/55.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/55.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/56.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/56.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/57.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/57.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/58.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/58.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/59.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/59.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/625.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/625.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/626.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/626.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/627.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/627.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/628.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/628.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/629.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/629.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/631.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/631.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/BuildConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/BuildConfig.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$bool.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$bool.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$dimen.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$dimen.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$integer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$integer.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$menu.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$menu.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$mipmap.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$mipmap.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$raw.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$raw.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$string.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$xml.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/R$xml.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/AboutActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/AboutActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/8.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/9.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/11/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/11/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/11/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/11/classes2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/12/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/12/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/13/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/13/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/14/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/14/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/16/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/16/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/17/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/17/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/4/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/4/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/8/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/8/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$bool.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$bool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$dimen.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$dimen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$mipmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$raw.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$raw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/R$xml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/AboutActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/AboutActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/buildId.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/1/buildId.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/2/buildId.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$bool.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$bool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$dimen.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$dimen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$mipmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$raw.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$raw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/R$xml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/4/buildId.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/buildId.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/6/buildId.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/buildId.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/AboutActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/AboutActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/8/buildId.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/9/buildId.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/outputs/apk/debug/demo-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/outputs/apk/debug/demo-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceunity/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/faceunity/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceunity/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/faceunity/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceunity/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/faceunity/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceunity/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/faceunity/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceunity/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/faceunity/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceunity/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/faceunity/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceunity/build/outputs/aar/faceunity-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/faceunity/build/outputs/aar/faceunity-debug.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jrmfRpWalletlib/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/jrmfRpWalletlib/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jrmfRpWalletlib/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/jrmfRpWalletlib/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jrmfRpWalletlib/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jrmfRpWalletlib/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jrmfRpWalletlib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jrmfRpWalletlib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jrmfRpWalletlib/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jrmfRpWalletlib/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jrmfRpWalletlib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jrmfRpWalletlib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jrmfRpWalletlib/build/outputs/aar/jrmfRpWalletlib-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/jrmfRpWalletlib/build/outputs/aar/jrmfRpWalletlib-debug.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rtskit/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/rtskit/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rtskit/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/rtskit/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rtskit/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rtskit/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rtskit/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rtskit/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rtskit/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rtskit/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rtskit/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rtskit/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rtskit/build/outputs/aar/rtskit-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/rtskit/build/outputs/aar/rtskit-debug.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uikit/build/intermediates/annotations/debug/annotations.zip" beforeDir="false" afterPath="$PROJECT_DIR$/uikit/build/intermediates/annotations/debug/annotations.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uikit/build/outputs/aar/uikit-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/uikit/build/outputs/aar/uikit-debug.aar" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +543,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/res/layout/task_item_edit_layout.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3230">
-              <caret line="170" selection-start-line="170" selection-end-line="170" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/fragment/ManagementFragment.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,7 +575,7 @@
         <entry file="file://$PROJECT_DIR$/demo/res/drawable/border.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -96,8 +583,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/Constant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="87" lean-forward="true" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -186,10 +673,12 @@
       <replace>TaskBean</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/res/layout/header_task_schedule.xml" />
         <option value="$PROJECT_DIR$/demo/res/layout/activity_task_calender.xml" />
         <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/TaskCalenderActivity.java" />
         <option value="$PROJECT_DIR$/demo/res/layout/activity_list_activity.xml" />
@@ -240,6 +729,7 @@
         <option value="$PROJECT_DIR$/demo/res/layout/task_item_edit_layout.xml" />
         <option value="$PROJECT_DIR$/demo/res/layout/task_item_show_layout.xml" />
         <option value="$PROJECT_DIR$/demo/res/drawable/border.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/studio64.exe.vmoptions" />
       </list>
     </option>
   </component>
@@ -266,30 +756,17 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
-            <path>
-              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
-              <item name="demo" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
-              <item name="demo" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
-              <item name="demo" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
             <path>
               <item name="Team" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
@@ -298,8 +775,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,6 +789,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/demo/res/drawable-hdpi" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../FinalDesign/Team" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.0.0" />
   </component>
   <component name="RecentsManager">
@@ -500,6 +979,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49914822" visible="true" weight="0.14544237" />
       <window_info id="Structure" order="1" sideWeight="0.5008518" side_tool="true" weight="0.12868632" />
@@ -517,11 +997,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49865952" weight="0.22489391" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.49865952" visible="true" weight="0.22379604" />
       <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.22489391" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="10" visible="true" weight="0.2857143" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="10" weight="0.2857143" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -616,14 +1096,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/res/layout/layout_switch_button.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/res/layout/task_data_analysis_activity.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -932,6 +1404,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/res/drawable/border.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/ManagementHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2888">
@@ -960,17 +1439,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/res/drawable/border.xml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/studio64.exe.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="87" lean-forward="true" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

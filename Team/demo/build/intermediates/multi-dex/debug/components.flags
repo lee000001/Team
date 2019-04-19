@@ -1,15 +1,15 @@
--injars 'C:\Users\lee\Desktop\Team\demo\libs\AMap2DMap_3.0.0_AMapSearch_3.6.1_AMapLocation_3.2.1_20161228.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\demo\libs\MiPush_SDK_Client_3_6_2.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\demo\libs\nim-avchat-6.1.2.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\demo\libs\nim-push-6.1.2.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\demo\libs\nim-rts-6.1.2.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\demo\libs\nrtc-sdk.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\demo\libs\AMap2DMap_3.0.0_AMapSearch_3.6.1_AMapLocation_3.2.1_20161228.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\demo\libs\MiPush_SDK_Client_3_6_2.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\demo\libs\nim-avchat-6.1.2.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\demo\libs\nim-push-6.1.2.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\demo\libs\nim-rts-6.1.2.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\demo\libs\nrtc-sdk.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\crashlytics-2.8.0.aar\6a7d7226ff91acd78a544c48f9e08db1\jars\classes.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\uikit\libs\fastjson-1.1.34.android.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\uikit\libs\java-json.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\uikit\libs\nim-basesdk-6.1.2.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\uikit\libs\nim-chatroom-6.1.2.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\uikit\libs\nim-lucene-6.1.2.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\uikit\libs\fastjson-1.1.34.android.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\uikit\libs\java-json.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\uikit\libs\nim-basesdk-6.1.2.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\uikit\libs\nim-chatroom-6.1.2.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\uikit\libs\nim-lucene-6.1.2.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\323b378a625ae1633bfb4f398527f8d0\jars\classes.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\overscroll-decor-android-1.0.4.aar\4aa1ed98806d91e25be2bb4ec861ef9c\jars\classes.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\f3480015849186051e5bbf96c36ad54f\jars\classes.jar'(**.class)
@@ -19,9 +19,9 @@
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\leakcanary-support-fragment-1.6.1.aar\7d76d63bc5ebc4aae1ce83098322696a\jars\classes.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\fd11780e0e19d7f0e23545f2358fd318\jars\classes.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\85421a65a418662be0ac9f8d906c4f85\jars\classes.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\jrmfRpWalletlib\libs\alipaySingle-20170510.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\jrmfRpWalletlib\libs\JrmfRpWallet-2.2.0.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\jrmfRpWalletlib\libs\okio-1.11.0.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\jrmfRpWalletlib\libs\alipaySingle-20170510.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\jrmfRpWalletlib\libs\JrmfRpWallet-2.2.0.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\jrmfRpWalletlib\libs\okio-1.11.0.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.6.0.aar\b77c8444f257cbe0b40a0b21ff9a1629\jars\classes.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\25968345691c6e74ecde0a4139ac6b97\jars\classes.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\push-internal-3.6.3.aar\a08a345791f44b910bb4ecf1f9a678ef\jars\classes.jar'(**.class)
@@ -36,7 +36,7 @@
 -injars 'C:\Users\lee\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.2.1\4e4cfa4adc74521d5966799fa5ab70b733552f68\rxjava-1.2.1.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.4-4.aar\465d26b921f5fdfb404f91551fb635cd\jars\classes.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.0.4-4.aar\88b0387eee2e479810114d0885fda227\jars\classes.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\faceunity\libs\nama.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\faceunity\libs\nama.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\bad5e67a90ba5a4033fc610eaac4d407\jars\classes.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\gloriousrecyclerview-0.2.6.aar\749f4e8279558c4b6f39c2abba9f6373\jars\classes.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\switch-button-0.0.3.aar\c8fc359c847bb858758384ceaca514ff\jars\classes.jar'(**.class)
@@ -100,13 +100,13 @@
 -injars 'C:\Users\lee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.6.0.aar\259597810057ef5b4ded4424fe831d98\jars\classes.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\modules-2\files-2.1\org.jetbrains.trove4j\trove4j\20160824\33c3e174a9c8368d93761d3d12712db18e903959\trove4j-20160824.jar'(**.class)
 -injars 'C:\Users\lee\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\rtskit\build\intermediates\intermediate-jars\debug\classes.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\avchatkit\build\intermediates\intermediate-jars\debug\classes.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\uikit\build\intermediates\intermediate-jars\debug\classes.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\jrmfRpWalletlib\build\intermediates\intermediate-jars\debug\classes.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\faceunity\build\intermediates\intermediate-jars\debug\classes.jar'(**.class)
--injars 'C:\Users\lee\Desktop\Team\demo\build\intermediates\classes\debug'(**.class)
--outjars 'C:\Users\lee\Desktop\Team\demo\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'C:\Users\lee\Desktop\git\Team\rtskit\build\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\avchatkit\build\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\uikit\build\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\jrmfRpWalletlib\build\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\faceunity\build\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'C:\Users\lee\Desktop\git\Team\demo\build\intermediates\classes\debug'(**.class)
+-outjars 'C:\Users\lee\Desktop\git\Team\demo\build\intermediates\multi-dex\debug\componentClasses.jar'
 
 -libraryjars 'C:\Users\lee\AppData\Local\Android\Sdk\build-tools\26.0.2\lib\shrinkedAndroid.jar'
 
@@ -117,7 +117,7 @@
 -dontpreverify
 -dontnote **
 -dontwarn **
--printconfiguration 'C:\Users\lee\Desktop\Team\demo\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'C:\Users\lee\Desktop\git\Team\demo\build\intermediates\multi-dex\debug\components.flags'
 
 
 # view AndroidManifest.xml #generated:107

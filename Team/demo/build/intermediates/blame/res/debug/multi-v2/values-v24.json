@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\values-v24\\values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\afe85c336ddce9e388a6f801852ed979\\res\\values-v24\\values-v24.xml",
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\lee\\Desktop\\Team\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\afe85c336ddce9e388a6f801852ed979\\res\\values-v24\\values-v24.xml",
