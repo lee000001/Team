@@ -8763,6 +8763,42 @@
 							"type": ""
 						}
 					]
+				},
+				{
+					"_type": "ERDDataModel",
+					"_id": "AAAAAAFqTl2xpyDBmzY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Data Model1",
+					"ownedElements": [
+						{
+							"_type": "ERDDiagram",
+							"_id": "AAAAAAFqTl2xpyDCYVk=",
+							"_parent": {
+								"$ref": "AAAAAAFqTl2xpyDBmzY="
+							},
+							"name": "ERDDiagram1"
+						},
+						{
+							"_type": "ERDEntity",
+							"_id": "AAAAAAFqTl27GSDGC9o=",
+							"_parent": {
+								"$ref": "AAAAAAFqTl2xpyDBmzY="
+							},
+							"name": "Entity1",
+							"columns": [
+								{
+									"_type": "ERDColumn",
+									"_id": "AAAAAAFqTl3mCyDS7q0=",
+									"_parent": {
+										"$ref": "AAAAAAFqTl27GSDGC9o="
+									},
+									"name": "Column1"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
