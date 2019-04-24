@@ -8778,7 +8778,60 @@
 							"_parent": {
 								"$ref": "AAAAAAFqTl2xpyDBmzY="
 							},
-							"name": "ERDDiagram1"
+							"name": "ERDDiagram1",
+							"ownedViews": [
+								{
+									"_type": "ERDEntityView",
+									"_id": "AAAAAAFqTl5CVSDivFg=",
+									"_parent": {
+										"$ref": "AAAAAAFqTl2xpyDCYVk="
+									},
+									"model": {
+										"$ref": "AAAAAAFqTl5CVSDgRWE="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqTl5CVSDjlmo=",
+											"_parent": {
+												"$ref": "AAAAAAFqTl5CVSDivFg="
+											},
+											"font": "Arial;13;1",
+											"left": 320,
+											"top": 389,
+											"width": 53.341796875,
+											"height": 13,
+											"text": "Entity2"
+										},
+										{
+											"_type": "ERDColumnCompartmentView",
+											"_id": "AAAAAAFqTl5CVSDkUhI=",
+											"_parent": {
+												"$ref": "AAAAAAFqTl5CVSDivFg="
+											},
+											"model": {
+												"$ref": "AAAAAAFqTl5CVSDgRWE="
+											},
+											"font": "Arial;13;0",
+											"left": 320,
+											"top": 407,
+											"width": 53.341796875,
+											"height": 10
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 384,
+									"width": 53.341796875,
+									"height": 33,
+									"nameLabel": {
+										"$ref": "AAAAAAFqTl5CVSDjlmo="
+									},
+									"columnCompartment": {
+										"$ref": "AAAAAAFqTl5CVSDkUhI="
+									}
+								}
+							]
 						},
 						{
 							"_type": "ERDEntity",
@@ -8797,6 +8850,14 @@
 									"name": "Column1"
 								}
 							]
+						},
+						{
+							"_type": "ERDEntity",
+							"_id": "AAAAAAFqTl5CVSDgRWE=",
+							"_parent": {
+								"$ref": "AAAAAAFqTl2xpyDBmzY="
+							},
+							"name": "Entity2"
 						}
 					]
 				}
