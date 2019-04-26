@@ -109,9 +109,10 @@ public class TaskScheduleActivity extends UI {
         adapter.setOnClickListener(new TaskScheduleAdapter.OnClickListener() {
             @Override
             public void onClick(View view, ActivityBean activityBean) {
-                 //点击事件
+                 //点击跳转到任务详情
                 Intent intent1=new Intent(TaskScheduleActivity.this, ActivityDetailActivity.class);
                 intent1.putExtra("activity",activityBean);
+                intent1.putExtra("task",task);
                 startActivity(intent1);
             }
 

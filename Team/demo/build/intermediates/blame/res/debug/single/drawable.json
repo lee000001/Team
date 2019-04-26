@@ -24,12 +24,12 @@
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\drawable\\message_plus_audio_chat_selector.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bad5e67a90ba5a4033fc610eaac4d407\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_dark_logo.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\drawable\\actionbar_dark_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bad5e67a90ba5a4033fc610eaac4d407\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\jrmf_w_shape_normal_round_btn_bg.xml",
@@ -80,12 +80,12 @@
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\drawable\\message_plus_file_selector.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\avchat_video_record_selector.xml",
-        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\avchatkit\\build\\intermediates\\bundles\\debug\\res\\drawable\\avchat_video_record_selector.xml"
-    },
-    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
         "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\323b378a625ae1633bfb4f398527f8d0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\avchat_video_record_selector.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\avchatkit\\build\\intermediates\\bundles\\debug\\res\\drawable\\avchat_video_record_selector.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_red_round_button_selector.xml",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_contact_list_item_selecter.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bad5e67a90ba5a4033fc610eaac4d407\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
         "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\775ce53506c7673e47574c7b47bb5921\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bad5e67a90ba5a4033fc610eaac4d407\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_blue_edit_text_bg.xml",
@@ -156,36 +156,36 @@
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_sample_footer_loading_progress.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_emoji_item_selector.xml",
-        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_emoji_item_selector.xml"
-    },
-    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bad5e67a90ba5a4033fc610eaac4d407\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_emoji_item_selector.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_emoji_item_selector.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_cameras_selector.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_cameras_selector.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\t_avchat_disable_user_audio_selector.xml",
-        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\avchatkit\\build\\intermediates\\bundles\\debug\\res\\drawable\\t_avchat_disable_user_audio_selector.xml"
-    },
-    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\register_right_top_btn_selector.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\drawable\\register_right_top_btn_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\t_avchat_disable_user_audio_selector.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\avchatkit\\build\\intermediates\\bundles\\debug\\res\\drawable\\t_avchat_disable_user_audio_selector.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\jrmf_w_shape_unbind.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\jrmfRpWalletlib\\build\\intermediates\\bundles\\debug\\res\\drawable\\jrmf_w_shape_unbind.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_picker_preview_btn_selector.xml",
-        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_picker_preview_btn_selector.xml"
-    },
-    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\avchat_mute_speaker_bg.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\avchatkit\\build\\intermediates\\bundles\\debug\\res\\drawable\\avchat_mute_speaker_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_picker_preview_btn_selector.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_picker_preview_btn_selector.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\t_avchat_camera_selector.xml",
@@ -212,12 +212,12 @@
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_g_image_preview_white_btn_selecter.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bad5e67a90ba5a4033fc610eaac4d407\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\message_plus_video_chat_selector.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\drawable\\message_plus_video_chat_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bad5e67a90ba5a4033fc610eaac4d407\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\jrmf_w_shape_click_item_bg.xml",
@@ -248,12 +248,12 @@
         "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bad5e67a90ba5a4033fc610eaac4d407\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bad5e67a90ba5a4033fc610eaac4d407\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
         "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.6.0.aar\\25968345691c6e74ecde0a4139ac6b97\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bad5e67a90ba5a4033fc610eaac4d407\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",

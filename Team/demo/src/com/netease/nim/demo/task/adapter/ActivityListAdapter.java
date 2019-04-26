@@ -17,6 +17,8 @@ import com.netease.nim.demo.bean.ActivityBean;
 import com.netease.nim.demo.bean.TaskBean;
 import com.netease.nim.demo.task.activity.ActivityDetailActivity;
 import com.netease.nim.demo.task.api.OnStepClick;
+import com.netease.nim.demo.task.helper.TaskHepler;
+import com.netease.nim.uikit.common.framework.infra.Task;
 import com.netease.nim.uikit.common.ui.imageview.CircleImageView;
 
 import java.text.SimpleDateFormat;
@@ -109,6 +111,12 @@ public class ActivityListAdapter extends BaseAdapter{
                 context.startActivity(intent);
             }
         });
+        holder.btn_finish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //设置完成
+            }
+        });
 
         return convertView;
     }
@@ -126,7 +134,7 @@ public class ActivityListAdapter extends BaseAdapter{
         public ViewHolder(View convertView) {
 
             btn_detail=convertView.findViewById(R.id.btn_detail);
-            btn_detail=convertView.findViewById(R.id.btn_finish);
+            btn_finish=convertView.findViewById(R.id.btn_finish);
             tv_name = convertView.findViewById(R.id.tv_name);
             tv_content = convertView.findViewById(R.id.tv_content);
             tv_result = convertView.findViewById(R.id.tv_result);

@@ -12,6 +12,7 @@ import com.google.gson.GsonBuilder;
 import com.netease.nim.demo.Constant;
 import com.netease.nim.demo.bean.Task_Activity;
 import com.netease.nim.demo.login.bean.UserBean;
+import com.netease.nim.demo.task.activity.ActivityDetailActivity;
 import com.netease.nim.demo.task.activity.AddTaskAcitivity;
 import com.netease.nim.demo.task.api.AddTask;
 import com.netease.nim.demo.task.api.RxTaskInfoService;
@@ -149,5 +150,32 @@ public class TaskHepler {
         return json=gson.toJson(t,Task_Activity.class);
     }
 
+    public  static void setfinish(final Context context, int aid) {
+        ActivityHelper.getRxService()
+                .setFinish(aid,2)
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Subscriber<Boolean>() {
+                    @Override
+                    public void onCompleted() {
+
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        Log.d(TAG, "onError: "+e.getMessage());
+                        ToastHelper.showToast(context,"修改失败");
+                    }
+
+                    @Override
+                    public void onNext(Boolean aBoolean) {
+                        if(aBoolean){
+                            ToastHelper.showToast(context,"修改成功");
+                        }else {
+                            ToastHelper.showToast(context,"修改失败");
+                        }
+                    }
+                });
+    }
 
 }
