@@ -57,6 +57,7 @@ public class TaskDetailActivity extends UI {
     private Button btn_schedule;
     private static final String TAG = "TaskDetailActivity";
     private Button btn_activity;
+    private Boolean isEdit=false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -141,7 +142,9 @@ public class TaskDetailActivity extends UI {
 
     }
     private void initAdapter() {
-        dataAdapter=new MemberAdapter(this,datas);
+        isEdit = Preferences.getUserAccount().equals(task.getTcreator());
+//        isEdit=false;  //设置不显示添加功能
+        dataAdapter=new MemberAdapter(this,datas,isEdit);
         recyclerView.setAdapter(dataAdapter);
     }
 

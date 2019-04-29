@@ -15,6 +15,8 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
+import java.util.List;
+
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -95,8 +97,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    public void Event(String s) {
-        Toast.makeText(this,s,Toast.LENGTH_SHORT).show();
+    public void Event(List<MessageBean> list) {
+
+        Toast.makeText(this,list.toString(),Toast.LENGTH_SHORT).show();
     }
 
 

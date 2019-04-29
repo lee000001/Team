@@ -75,14 +75,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
-                    android:background="@drawable/editview"/>
+                    />
                 <Button
                     android:id="@+id/btn_detail"
                     android:text="查看详情"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:background="@drawable/editview"/>
+                    
+                    />
             </RelativeLayout>
         </LinearLayout>
 

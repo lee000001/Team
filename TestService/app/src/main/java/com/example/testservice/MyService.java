@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 import org.greenrobot.eventbus.EventBus;
 
+import java.util.List;
+
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -65,15 +67,15 @@ public class MyService extends Service {
     }
     private void doRequestByRxRetrofit() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http:/10.200.14.43:8080/app_service/")//基础URL 建议以 / 结尾
+                .baseUrl("http://10.200.9.63:8080/app_service/")//基础URL 建议以 / 结尾
                 .addConverterFactory(GsonConverterFactory.create())//设置 Json 转换器
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())//RxJava 适配器
                 .build();
         RxWeatherService rxjavaService = retrofit.create(RxWeatherService .class);
-        rxjavaService .getMessage()
+        rxjavaService .getMessage("10000")
                 .subscribeOn(Schedulers.io())//IO线程加载数据
                 .observeOn(AndroidSchedulers.mainThread())//主线程显示数据
-                .subscribe(new Subscriber<String>() {
+                .subscribe(new Subscriber<List<MessageBean>>() {
                     @Override
                     public void onCompleted() {
 
@@ -85,10 +87,8 @@ public class MyService extends Service {
                     }
 
                     @Override
-                    public void onNext(String s) {
-                        Log.d(TAG, "onNext: "+s);
-                        EventBus.getDefault().post(s);
-//                        Toast.makeText("")
+                    public void onNext(List<MessageBean> messageBeans) {
+                        EventBus.getDefault().post(messageBeans);
                     }
 
 

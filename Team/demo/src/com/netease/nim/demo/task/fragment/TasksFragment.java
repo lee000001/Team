@@ -206,7 +206,7 @@ public class TasksFragment extends TFragment {
         list.add(map3);
         Map<String, Object> map5 = new HashMap<String, Object>();
         map5.put("state", R.drawable.dot_pink_24px);
-        map5.put("state_name", "已经过期");
+        map5.put("state_name", "已过期");
         list.add(map5);
         return list;
     }
