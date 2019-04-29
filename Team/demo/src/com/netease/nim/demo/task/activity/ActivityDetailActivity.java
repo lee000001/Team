@@ -89,7 +89,7 @@ public class ActivityDetailActivity extends UI implements View.OnClickListener {
             btn_set_state.setVisibility(View.INVISIBLE);
         }
 
-        tv_name.setText(activityBean.getAname());
+        tv_name.setText("活动名称："+activityBean.getAname());
         tv_start.setText(activityBean.getStartDate());
         tv_end.setText(activityBean.getEndDate());
         tv_content.setText(activityBean.getContent());
@@ -108,6 +108,9 @@ public class ActivityDetailActivity extends UI implements View.OnClickListener {
                 break;
             case 2:
                 state="完成";
+                break;
+            case 3:
+                state="已过期";
                 break;
             default:
                 state="未知";
