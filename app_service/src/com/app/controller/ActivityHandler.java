@@ -79,15 +79,6 @@ public class ActivityHandler {
 		return activityService.getUsers(Uids);
 		
 	}
-	
-	@RequestMapping("/msg")
-	@ResponseBody
-	public String msg(){
-		
-		String s=new Date().toLocaleString()+"пео╒";
-		return s;
-		
-	}
 
 	
 

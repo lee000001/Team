@@ -188,7 +188,7 @@ public class TaskDAOImpl implements TaskDAO{
 			{
 				if(tstate!=-1)
 					sql =String.format( "select * from  task  a WHERE a.tstate=%d a.tid  IN ( SELECT tid FROM user_task AS b WHERE b.accid = '%s' "
-						+ " and b.tstate=%d)",tstate,accid);
+						+ " and b.tstate=%d)",tstate,accid,tstate);
 				else
 					sql =String.format( "select * from  task  a WHERE a.tid IN ( SELECT tid FROM user_task AS b WHERE b.accid = '%s' "
 							+ ")",accid);
