@@ -16,8 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13728fa4-867c-46f6-ada6-df900e0f3e61" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/demo/res/layout/activity_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/res/layout/activity_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../毕业论文_lee.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../毕业论文_lee.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="91" column="30" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+            <state relative-caret-position="-54">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
             </state>
           </provider>
         </entry>
@@ -1039,8 +1038,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="91" column="30" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+        <state relative-caret-position="-54">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
         </state>
       </provider>
     </entry>
