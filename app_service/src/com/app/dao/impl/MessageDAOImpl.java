@@ -35,6 +35,7 @@ public class MessageDAOImpl implements MessageDAO{
 			session.save(m);
 			
 		}
+		System.out.println("消息到达");
 		tx.commit();
 		session.close();
 		return list;

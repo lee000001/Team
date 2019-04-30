@@ -83,8 +83,12 @@ public class ActivityDAOImpl implements ActivityDAO{
 	public Boolean setFinish(int aid, int state) {
 		// TODO Auto-generated method stub
 		Session session=sessionFactory.openSession();
+		session.beginTransaction();
 		ActivityBean a=session.get(ActivityBean.class, aid);
 		a.setAstate(state);
+		System.out.println(a.toString());
+		session.update(a);
+        session.getTransaction().commit(); 
 		 session.close();
 		return true;
 		
