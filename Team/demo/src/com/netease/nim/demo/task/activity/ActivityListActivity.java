@@ -61,6 +61,10 @@ public class ActivityListActivity extends UI {
 
         tv_name.setText(task.getTname());
         //活动该task的activity;
+        getData();
+    }
+
+    private void getData() {
         ActivityHelper.getRxService().getActivities(task.getTid())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -77,8 +81,14 @@ public class ActivityListActivity extends UI {
 
                     @Override
                     public void onNext(List<ActivityBean> activityBeans) {
+                        activityBeanList.clear();
                         activityBeanList.addAll(activityBeans);
-                        initListviewAdapter(activityBeanList);
+                        if(adapter==null){
+                            initListviewAdapter(activityBeanList);
+                        }else {
+                            adapter.notifyDataSetChanged();
+                        }
+
                         Log.d(TAG, "onNext: "+activityBeans.toString());
 
                     }
@@ -88,6 +98,12 @@ public class ActivityListActivity extends UI {
 
     private void initListviewAdapter(List<ActivityBean> activityBeanList) {
         adapter = new ActivityListAdapter(ActivityListActivity.this, this.activityBeanList,task,isCreator);
+//        adapter.setOnClick(new ActivityListAdapter.OnClick() {
+//            @Override
+//            public void onFinish() {
+//                getData();
+//            }
+//        });
         listView.setAdapter(adapter);
     }
 }

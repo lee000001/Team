@@ -30,6 +30,12 @@ public class ActivityListAdapter extends BaseAdapter{
     private TaskBean task;
     private Boolean isCreator=false;
 
+    public void setOnClick(OnClick onClick) {
+        this.onClick = onClick;
+    }
+
+    OnClick onClick;
+
 
     public ActivityListAdapter(Context context, List<ActivityBean> list, TaskBean task, Boolean isCreator) {
         this.context = context;
@@ -119,7 +125,11 @@ public class ActivityListAdapter extends BaseAdapter{
             public void onClick(View v) {
                 //设置完成
                 TaskHepler.setfinish(context,activity.getAid());
+                activity.setAstate(2);
                 notifyDataSetChanged();
+                if(onClick!=null){
+                    onClick.onFinish();
+                }
             }
         });
 
@@ -146,6 +156,9 @@ public class ActivityListAdapter extends BaseAdapter{
             tv_state=convertView.findViewById(R.id.tv_state);
 
         }
+    }
+    public interface OnClick{
+        void onFinish();
     }
 }
 

@@ -7,26 +7,23 @@
     format="10"
     ir-eligibility="FIELD_TYPE_CHANGE"
     plugin-version="3.0.0"
-    timestamp="1556611165922"
+    timestamp="1556618317319"
     token="8747406670156538571"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="3415" />
+        duration="3240" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="57" />
+        duration="49" />
     <task
         name="verifier"
-        duration="14" />
+        duration="3" />
 
-    <artifact
-        location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
     <artifact
         location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
@@ -78,11 +75,20 @@
     <build
         build-mode="COLD"
         ir-eligibility="FIELD_TYPE_CHANGE"
-        timestamp="1556611165922"
+        timestamp="1556615594170"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_TYPE_CHANGE"
+        timestamp="1556618317319"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
