@@ -1,6 +1,7 @@
 package com.netease.nim.demo.mangement.api;
 
 import com.netease.nim.demo.bean.DataAnalysis;
+import com.netease.nim.demo.bean.MessageBean;
 import com.netease.nim.demo.bean.TaskBean;
 
 import java.util.Date;
@@ -42,4 +43,11 @@ public interface RxManagementService {
 
     @POST("task/deleteTask")
     Observable<Boolean> deleteTask(@Query("task") TaskBean task);
+    /**
+     * 获取任务变更消息
+     * @param accid
+     * @return
+     */
+    @GET("message/msg")
+    Observable<List<MessageBean>> getMessage(@Query("accid") String accid);
 }

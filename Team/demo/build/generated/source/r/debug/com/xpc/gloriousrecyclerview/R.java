@@ -33,7 +33,7 @@ public final class R {
         public static final int tv_loading_more = 0x7f10018d;
     }
     public static final class layout {
-        public static final int glorious_recyclerview_layout_load_more = 0x7f040065;
+        public static final int glorious_recyclerview_layout_load_more = 0x7f040066;
     }
     public static final class string {
         public static final int glorious_recyclerview_load_more_failed = 0x7f090083;

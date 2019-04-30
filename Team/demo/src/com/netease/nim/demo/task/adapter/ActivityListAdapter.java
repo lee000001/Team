@@ -96,6 +96,9 @@ public class ActivityListAdapter extends BaseAdapter{
             case 2:
                 state="完成";
                 break;
+            case 3:
+                state="已过期";
+                break;
                 default:
                     state="未知";
                     break;
@@ -115,6 +118,8 @@ public class ActivityListAdapter extends BaseAdapter{
             @Override
             public void onClick(View v) {
                 //设置完成
+                TaskHepler.setfinish(context,activity.getAid());
+                notifyDataSetChanged();
             }
         });
 

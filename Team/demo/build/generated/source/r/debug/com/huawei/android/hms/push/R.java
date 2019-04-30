@@ -61,15 +61,15 @@ public final class R {
         public static final int version_textview = 0x7f1004ae;
     }
     public static final class layout {
-        public static final int hms_download_progress = 0x7f040068;
-        public static final int hwpush_buttons_layout = 0x7f040069;
-        public static final int hwpush_icons_layout = 0x7f04006a;
-        public static final int hwpush_layout2 = 0x7f04006b;
-        public static final int hwpush_layout4 = 0x7f04006c;
-        public static final int hwpush_layout7 = 0x7f04006d;
-        public static final int hwpush_layout8 = 0x7f04006e;
-        public static final int upsdk_app_dl_progress_dialog = 0x7f0401a7;
-        public static final int upsdk_ota_update_view = 0x7f0401a8;
+        public static final int hms_download_progress = 0x7f040069;
+        public static final int hwpush_buttons_layout = 0x7f04006a;
+        public static final int hwpush_icons_layout = 0x7f04006b;
+        public static final int hwpush_layout2 = 0x7f04006c;
+        public static final int hwpush_layout4 = 0x7f04006d;
+        public static final int hwpush_layout7 = 0x7f04006e;
+        public static final int hwpush_layout8 = 0x7f04006f;
+        public static final int upsdk_app_dl_progress_dialog = 0x7f0401a8;
+        public static final int upsdk_ota_update_view = 0x7f0401a9;
     }
     public static final class string {
         public static final int connect_server_fail_prompt_toast = 0x7f090027;

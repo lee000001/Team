@@ -12,6 +12,7 @@ android/support/v4/media/session/MediaControllerCompat.class
 android/support/compat/R.class
 org/json/JSONArray.class
 android/support/annotation/IdRes.class
+org/greenrobot/eventbus/EventBus.class
 android/support/v4/widget/CircularProgressDrawable$1.class
 butterknife/BindDrawable.class
 com/netease/nim/avchatkit/common/recyclerview/animation/SlideInLeftAnimation.class
@@ -118,7 +119,6 @@ android/support/annotation/BinderThread.class
 android/support/transition/Slide$5.class
 com/netease/nim/demo/NimApplication$2.class
 android/support/v4/media/MediaMetadataCompat$RatingKey.class
-com/netease/nimlib/sdk/Observer.class
 androidx/annotation/ColorLong.class
 android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi21.class
 android/support/v4/app/ActivityCompat$OnRequestPermissionsResultCallback.class
@@ -158,6 +158,7 @@ android/support/v4/view/NestedScrollingChild.class
 android/support/v4/view/animation/LookupTableInterpolator.class
 com/netease/nim/avchatkit/common/recyclerview/adapter/BaseFetchLoadAdapter$SpanSizeLookup.class
 android/support/v4/os/TraceCompat.class
+com/netease/nim/demo/mangement/service/MessageService.class
 android/support/v7/widget/FastScroller.class
 android/support/v4/media/session/MediaSessionCompat$2.class
 android/support/v4/media/AudioAttributesCompatApi21.class
@@ -538,7 +539,6 @@ android/support/v4/view/WindowInsetsCompat.class
 org/json/JSONObject.class
 android/support/annotation/InterpolatorRes.class
 android/support/design/R$anim.class
-com/netease/nim/demo/NimApplication$5.class
 com/netease/nrtc/monitor/statistics/anno/StatisticDefineInts.class
 android/support/design/widget/AppBarLayout$Behavior$1.class
 android/support/v4/content/res/FontResourcesParserCompat.class
@@ -637,7 +637,6 @@ android/support/multidex/MultiDexApplication.class
 butterknife/BindColor.class
 com/netease/nim/avchatkit/common/recyclerview/animation/ScaleInAnimation.class
 android/support/v7/widget/RecyclerView$4.class
-com/netease/nimlib/sdk/msg/MsgServiceObserve.class
 android/support/v4/media/AudioAttributesCompat$Builder.class
 com/google/android/gms/R$styleable.class
 android/support/v4/view/ViewCompat$ResolvedLayoutDirectionMode.class
@@ -1222,6 +1221,7 @@ com/google/android/gms/measurement/AppMeasurement.class
 com/scwang/smartrefresh/layout/footer/ClassicsFooter.class
 com/scwang/smartrefresh/header/DeliveryHeader.class
 com/netease/nimlib/avchat/a/c/a/a.class
+com/netease/nimlib/sdk/msg/MsgServiceObserve.class
 android/support/v4/content/res/ConfigurationHelper.class
 com/netease/nimlib/d/d/h/k.class
 com/netease/nim/demo/task/api/AddTask.class

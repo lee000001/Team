@@ -3,15 +3,19 @@ package com.netease.nim.demo.main.activity;
 import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.netease.nim.demo.bean.MessageBean;
+import com.netease.nim.demo.mangement.service.MessageService;
 import com.netease.nim.uikit.common.ToastHelper;
 
 import com.netease.nim.avchatkit.AVChatProfile;
@@ -54,7 +58,12 @@ import com.netease.nimlib.sdk.msg.constant.SessionTypeEnum;
 import com.netease.nimlib.sdk.msg.model.IMMessage;
 import com.netease.nimlib.sdk.msg.model.RecentContact;
 
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 主界面
@@ -91,6 +100,7 @@ public class MainActivity extends UI implements ViewPager.OnPageChangeListener, 
             ReminderManager.getInstance().updateContactUnreadNum(unreadCount);
         }
     };
+    private AlertDialog dialog;
 
 
     public static void start(Context context) {
@@ -127,8 +137,65 @@ public class MainActivity extends UI implements ViewPager.OnPageChangeListener, 
             return;
         }
         init();
+        //注册
+        EventBus.getDefault().register(this);
+        //创建任务变更消息Dialog
+        initDialog();
+        initTip();
+    }
+    private void initTip() {
+        //启动任务消息变更服务
+        Intent startIntent = new Intent(this, MessageService.class);
+        startService(startIntent);
     }
 
+
+    /**
+     * 初始化任务变更提示弹窗
+     */
+    public void initDialog()
+    {
+        dialog = new AlertDialog.Builder(this)
+                .create();
+        dialog.setTitle("任务变更消息");
+        dialog.setCancelable(false);
+        dialog.setMessage("有消息");
+
+
+    }
+
+    private void showDialog(List<MessageBean> list) {
+        dialog.setButton(DialogInterface.BUTTON_POSITIVE, "确认", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+//                Toast.makeText(MainActivity.this,"有消息",Toast.LENGTH_SHORT).show();
+
+//                Intent intent=new Intent(MainActivity.this, TaskMessageActivity.class);
+
+            }
+        });
+        dialog.setButton(DialogInterface.BUTTON_NEGATIVE, "忽略", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        dialog.show();
+    }
+
+    /**
+     * 接收从messageService 传递的变更消息列表
+     * @param list
+     */
+    @Subscribe(threadMode = ThreadMode.MAIN,sticky = true)
+    public void Event(List<MessageBean> list) {
+//        Toast.makeText(this,list.toString(),Toast.LENGTH_SHORT).show();
+        if(list.size()>0&&!dialog.isShowing()){
+            showDialog(list);
+        }
+
+
+    }
     private void init() {
         observerSyncDataComplete();
         findViews();

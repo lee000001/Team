@@ -49,9 +49,9 @@ public final class R {
         public static final int version_textview = 0x7f1004ae;
     }
     public static final class layout {
-        public static final int hms_download_progress = 0x7f040068;
-        public static final int upsdk_app_dl_progress_dialog = 0x7f0401a7;
-        public static final int upsdk_ota_update_view = 0x7f0401a8;
+        public static final int hms_download_progress = 0x7f040069;
+        public static final int upsdk_app_dl_progress_dialog = 0x7f0401a8;
+        public static final int upsdk_ota_update_view = 0x7f0401a9;
     }
     public static final class string {
         public static final int connect_server_fail_prompt_toast = 0x7f090027;

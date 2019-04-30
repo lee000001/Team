@@ -26,8 +26,8 @@ public final class R {
         public static final int push_pure_bigview_expanded = 0x7f100449;
     }
     public static final class layout {
-        public static final int push_expandable_big_image_notification = 0x7f04017b;
-        public static final int push_expandable_big_text_notification = 0x7f04017c;
-        public static final int push_pure_pic_notification = 0x7f04017d;
+        public static final int push_expandable_big_image_notification = 0x7f04017c;
+        public static final int push_expandable_big_text_notification = 0x7f04017d;
+        public static final int push_pure_pic_notification = 0x7f04017e;
     }
 }

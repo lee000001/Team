@@ -2,6 +2,7 @@ package com.netease.nim.demo;
 
 import android.app.Application;
 import android.content.Context;
+import android.content.Intent;
 import android.support.multidex.MultiDex;
 import android.text.TextUtils;
 import android.util.Log;
@@ -22,6 +23,7 @@ import com.netease.nim.demo.event.DemoOnlineStateContentProvider;
 import com.netease.nim.demo.main.activity.MainActivity;
 import com.netease.nim.demo.main.activity.WelcomeActivity;
 import com.netease.nim.demo.mangement.NotificationUtils;
+import com.netease.nim.demo.mangement.service.MessageService;
 import com.netease.nim.demo.mixpush.DemoMixPushMessageHandler;
 import com.netease.nim.demo.mixpush.DemoPushContentProvider;
 import com.netease.nim.demo.rts.RTSHelper;
@@ -44,6 +46,8 @@ import com.netease.nimlib.sdk.msg.model.CustomNotification;
 import com.netease.nimlib.sdk.uinfo.model.UserInfo;
 import com.netease.nimlib.sdk.util.NIMUtil;
 import com.squareup.leakcanary.LeakCanary;
+
+import org.greenrobot.eventbus.EventBus;
 
 import io.fabric.sdk.android.Fabric;
 
@@ -104,7 +108,7 @@ public class NimApplication extends Application {
             initRTSKit();
 
             //接受自定义消息 lee
-            initTip();
+//            initTip();
         }
 
         Crashlytics crashlyticsKit = new Crashlytics.Builder()
@@ -120,15 +124,9 @@ public class NimApplication extends Application {
     }
 
     private void initTip() {
-        NIMClient.getService(MsgServiceObserve.class).observeCustomNotification(new Observer<CustomNotification>() {
-            @Override
-            public void onEvent(CustomNotification message) {
-                // 在这里处理自定义通知。
-                NotificationUtils.notification(NimApplication.this, "提示", message.getContent(), R.drawable.logo);
-                ToastHelper.showToast(NimApplication.this,message.getContent());
-                Log.d(TAG, "onEvent: "+message.getContent());
-            }
-        }, true);
+        //启动任务消息变更服务
+        Intent startIntent = new Intent(this, MessageService.class);
+        startService(startIntent);
     }
 
 
@@ -225,6 +223,13 @@ public class NimApplication extends Application {
         };
         RTSKit.init(rtsOptions);
         RTSHelper.init();
+    }
+    @Override
+    public void onTerminate() {
+        super.onTerminate();
+        Intent stopIntent = new Intent(this, MessageService.class);
+        stopService(stopIntent);
+        EventBus.getDefault().unregister(this);
     }
 
 }

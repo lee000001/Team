@@ -66,10 +66,10 @@ public final class R {
         public static final int animation_default_duration = 0x7f0e0003;
     }
     public static final class layout {
-        public static final int include_pickerview_topbar = 0x7f040070;
-        public static final int layout_basepickerview = 0x7f0400d1;
-        public static final int pickerview_options = 0x7f040179;
-        public static final int pickerview_time = 0x7f04017a;
+        public static final int include_pickerview_topbar = 0x7f040071;
+        public static final int layout_basepickerview = 0x7f0400d2;
+        public static final int pickerview_options = 0x7f04017a;
+        public static final int pickerview_time = 0x7f04017b;
     }
     public static final class string {
         public static final int pickerview_cancel = 0x7f090252;
