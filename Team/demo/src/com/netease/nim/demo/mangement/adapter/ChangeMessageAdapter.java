@@ -1,5 +1,6 @@
-package com.netease.nim.demo.task.adapter;
+package com.netease.nim.demo.mangement.adapter;
 
+import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -18,10 +19,18 @@ import com.netease.nim.uikit.common.ui.imageview.CircleImageView;
 
 import java.util.List;
 
-public class TaskMessageAdapter extends BaseAdapter {
+public class ChangeMessageAdapter extends BaseAdapter {
     private List<MessageBean> list;
     private MessageBean messageBean;
+    private Context context;
     private LayoutInflater inflater;
+    public ChangeMessageAdapter( Context context,List<MessageBean> list) {
+        this.list = list;
+        this.context=context;
+        inflater=LayoutInflater.from(context);
+    }
+
+
 
     @Override
     public int getCount() {
@@ -49,9 +58,9 @@ public class TaskMessageAdapter extends BaseAdapter {
         } else {   //else里面说明，convertView已经被复用了，说明convertView中已经设置过tag了，即holder
             holder = (ViewHolder) view.getTag();
         }
-        if(messageBean.getIsRead()==1){ //0表示服务器中未发送，1表示已发送用户未读，2表示用户已读
-            holder.btn_read.setVisibility(View.INVISIBLE);
-        }
+//        if(messageBean.getIsRead()==1){ //0表示服务器中未发送，1表示已发送用户未读，2表示用户已读
+//            holder.btn_read.setVisibility(View.INVISIBLE);
+//        }
         holder.tv_msg.setText(messageBean.getMsg());
         holder.btn_read.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,6 +72,7 @@ public class TaskMessageAdapter extends BaseAdapter {
         holder.btn_detail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
 
             }
         });
@@ -82,8 +92,6 @@ public class TaskMessageAdapter extends BaseAdapter {
             btn_detail=itemView.findViewById(R.id.btn_detail);
         }
     }
-    public interface  OnClickListener{
-        void onClick(TaskBean task);
-    }
+
 
 }

@@ -15,6 +15,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.netease.nim.demo.bean.MessageBean;
+import com.netease.nim.demo.mangement.activity.ChangeMessageActivity;
 import com.netease.nim.demo.mangement.service.MessageService;
 import com.netease.nim.uikit.common.ToastHelper;
 
@@ -62,6 +63,7 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -164,13 +166,14 @@ public class MainActivity extends UI implements ViewPager.OnPageChangeListener, 
 
     }
 
-    private void showDialog(List<MessageBean> list) {
+    private void showDialog(final List<MessageBean> list) {
         dialog.setButton(DialogInterface.BUTTON_POSITIVE, "确认", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
 //                Toast.makeText(MainActivity.this,"有消息",Toast.LENGTH_SHORT).show();
-
-//                Intent intent=new Intent(MainActivity.this, TaskMessageActivity.class);
+                Intent intent=new Intent(MainActivity.this, ChangeMessageActivity.class);
+                intent.putExtra("list", (Serializable) list);
+                startActivity(intent);
 
             }
         });

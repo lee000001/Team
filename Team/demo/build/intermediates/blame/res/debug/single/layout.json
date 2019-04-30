@@ -1648,6 +1648,10 @@
         "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\323b378a625ae1633bfb4f398527f8d0\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\change_message_item.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\change_message_item.xml"
+    },
+    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\jrmf_rp_activity_trans_succ.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\jrmfRpWalletlib\\build\\intermediates\\bundles\\debug\\res\\layout\\jrmf_rp_activity_trans_succ.xml"
     },

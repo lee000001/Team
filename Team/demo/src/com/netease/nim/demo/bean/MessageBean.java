@@ -1,13 +1,15 @@
 package com.netease.nim.demo.bean;
 
 
+import java.io.Serializable;
+
 /**
  * “消息”实体类
  * @author lee
  *
  */
 
-public class MessageBean {
+public class MessageBean implements Serializable {
 	private  int mid;
 	private String receiver="";
 	private String msg="";
