@@ -228,7 +228,7 @@
     <string name="mangement">管理</string>
     <string name="task_detail">任务详情</string>
 
-<!--自定义twotextview-->
+    <!--自定义twotextview-->
     <string name="left_text">标题</string>
     <string name="left_right">正文</string>
     <string name="task_schedule">任务进度</string>
@@ -241,5 +241,6 @@
     <string name="task_data_analysis">任务数据分析</string>
     <string name="task_search">搜索任务</string>
     <string name="task_management">任务管理</string>
+    <string name="task_message">任务变更消息</string>
 
 </resources>
