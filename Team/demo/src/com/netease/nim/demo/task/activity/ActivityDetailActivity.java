@@ -51,6 +51,7 @@ public class ActivityDetailActivity extends UI implements View.OnClickListener {
     private TaskBean task;
     private Button btn_set_state;
     private Boolean isCreator=false;
+    private Button btn_task;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +85,8 @@ public class ActivityDetailActivity extends UI implements View.OnClickListener {
         tv_state = findViewById(R.id.tv_state);
         btn_set_state = findViewById(R.id.btn_set_state);
         btn_set_state.setOnClickListener(this);
+        btn_task = findViewById(R.id.btn_task);
+        btn_task.setOnClickListener(this);
 
         if(!isCreator){
             btn_set_state.setVisibility(View.INVISIBLE);
@@ -202,6 +205,11 @@ public class ActivityDetailActivity extends UI implements View.OnClickListener {
             case R.id.btn_set_state:
                 ToastHelper.showToast(ActivityDetailActivity.this,"点击事件");
                 setfinish(activityBean.getAid());
+                break;
+            case R.id.btn_task:
+                Intent intent=new Intent(this,TaskDetailActivity.class);
+                intent.putExtra("task",task);
+                startActivity(intent);
                 break;
         }
 

@@ -130,6 +130,12 @@
                 android:layout_height="wrap_content"
                 android:text="设置活动已完成"
                 />
+            <Button
+                android:id="@+id/btn_task"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="查看所属任务"
+                />
         </LinearLayout>
     </android.support.v7.widget.CardView>
 

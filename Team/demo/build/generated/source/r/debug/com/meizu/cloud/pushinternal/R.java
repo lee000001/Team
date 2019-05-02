@@ -11,19 +11,19 @@ public final class R {
         public static final int stat_sys_third_app_notify = 0x7f0202a1;
     }
     public static final class id {
-        public static final int push_big_bigtext_defaultView = 0x7f10044a;
-        public static final int push_big_bigview_defaultView = 0x7f10044b;
-        public static final int push_big_defaultView = 0x7f100442;
-        public static final int push_big_notification = 0x7f100445;
-        public static final int push_big_notification_content = 0x7f100448;
-        public static final int push_big_notification_date = 0x7f100446;
-        public static final int push_big_notification_icon = 0x7f100443;
-        public static final int push_big_notification_icon2 = 0x7f100444;
-        public static final int push_big_notification_title = 0x7f100447;
-        public static final int push_big_pic_default_Content = 0x7f100441;
-        public static final int push_big_text_notification_area = 0x7f100449;
-        public static final int push_pure_bigview_banner = 0x7f10044d;
-        public static final int push_pure_bigview_expanded = 0x7f10044c;
+        public static final int push_big_bigtext_defaultView = 0x7f10044b;
+        public static final int push_big_bigview_defaultView = 0x7f10044c;
+        public static final int push_big_defaultView = 0x7f100443;
+        public static final int push_big_notification = 0x7f100446;
+        public static final int push_big_notification_content = 0x7f100449;
+        public static final int push_big_notification_date = 0x7f100447;
+        public static final int push_big_notification_icon = 0x7f100444;
+        public static final int push_big_notification_icon2 = 0x7f100445;
+        public static final int push_big_notification_title = 0x7f100448;
+        public static final int push_big_pic_default_Content = 0x7f100442;
+        public static final int push_big_text_notification_area = 0x7f10044a;
+        public static final int push_pure_bigview_banner = 0x7f10044e;
+        public static final int push_pure_bigview_expanded = 0x7f10044d;
     }
     public static final class layout {
         public static final int push_expandable_big_image_notification = 0x7f04017d;
