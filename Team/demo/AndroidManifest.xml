@@ -355,14 +355,22 @@
             android:theme="@style/AppTheme.NoActionBar" /> <!-- 任务搜索 -->
         <activity
             android:name=".mangement.activity.TaskSearchActivity"
-            android:label="数据分析"
+            android:label="任务搜索"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" /> <!-- 任务管理 -->
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- 任务管理 -->
         <activity
-            android:name=".mangement.activity.DataManagementActivity"
-            android:label="数据分析"
+            android:name=".mangement.activity.TaskManagementActivity"
+            android:label="任务管理"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" /> <!-- 声明云信后台服务 -->
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- 活动管理 -->
+        <activity
+            android:name=".mangement.activity.ActivityManagementActivity"
+            android:label="活动管理"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- 声明云信后台服务 -->
         <service
             android:name="com.netease.nimlib.service.NimService"
             android:process=":core" /> <!-- 运行后台辅助服务 -->

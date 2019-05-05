@@ -18,6 +18,8 @@ import com.netease.nim.demo.contact.activity.UserProfileActivity;
 import com.netease.nim.demo.login.bean.UserBean;
 import com.netease.nim.demo.bean.TaskBean;
 import com.netease.nim.demo.main.model.Extras;
+import com.netease.nim.demo.mangement.activity.ActivityManagementActivity;
+import com.netease.nim.demo.mangement.adapter.ActivityManagementAdapter;
 import com.netease.nim.demo.task.helper.TaskHepler;
 import com.netease.nim.demo.task.adapter.MemberAdapter;
 import com.netease.nim.demo.task.api.RxTaskInfoService;
@@ -130,7 +132,9 @@ public class TaskDetailActivity extends UI {
             //管理该任务的关键活动
             @Override
             public void onClick(View v) {
-
+                Intent intent1=new Intent(TaskDetailActivity.this, ActivityManagementActivity.class);
+                intent1.putExtra("task",task);
+                startActivity(intent1);
             }
         });
 

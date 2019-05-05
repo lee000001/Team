@@ -12,7 +12,7 @@ import android.widget.EditText;
 
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.mangement.activity.DataAnalysisActivity;
-import com.netease.nim.demo.mangement.activity.DataManagementActivity;
+import com.netease.nim.demo.mangement.activity.TaskManagementActivity;
 import com.netease.nim.demo.mangement.activity.TaskCalenderActivity;
 import com.netease.nim.demo.mangement.activity.TaskSearchActivity;
 import com.netease.nim.demo.mangement.api.SnapChatAttachment;
@@ -174,7 +174,7 @@ public class ManagementFragment extends TFragment implements View.OnClickListene
                 startActivity(new Intent(getContext(), DataAnalysisActivity.class));
                 break;
             case R.id.btn_management:
-                startActivity(new Intent(getContext(), DataManagementActivity.class));
+                startActivity(new Intent(getContext(), TaskManagementActivity.class));
                 break;
 
         }

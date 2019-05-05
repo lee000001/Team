@@ -7,8 +7,10 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.netease.nim.demo.Constant;
 
+import com.netease.nim.demo.bean.ActivityBean;
 import com.netease.nim.demo.bean.TaskBean;
 import com.netease.nim.demo.bean.Task_Activity;
+import com.netease.nim.demo.mangement.api.RxActivityPost;
 import com.netease.nim.demo.mangement.api.RxManagementService;
 import com.netease.nim.demo.mangement.api.RxTask;
 import com.netease.nim.demo.task.api.AddTask;
@@ -180,6 +182,102 @@ public class ManagementHelper {
             public void onFailure(Call<ResponseBody> call, Throwable t) {
                 Log.e(TAG,"onError"+t.getMessage());
                 ToastHelper.showToast(context,"更新失败");
+            }
+
+        });
+
+    }
+    public static void updateActivity(ActivityBean a, final Context context)
+    {
+        GsonBuilder builder=new GsonBuilder();
+        Gson gson=builder.create();
+        String json;
+        //将用户信息转换成json
+        json=gson.toJson(a,ActivityBean.class);
+
+
+        Retrofit retrofit=new Retrofit.Builder()
+
+                .baseUrl(Constant.APP_SERVICE_URL)
+
+                .addConverterFactory( GsonConverterFactory.create())
+
+                .build();
+
+        RxActivityPost post=retrofit.create(RxActivityPost.class);
+
+        final RequestBody body=RequestBody.create(okhttp3.MediaType.parse("application/json; charset=utf-8"),json);
+        Log.d(TAG, "解析json:"+json);
+
+        Call<ResponseBody> call=post.updateActivity(body);
+
+        call.enqueue(new Callback<ResponseBody>() {
+
+            @Override
+
+            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+
+                if(response.isSuccessful()){
+                    Log.e(TAG,"成功"+response.code());//这里是用于测试，服务器返回的数据就是提交的数据。
+                    ToastHelper.showToast(context,"更新成功");
+                }else
+                {
+                    ToastHelper.showToast(context,"更新失败");
+                }
+            }
+            @Override
+
+            public void onFailure(Call<ResponseBody> call, Throwable t) {
+                Log.e(TAG,"onError"+t.getMessage());
+                ToastHelper.showToast(context,"更新失败");
+            }
+
+        });
+
+    }
+    public static void deleteActivity(ActivityBean t, final Context context)
+    {
+        GsonBuilder builder=new GsonBuilder();
+        Gson gson=builder.create();
+        String json;
+        //将用户信息转换成json
+        json=gson.toJson(t,ActivityBean.class);
+
+
+        Retrofit retrofit=new Retrofit.Builder()
+
+                .baseUrl(Constant.APP_SERVICE_URL)
+
+                .addConverterFactory( GsonConverterFactory.create())
+
+                .build();
+
+        RxActivityPost post=retrofit.create(RxActivityPost.class);
+
+        final RequestBody body=RequestBody.create(okhttp3.MediaType.parse("application/json; charset=utf-8"),json);
+        Log.d(TAG, "解析json:"+json);
+
+        Call<ResponseBody> call=post.deleteActivity(body);
+
+        call.enqueue(new Callback<ResponseBody>() {
+
+            @Override
+
+            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+
+                if(response.isSuccessful()){
+                    Log.e(TAG,"成功"+response.code());//这里是用于测试，服务器返回的数据就是提交的数据。
+                    ToastHelper.showToast(context,"删除成功");
+                }else
+                {
+                    ToastHelper.showToast(context,"删除失败");
+                }
+            }
+            @Override
+
+            public void onFailure(Call<ResponseBody> call, Throwable t) {
+                Log.e(TAG,"onError"+t.getMessage());
+                ToastHelper.showToast(context,"删除失败");
             }
 
         });

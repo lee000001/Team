@@ -32,6 +32,10 @@
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\jrmfRpWalletlib\\build\\intermediates\\bundles\\debug\\res\\layout\\jrmf_w_item_trade_history_buttom.xml"
     },
     {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_item_edit_layout.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\activity_item_edit_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\jrmf_b_title_bar.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\jrmfRpWalletlib\\build\\intermediates\\bundles\\debug\\res\\layout\\jrmf_b_title_bar.xml"
     },
@@ -836,6 +840,10 @@
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\jrmfRpWalletlib\\build\\intermediates\\bundles\\debug\\res\\layout\\jrmf_w_activity_support_bank_card.xml"
     },
     {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_item_show_layout.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\activity_item_show_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\323b378a625ae1633bfb4f398527f8d0\\res\\layout\\design_bottom_navigation_item.xml"
     },
@@ -1406,6 +1414,10 @@
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\user_profile_edittext_layout.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\user_profile_edittext_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_management_activity.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\activity_management_activity.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\settings_logout_footer.xml",

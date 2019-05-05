@@ -1,4 +1,4 @@
-#Sun May 05 15:21:39 CST 2019
-base.0=C\:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+#Sun May 05 17:00:06 CST 2019
+base.0=C\:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 renamed.0=classes.dex
-file.0=C\:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\transforms\\dexMerger\\debug\\2\\classes.dex
+file.0=C\:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\transforms\\dexMerger\\debug\\1\\classes.dex

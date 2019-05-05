@@ -242,5 +242,6 @@
     <string name="task_search">搜索任务</string>
     <string name="task_management">任务管理</string>
     <string name="task_message">任务变更消息</string>
+    <string name="activity_management">活动管理</string>
 
 </resources>

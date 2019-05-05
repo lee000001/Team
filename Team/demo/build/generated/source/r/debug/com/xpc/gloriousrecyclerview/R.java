@@ -29,11 +29,11 @@ public final class R {
     }
     public static final class id {
         public static final int item_touch_helper_previous_elevation = 0x7f10000a;
-        public static final int pb_loading_more = 0x7f100190;
-        public static final int tv_loading_more = 0x7f100191;
+        public static final int pb_loading_more = 0x7f10019a;
+        public static final int tv_loading_more = 0x7f10019b;
     }
     public static final class layout {
-        public static final int glorious_recyclerview_layout_load_more = 0x7f040067;
+        public static final int glorious_recyclerview_layout_load_more = 0x7f04006a;
     }
     public static final class string {
         public static final int glorious_recyclerview_load_more_failed = 0x7f090083;

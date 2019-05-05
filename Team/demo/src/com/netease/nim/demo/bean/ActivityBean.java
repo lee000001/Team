@@ -22,7 +22,15 @@ public class ActivityBean implements Serializable {
     private int astate;                //任务状态 0 未开始 ，1正在进行，2完成，3过期
 
     private List<String> selectedMembers;  //忽视掉该字段隐射 ，，表示当前活动的中成员的id
+    private  Boolean isEdit=false;
 
+    public Boolean getEdit() {
+        return isEdit;
+    }
+
+    public void setEdit(Boolean edit) {
+        isEdit = edit;
+    }
 
 
     public List<String> getSelectedMembers() {
