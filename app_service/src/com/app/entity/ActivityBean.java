@@ -45,7 +45,16 @@ public class ActivityBean {
 	 private Date endDate;
 	 private Integer astate;                //任务状态 0 未开始 ，1正在进行，2完成，3过期
 	 private List<String> selectedMembers;  //忽视掉该字段隐射 ，，表示当前活动的中成员的id
-	
+	 private Boolean isEdit=false;
+	 
+	 
+	 @Transient
+	 public Boolean getIsEdit() {
+		return isEdit;
+	}
+	public void setIsEdit(Boolean isEdit) {
+		this.isEdit = isEdit;
+	}
 
 	@Transient
 	public List<String> getSelectedMembers() {

@@ -45,5 +45,16 @@ public interface ActivityService {
 	 * @return
 	 */
 	public List<UserInfo> getUsers(List<String> Uids);
-	 
+	
+	 /**
+	  * 删除活动
+	  * @param task
+	  */
+	 public void deleteActivity(ActivityBean activity);
+	 /**
+	  * 更新任务
+	  * @param Activity
+	  */
+	 public void updateActivity(ActivityBean activity);
+	
 }

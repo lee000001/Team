@@ -80,6 +80,25 @@ public class ActivityHandler {
 		
 	}
 
+	@RequestMapping(value="/deleteActivity",method = RequestMethod.POST)
+	@ResponseBody
+	public void deleteTask(
+			@RequestBody ActivityBean activity){
+		System.out.println("达到"+activity.toString());
+		activityService.deleteActivity(activity);
+		
+		
+	}
+	
+	
+	@RequestMapping(value="/updateActivity",method = RequestMethod.POST)
+	@ResponseBody
+	public Boolean updateActivity(
+			@RequestBody ActivityBean activity){
+		activityService.updateActivity(activity);
+		System.out.println("达到"+activity.toString());
+		return true;
+	}
 	
 
 	

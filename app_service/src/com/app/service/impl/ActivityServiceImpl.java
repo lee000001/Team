@@ -63,5 +63,21 @@ public class ActivityServiceImpl implements ActivityService {
 
 
 
+	@Override
+	public void deleteActivity(ActivityBean activity) {
+		// TODO Auto-generated method stub
+		activityDAO.deleteActivity(activity);
+	}
+
+
+
+	@Override
+	public void updateActivity(ActivityBean activity) {
+		// TODO Auto-generated method stub
+		activityDAO.updateActivity(activity);
+	}
+
+
+
 
 }

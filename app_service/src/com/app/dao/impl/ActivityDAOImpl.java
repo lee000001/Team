@@ -15,6 +15,7 @@ import org.springframework.stereotype.Repository;
 import com.app.dao.ActivityDAO;
 import com.app.dao.UserInfoDAO;
 import com.app.entity.ActivityBean;
+import com.app.entity.TaskBean;
 import com.app.entity.UserInfo;
 @Repository("activityDAO")
 public class ActivityDAOImpl implements ActivityDAO{
@@ -107,5 +108,27 @@ public class ActivityDAOImpl implements ActivityDAO{
 		tx.commit();
 		 session.close();
 		return users;
+	}
+
+	
+
+	@Override
+	public void deleteActivity(ActivityBean activity) {
+		// TODO Auto-generated method stub
+		Session session = sessionFactory.openSession();
+		 Transaction tx=session.beginTransaction();
+		 session.delete(activity);
+		 tx.commit();
+		 session.close();
+	}
+
+	@Override
+	public void updateActivity(ActivityBean activity) {
+		// TODO Auto-generated method stub
+		Session session = sessionFactory.openSession();
+		 Transaction tx=session.beginTransaction();
+		 session.update(activity);
+		 tx.commit();
+		 session.close();
 	}
 }
