@@ -344,6 +344,10 @@
       <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/Constant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityDetailActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_service/build/classes/com/app/controller/TaskHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app_service/build/classes/com/app/controller/TaskHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_service/build/classes/com/app/dao/impl/TaskDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app_service/build/classes/com/app/dao/impl/TaskDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_service/src/com/app/controller/TaskHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app_service/src/com/app/controller/TaskHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_service/src/com/app/dao/impl/TaskDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app_service/src/com/app/dao/impl/TaskDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../~$$总e-r图.~vsdx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../总e-r图.vsdx" beforeDir="false" afterPath="$PROJECT_DIR$/../总e-r图.vsdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../毕业论文_李德生-5-5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../毕业论文_李德生-5-5.docx" afterDir="false" />
@@ -426,8 +430,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="78" column="61" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
+            <state relative-caret-position="228">
+              <caret line="150" column="12" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -436,7 +440,7 @@
         <entry file="file://$PROJECT_DIR$/demo/res/layout/task_detail_layout.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="143">
               <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
             </state>
           </provider>
@@ -912,8 +916,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49798927" weight="0.23371105" />
       <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5020107" side_tool="true" weight="0.22379604" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="10" visible="true" weight="0.2776204" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" visible="true" weight="0.2776204" />
+      <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.49865952" visible="true" weight="0.2776204" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1371,14 +1375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/res/layout/task_detail_layout.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/DataManagementActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -1393,10 +1389,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/task_detail_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="78" column="61" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
+        <state relative-caret-position="228">
+          <caret line="150" column="12" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="12" />
         </state>
       </provider>
     </entry>
