@@ -163,7 +163,9 @@ public class TaskDAOImpl implements TaskDAO{
 	public List<UserInfo> getUserInfoByTaskId(int tid) {
 		// TODO Auto-generated method stub
 		Session session=sessionFactory.openSession();
-		String sql =String.format("SELECT * FROM userinfo where accid in(SELECT accid FROM user_task where tid='%d')",tid);
+		String sql =String.format("select * from userinfo " + 
+				"WHERE accid IN(SELECT accid FROM activity_user WHERE aid IN(SELECT aid FROM activity WHERE aid_tid=%d))",tid);
+		System.out.println(sql);
 		  Query query = session.createSQLQuery(sql).addEntity(UserInfo.class);			   
 		  List<UserInfo> list=query.list();
 		  session.close();
@@ -246,11 +248,23 @@ public class TaskDAOImpl implements TaskDAO{
 	public boolean  addTask(TaskBean task, List<ActivityBean> activities) {
 		// TODO Auto-generated method stub
 		Session session=sessionFactory.openSession();
+		Transaction tx=session.beginTransaction();
 		session.save(task);
+		String sql="insert into activity_user('aid','accid') values";
 		for(ActivityBean a:activities)
 		{
 			session.save(a);
+			for(int i=0;i<a.getSelectedMembers().size();i++) {  //添加成员
+				if(i!=a.getSelectedMembers().size()-1) {
+					sql+=String.format("(%d,%s),", a.getAid(),a.getSelectedMembers().get(i));
+				}else {
+					sql+=String.format("(%d,%s)", a.getAid(),a.getSelectedMembers().get(i));
+				}
+				
+			}
 		}
+		session.createSQLQuery(sql).executeUpdate();
+		tx.commit();
 		session.close();
 		System.out.println("添加完成");
 		return true;

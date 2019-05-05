@@ -811,9 +811,9 @@ public final class R {
         public static final int line3 = 0x7f10000c;
         public static final int listMode = 0x7f100031;
         public static final int list_item = 0x7f100083;
-        public static final int masked = 0x7f1004de;
+        public static final int masked = 0x7f1004df;
         public static final int media_actions = 0x7f100428;
-        public static final int message = 0x7f1004ab;
+        public static final int message = 0x7f1004ac;
         public static final int mini = 0x7f100058;
         public static final int multiply = 0x7f10003f;
         public static final int navigation_header_container = 0x7f100147;
@@ -887,7 +887,7 @@ public final class R {
         public static final int uniform = 0x7f100045;
         public static final int up = 0x7f10001f;
         public static final int view_offset_helper = 0x7f100020;
-        public static final int visible = 0x7f1004dd;
+        public static final int visible = 0x7f1004de;
         public static final int wrap_content = 0x7f100046;
     }
     public static final class integer {

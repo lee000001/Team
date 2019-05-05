@@ -1165,7 +1165,7 @@ public final class R {
         public static final int action_mode_bar = 0x7f10009b;
         public static final int action_mode_bar_stub = 0x7f10009a;
         public static final int action_mode_close_button = 0x7f10007e;
-        public static final int action_search = 0x7f1004e2;
+        public static final int action_search = 0x7f1004e3;
         public static final int action_text = 0x7f100425;
         public static final int actionbar_menu = 0x7f10040c;
         public static final int actions = 0x7f100432;
@@ -1326,7 +1326,7 @@ public final class R {
         public static final int loading_progress = 0x7f1003c5;
         public static final int loading_text = 0x7f1003f9;
         public static final int mail_view_content_layout = 0x7f1003ea;
-        public static final int masked = 0x7f1004de;
+        public static final int masked = 0x7f1004df;
         public static final int media_actions = 0x7f100428;
         public static final int media_image = 0x7f10037c;
         public static final int member_list = 0x7f100400;
@@ -1334,7 +1334,7 @@ public final class R {
         public static final int menu_button_click_layout = 0x7f10037f;
         public static final int menu_dialog_items_root = 0x7f10037e;
         public static final int menu_select_icon = 0x7f100382;
-        public static final int message = 0x7f1004ab;
+        public static final int message = 0x7f1004ac;
         public static final int messageActivityBottomLayout = 0x7f100335;
         public static final int messageActivityLayout = 0x7f1002d1;
         public static final int messageListView = 0x7f1002d3;
@@ -1578,7 +1578,7 @@ public final class R {
         public static final int viewPagerImage = 0x7f1003e9;
         public static final int view_offset_helper = 0x7f100020;
         public static final int view_pager_image = 0x7f10040d;
-        public static final int visible = 0x7f1004dd;
+        public static final int visible = 0x7f1004de;
         public static final int voice_trans_layout = 0x7f100407;
         public static final int voice_trans_text = 0x7f10040a;
         public static final int watch_image_view = 0x7f10036e;

@@ -88,8 +88,10 @@ public class ActivityDetailActivity extends UI implements View.OnClickListener {
         btn_task = findViewById(R.id.btn_task);
         btn_task.setOnClickListener(this);
 
-        if(!isCreator){
-            btn_set_state.setVisibility(View.INVISIBLE);
+        if(task.getTstate()==1){
+            btn_set_state.setVisibility(View.VISIBLE);
+        }else {
+            btn_set_state.setVisibility(View.GONE);
         }
 
         tv_name.setText("活动名称："+activityBean.getAname());

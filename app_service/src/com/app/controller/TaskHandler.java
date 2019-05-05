@@ -151,7 +151,7 @@ public class TaskHandler {
 
 	@RequestMapping(value="/addTask",method = RequestMethod.POST)
 	@ResponseBody
-	public void addTest(@RequestBody Task_Activity t) {	
+	public void addTask(@RequestBody Task_Activity t) {	
 		taskService.addTask(t.getTask(), t.getActivities());
 		System.out.println(t.toString());
 		

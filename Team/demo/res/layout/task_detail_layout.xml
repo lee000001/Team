@@ -95,6 +95,12 @@
         android:layout_height="wrap_content"
         android:background="@drawable/editview"/>
     <Button
+        android:id="@+id/btn_management_activity"
+        android:text="管理关键活动"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editview"/>
+    <Button
         android:id="@+id/btn_schedule"
         android:text="查看当前任务进度"
         android:layout_width="match_parent"

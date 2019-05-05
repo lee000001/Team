@@ -58,6 +58,7 @@ public class TaskDetailActivity extends UI {
     private static final String TAG = "TaskDetailActivity";
     private Button btn_activity;
     private Boolean isEdit=false;
+    private Button btn_management_activity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,25 +75,11 @@ public class TaskDetailActivity extends UI {
     }
 
     private void init() {
-        tv_name=findViewById(R.id.tv_name);
-        tv_state=findViewById(R.id.tv_state);
-        tv_creator=findViewById(R.id.tv_creator);
-        tv_content=findViewById(R.id.tv_content);
-        tv_tid=findViewById(R.id.tv_tid);
-        recyclerView=findViewById(R.id.recyclerview_task);
-        tv_startDate=findViewById(R.id.tv_startDate);
-        tv_endDate=findViewById(R.id.tv_endDate);
-        btn_schedule=findViewById(R.id.btn_schedule);
-        btn_activity = findViewById(R.id.btn_activtiy);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this );
-        //设置布局管理器
-        recyclerView.setLayoutManager(layoutManager);
-        //设置水平布局
-        layoutManager.setOrientation(OrientationHelper. HORIZONTAL);
-        //设置增加或删除条目的动画
-        recyclerView.setItemAnimator( new DefaultItemAnimator());
         final Intent intent=getIntent();
         task= (TaskBean) intent.getSerializableExtra("task");
+        initview();
+        //获取task信息
+
 
         tv_name.getTv_right().setText(task.getTname());
         switch ( task.getTstate())
@@ -139,11 +126,43 @@ public class TaskDetailActivity extends UI {
                 startActivity(intent1);
             }
         });
+        btn_management_activity.setOnClickListener(new View.OnClickListener() {
+            //管理该任务的关键活动
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
     }
+
+    private void initview() {
+        tv_name=findViewById(R.id.tv_name);
+        tv_state=findViewById(R.id.tv_state);
+        tv_creator=findViewById(R.id.tv_creator);
+        tv_content=findViewById(R.id.tv_content);
+        tv_tid=findViewById(R.id.tv_tid);
+        recyclerView=findViewById(R.id.recyclerview_task);
+        tv_startDate=findViewById(R.id.tv_startDate);
+        tv_endDate=findViewById(R.id.tv_endDate);
+        btn_schedule=findViewById(R.id.btn_schedule);
+        btn_activity = findViewById(R.id.btn_activtiy);
+        btn_management_activity = findViewById(R.id.btn_management_activity);
+        if(!task.getTcreator().equals(Preferences.getUserAccount())){
+            btn_management_activity.setVisibility(View.GONE);
+        }
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this );
+        //设置布局管理器
+        recyclerView.setLayoutManager(layoutManager);
+        //设置水平布局
+        layoutManager.setOrientation(OrientationHelper. HORIZONTAL);
+        //设置增加或删除条目的动画
+        recyclerView.setItemAnimator( new DefaultItemAnimator());
+    }
+
     private void initAdapter() {
-        isEdit = Preferences.getUserAccount().equals(task.getTcreator());
-//        isEdit=false;  //设置不显示添加功能
+//        isEdit = Preferences.getUserAccount().equals(task.getTcreator());
+        isEdit=false;  //设置不显示添加功能
         dataAdapter=new MemberAdapter(this,datas,isEdit);
         recyclerView.setAdapter(dataAdapter);
     }
