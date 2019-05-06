@@ -89,6 +89,13 @@ public class ActivityHandler {
 		
 		
 	}
+	@RequestMapping("/getActivityById")
+	@ResponseBody
+	public ActivityBean getActivityById(@RequestParam(value="aid") int aid){
+		
+		return activityService.getActivityById(aid);
+		
+	}
 	
 	
 	@RequestMapping(value="/updateActivity",method = RequestMethod.POST)

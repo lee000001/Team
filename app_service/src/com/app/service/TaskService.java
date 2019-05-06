@@ -71,4 +71,11 @@ public interface TaskService {
 	  * @param task
 	  */
 	 public void updateTask(TaskBean task);
+	 
+	 /**
+	  * 通过tid 活动任务信息
+	  * @param tid
+	  * @return
+	  */
+	 public TaskBean getTaskById(int tid);
 }

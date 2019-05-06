@@ -209,6 +209,14 @@ public class TaskHandler {
 		return true;
 	}
 	
+	@RequestMapping("/getTaskById")
+	@ResponseBody
+	public TaskBean getTaskById(@RequestParam(value="tid") int tid){
+		
+		return taskService.getTaskById(tid);
+		
+	}
+	
 	
 	
 }

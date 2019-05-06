@@ -57,5 +57,12 @@ public interface ActivityDAO {
 	  */
 	 public void updateActivity(ActivityBean activity);
 	
+	 /**
+	  * 通过tid 活动任务信息
+	  * @param tid
+	  * @return
+	  */
+	 public ActivityBean getActivityById(int aid);
+
 
 }

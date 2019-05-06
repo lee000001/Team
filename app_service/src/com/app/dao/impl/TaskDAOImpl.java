@@ -26,6 +26,7 @@ import com.app.dao.TaskDAO;
 import com.app.dao.UserInfoDAO;
 import com.app.entity.ActivityBean;
 import com.app.entity.DataAnalysis;
+import com.app.entity.MessageBean;
 import com.app.entity.TaskBean;
 import com.app.entity.UserInfo;
 @Repository("taskDAO")
@@ -250,20 +251,31 @@ public class TaskDAOImpl implements TaskDAO{
 		Session session=sessionFactory.openSession();
 		Transaction tx=session.beginTransaction();
 		session.save(task);
-		String sql="insert into activity_user('aid','accid') values";
+		String sql="insert into activity_user(aid,accid) values";
+		MessageBean msg;
 		for(ActivityBean a:activities)
 		{
 			session.save(a);
 			for(int i=0;i<a.getSelectedMembers().size();i++) {  //添加成员
-				if(i!=a.getSelectedMembers().size()-1) {
-					sql+=String.format("(%d,%s),", a.getAid(),a.getSelectedMembers().get(i));
-				}else {
-					sql+=String.format("(%d,%s)", a.getAid(),a.getSelectedMembers().get(i));
-				}
+				
+				sql+=String.format("(%d,'%s'),", a.getAid(),a.getSelectedMembers().get(i));
+				
+				msg=new MessageBean();
+				msg.setIsRead(0);
+				msg.setMid_aid(a.getAid());
+				msg.setMid_tid(task.getTid());
+				msg.setMsg("有新的任务待完成");
+				msg.setMtype(0);
+				msg.setReceiver(a.getSelectedMembers().get(i));
+				session.save(msg);
 				
 			}
 		}
+		sql=sql.substring(0,sql.lastIndexOf(","));
+		System.out.println(sql);
+		
 		session.createSQLQuery(sql).executeUpdate();
+		
 		tx.commit();
 		session.close();
 		System.out.println("添加完成");
@@ -381,6 +393,16 @@ public class TaskDAOImpl implements TaskDAO{
 		 tx.commit();
 		 session.close();
 		
+	}
+	@Override
+	public TaskBean getTaskById(int tid) {
+		// TODO Auto-generated method stub
+		Session session = sessionFactory.openSession();
+		 Transaction tx=session.beginTransaction();
+		 TaskBean task=session.get(TaskBean.class, tid);
+		 tx.commit();
+		 session.close();
+		 return task;
 	}
 	
 

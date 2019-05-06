@@ -121,4 +121,11 @@ public class TaskServiceImpl implements TaskService {
 		taskDAO.updateTask(task);
 	}
 
+
+	@Override
+	public TaskBean getTaskById(int tid) {
+		// TODO Auto-generated method stub
+		return taskDAO.getTaskById(tid);
+	}
+
 }

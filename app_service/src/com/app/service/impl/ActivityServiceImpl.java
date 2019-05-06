@@ -79,5 +79,14 @@ public class ActivityServiceImpl implements ActivityService {
 
 
 
+	@Override
+	public ActivityBean getActivityById(int aid) {
+		// TODO Auto-generated method stub
+		return activityDAO.getActivityById(aid);
+	}
+
+
+	
+
 
 }

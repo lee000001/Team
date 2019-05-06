@@ -131,4 +131,17 @@ public class ActivityDAOImpl implements ActivityDAO{
 		 tx.commit();
 		 session.close();
 	}
+
+	@Override
+	public ActivityBean getActivityById(int aid) {
+		// TODO Auto-generated method stub
+		Session session = sessionFactory.openSession();
+		 Transaction tx=session.beginTransaction();
+		 ActivityBean a=session.get(ActivityBean.class, aid);
+		 tx.commit();
+		 session.close();
+		 return a;
+	}
+
+	
 }
