@@ -71,7 +71,7 @@ public class AddActivityActivity extends UI {
     @BindView(R.id.tv_task_name)
    TextView tv_task_name;
     private View footer;
-    List<ActivityBean> activityBeanList=new ArrayList<>();
+
     private AddActivityListAdapter addActivityListAdapter;
     private TextView tv_start;
     private EditText et_result;
@@ -82,7 +82,7 @@ public class AddActivityActivity extends UI {
     private ImageButton btn_start;
     private Context context=AddActivityActivity.this;;
     private SimpleDateFormat sdf;
-
+    private  List<ActivityBean> activityBeanList;
     private Button btn_save_back;
     private RecyclerView recyclerView;
     private LinearLayoutManager linearLayoutManager;
@@ -123,10 +123,11 @@ public class AddActivityActivity extends UI {
             }
         }
 
-        if(intent.getSerializableExtra("activities")!=null)
-            activityBeanList= (List<ActivityBean>) intent.getSerializableExtra("activities");
-        if(activityBeanList==null)
-            activityBeanList=new ArrayList<>();
+        activityBeanList=AddTaskAcitivity.activityBeanList;
+//        if(intent.getSerializableExtra("activities")!=null)
+//            activityBeanList= (List<ActivityBean>) intent.getSerializableExtra("activities");
+//        if(activityBeanList==null)
+//            activityBeanList=new ArrayList<>();
     }
 
     private void init() {
@@ -178,14 +179,18 @@ public class AddActivityActivity extends UI {
 
     }
 
+    /**
+     * 返回按键点击
+     */
     @Override
     public void onBackPressed() {
       AlterDialogHelper.initSelectDialog("确认保存并返回上一页", AddActivityActivity.this, new OnAlterDialogSelected() {
           @Override
           public void onComfirm() {
-                Intent intent=new Intent(AddActivityActivity.this,AddTaskAcitivity.class);
-                EventBus.getDefault().post(activityBeanList);
-                startActivity(intent);
+//                Intent intent=new Intent(AddActivityActivity.this,AddTaskAcitivity.class);
+//                EventBus.getDefault().post(activityBeanList);
+//              AddTaskAcitivity.activityBeanList.addAll(activityBeanList);
+//                startActivity(intent);
                 finish();
           }
 
@@ -251,7 +256,7 @@ public class AddActivityActivity extends UI {
     };
 
     /**
-     * 保存添加的活动
+     * 保存添加的活动到list
      */
     private View.OnClickListener onClickListener_save=new View.OnClickListener() {
         @Override
@@ -292,12 +297,13 @@ public class AddActivityActivity extends UI {
     };
 
     /**
-     * 保存新增关键活动信息并且保存退出
+     * 保存新增关键活动信息并且保存退出到添加任务界面
      */
     private View.OnClickListener onClickListener_save_back=new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            EventBus.getDefault().post(activityBeanList);
+//            EventBus.getDefault().postSticky(activityBeanList);
+            AddTaskAcitivity.activityBeanList.addAll(activityBeanList);
             finish();
         }
     };

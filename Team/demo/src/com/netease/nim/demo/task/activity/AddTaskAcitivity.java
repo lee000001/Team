@@ -47,7 +47,7 @@ public class AddTaskAcitivity extends UI implements View.OnClickListener {
     private EditText et_task_name;
     private EditText et_content,et_result;
     private TextView tv_start,tv_end;
-    private List<ActivityBean> activityBeanList=new ArrayList<>();
+    public  static List<ActivityBean> activityBeanList=new ArrayList<>();
     private Button btn_add_activity;
     private Button btn_save;
     public static int CODE_SEND=0;
@@ -82,7 +82,7 @@ public class AddTaskAcitivity extends UI implements View.OnClickListener {
         btn_save.setOnClickListener(this);
 
         // 注册订阅者
-        EventBus.getDefault().register(this);
+//        EventBus.getDefault().register(this);
 
     }
 
@@ -133,9 +133,10 @@ public class AddTaskAcitivity extends UI implements View.OnClickListener {
         if(validate())
         {
             Task_Activity t=new Task_Activity();
-            t.setActivities(activityBeanList);
+            t.getActivities().addAll(activityBeanList);
             t.setTask(task);
             TaskHepler.addTask(t,AddTaskAcitivity.this);
+            finish();
         }else {
             TaskHepler.initErrorDialog("请正确填写任务信息",AddTaskAcitivity.this);
         }
@@ -162,13 +163,13 @@ public class AddTaskAcitivity extends UI implements View.OnClickListener {
 //        }
 //    }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    public void onMessageEvent(List<ActivityBean> list) {
-        //接受从addActivityActivity 中传递的activities
-        if(list!=null){
-            activityBeanList=list;
-        }
-    }
+//    @Subscribe(threadMode = ThreadMode.MAIN,sticky = true)
+//    public void onMessageEvent(List<ActivityBean> list) {
+//        //接受从addActivityActivity 中传递的activities
+//        if(list!=null){
+//            activityBeanList=list;
+//        }
+//    }
 
     /**
      * 选择开始日期
@@ -296,7 +297,7 @@ public class AddTaskAcitivity extends UI implements View.OnClickListener {
     protected void onDestroy() {
         super.onDestroy();
         // 注销订阅者
-        EventBus.getDefault().unregister(this);
+//        EventBus.getDefault().unregister(this);
     }
 
 }
