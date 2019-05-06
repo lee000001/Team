@@ -2,6 +2,7 @@ package com.netease.nim.demo.task.helper;
 
 import com.netease.nim.demo.Constant;
 import com.netease.nim.demo.bean.ActivityBean;
+import com.netease.nim.demo.bean.TaskBean;
 import com.netease.nim.demo.task.api.RxActivityService;
 import com.netease.nim.demo.task.api.RxTaskInfoService;
 
@@ -10,6 +11,9 @@ import java.util.List;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
+import retrofit2.http.GET;
+import retrofit2.http.Query;
+import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 import rx.schedulers.Schedulers;
@@ -47,5 +51,6 @@ public class ActivityHelper {
                 });
 
     }
+
 
 }

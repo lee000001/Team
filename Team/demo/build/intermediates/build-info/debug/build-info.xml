@@ -5,30 +5,39 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="FIELD_TYPE_CHANGE"
+    ir-eligibility="CLASS_ADDED"
     plugin-version="3.0.0"
-    timestamp="1557114974489"
+    timestamp="1557119238197"
     token="8747406670156538571"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="3180" />
+        duration="3157" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="53" />
+        duration="58" />
     <task
         name="verifier"
-        duration="5" />
+        duration="22" />
 
+    <artifact
+        location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
+        location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
         location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_7.apk"
@@ -83,12 +92,6 @@
         <artifact
             location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
@@ -101,14 +104,23 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="FIELD_TYPE_CHANGE"
-        timestamp="1557114974489"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1557119238197"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\lee\Desktop\git\Team\demo\build\intermediates\split-apk\debug\slices\slice_7.apk"

@@ -1,6 +1,7 @@
 package com.netease.nim.demo.task.api;
 
 import com.netease.nim.demo.bean.ActivityBean;
+import com.netease.nim.demo.bean.TaskBean;
 import com.netease.nim.demo.login.bean.UserBean;
 
 import java.util.List;
@@ -30,4 +31,10 @@ public interface RxActivityService {
 
     @GET("activity/getUsers")  //通过accid 数组来获取用户信息
     Observable<List<UserBean>> getUsers(@Query("Uids") List<String> Uids);
+    /**
+     * 通过tid获取任务详细信息
+     * @return
+     */
+    @GET("activity/getTaskById")
+    Observable<ActivityBean> getActivityById(@Query("aid") int aid);
 }

@@ -1,10 +1,12 @@
 package com.netease.nim.demo.mangement.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,21 +15,37 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.netease.nim.demo.R;
+import com.netease.nim.demo.bean.ActivityBean;
 import com.netease.nim.demo.bean.MessageBean;
 import com.netease.nim.demo.bean.TaskBean;
+import com.netease.nim.demo.task.activity.ActivityDetailActivity;
+import com.netease.nim.demo.task.activity.TaskDetailActivity;
+import com.netease.nim.demo.task.helper.ActivityHelper;
+import com.netease.nim.demo.task.helper.TaskHepler;
 import com.netease.nim.uikit.common.ui.imageview.CircleImageView;
 
 import java.util.List;
+
+import rx.Scheduler;
+import rx.Subscriber;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.schedulers.Schedulers;
 
 public class ChangeMessageAdapter extends BaseAdapter {
     private List<MessageBean> list;
     private MessageBean messageBean;
     private Context context;
     private LayoutInflater inflater;
+    private static final String TAG = "ChangeMessageAdapter";
+    private ActivityBean activityBean;
+    private TaskBean task;
+
     public ChangeMessageAdapter( Context context,List<MessageBean> list) {
         this.list = list;
         this.context=context;
         inflater=LayoutInflater.from(context);
+        getActivity();
+        getTask();
     }
 
 
@@ -72,16 +90,70 @@ public class ChangeMessageAdapter extends BaseAdapter {
         holder.btn_detail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
+//                if (messageBean.getMtype()==0){
+//                    //查看任务消息
+//                    openTask();
+//                }else {
+//                    //查看活动
+//                }
+                Intent intent=new Intent(context,ActivityDetailActivity.class);
+                intent.putExtra("task",task);
+                intent.putExtra("activity",activityBean);
+                context.startActivity(intent);
             }
         });
+
 
 
         return view;
     }
 
+    private void getTask() {
+        TaskHepler.getRxService()
+                .getTaskById(messageBean.getMid_tid())
+                .observeOn(Schedulers.io())
+                .subscribeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Subscriber<TaskBean>() {
+                    @Override
+                    public void onCompleted() {
 
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        Log.d(TAG, "onError: "+e.getMessage());
+                    }
+
+                    @Override
+                    public void onNext(TaskBean taskBean) {
+                        task=taskBean;
+                    }
+                });
+    }
+
+
+    private void getActivity() {
+        ActivityHelper.getRxService()
+                .getActivityById(messageBean.getMid_tid())
+                .observeOn(Schedulers.io())
+                .subscribeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Subscriber<ActivityBean>() {
+                    @Override
+                    public void onCompleted() {
+
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        Log.d(TAG, "onError: "+e.getMessage());
+                    }
+
+                    @Override
+                    public void onNext(ActivityBean ActivityBean) {
+                       activityBean=ActivityBean;
+                    }
+                });
+    }
     class ViewHolder {
         TextView tv_msg;
         Button btn_read;

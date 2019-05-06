@@ -58,6 +58,13 @@ public interface RxTaskInfoService {
     @GET("task/getTaskId")
     Observable<Integer> getTaskId();
 
+    /**
+     * 通过tid获取任务详细信息
+     * @return
+     */
+    @GET("task/getTaskById")
+    Observable<TaskBean> getTaskById(@Query("tid") int tid);
+
 
 
 
