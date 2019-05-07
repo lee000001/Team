@@ -1,5 +1,6 @@
 package com.netease.nim.demo.mangement.api;
 
+import com.netease.nim.demo.bean.ActivityBean;
 import com.netease.nim.demo.bean.DataAnalysis;
 import com.netease.nim.demo.bean.MessageBean;
 import com.netease.nim.demo.bean.TaskBean;
@@ -50,4 +51,8 @@ public interface RxManagementService {
      */
     @GET("message/msg")
     Observable<List<MessageBean>> getMessage(@Query("accid") String accid);
+
+
+    @GET("activity/getLateActivity")
+    Observable<List<ActivityBean>> getLateActivity(@Query("accid") String accid);
 }

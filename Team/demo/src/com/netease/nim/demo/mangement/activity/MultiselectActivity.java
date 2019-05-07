@@ -2,15 +2,20 @@ package com.netease.nim.demo.mangement.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
 import com.netease.nim.demo.R;
+import com.netease.nim.demo.bean.ActivityBean;
+import com.netease.nim.demo.config.preference.Preferences;
+import com.netease.nim.demo.main.fragment.MangementListFragment;
+import com.netease.nim.demo.mangement.ManagementHelper;
 import com.netease.nim.demo.mangement.view.checkListView.KylinCheckListView;
 import com.netease.nim.demo.mangement.view.checkListView.KylinOnCheckListener;
-import com.netease.nim.demo.mangement.view.demo.TestEntity;
-import com.netease.nim.demo.mangement.view.demo.TestViewModel;
+import com.netease.nim.demo.mangement.view.demo.ActivityViewModel;
+
 import com.netease.nim.uikit.api.wrapper.NimToolBarOptions;
 import com.netease.nim.uikit.common.activity.ToolBarOptions;
 import com.netease.nim.uikit.common.activity.UI;
@@ -18,8 +23,12 @@ import com.netease.nim.uikit.common.activity.UI;
 import java.util.ArrayList;
 import java.util.List;
 
+import rx.Subscriber;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.schedulers.Schedulers;
+
 /**
- * Created by kylin on 2018/2/28.
+ * 发送任务滞后提示消息的活动
  */
 
 public class MultiselectActivity extends UI implements KylinOnCheckListener {
@@ -27,16 +36,15 @@ public class MultiselectActivity extends UI implements KylinOnCheckListener {
     private KylinCheckListView checkListView;
     private CheckBox cbAll;
     private TextView tvAll;
+    private List<ActivityBean> activityBeanList=new ArrayList<>();
+    private static final String TAG = "MultiselectActivity";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.muti_check_task_activity);
-        setTitle(R.string.activity_select_task);
+        initToolbar();
 
-        ToolBarOptions options = new NimToolBarOptions();
-        options.titleId = R.string.activity_select_task;
-        setToolBar(R.id.toolbar, options);
         checkListView = (KylinCheckListView) findViewById(R.id.cv_content);
         cbAll = (CheckBox) findViewById(R.id.cb_all);
         tvAll = (TextView) findViewById(R.id.tv_all);
@@ -50,11 +58,19 @@ public class MultiselectActivity extends UI implements KylinOnCheckListener {
 
         initView();
         setData();
+
+    }
+
+    private void initToolbar() {
+        setTitle(R.string.activity_alert);
+        ToolBarOptions options = new NimToolBarOptions();
+        options.titleId = R.string.activity_alert;
+        setToolBar(R.id.toolbar, options);
     }
 
     private void initView(){
         // 设置Item布局
-        checkListView.setItemClass(TestViewModel.class);
+        checkListView.setItemClass(ActivityViewModel.class);
         // 设置监听
         checkListView.setKylinOnCheckListener(this);
         // 设置多选
@@ -64,16 +80,28 @@ public class MultiselectActivity extends UI implements KylinOnCheckListener {
     }
 
     private void setData(){
-        List<TestEntity> datalist = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
-            TestEntity entity = new TestEntity();
-            entity.title = "Item "+i;
-            entity.content = "content "+i;
-            datalist.add(entity);
-        }
 
-        checkListView.setDataToView(datalist);
+        ManagementHelper.getRxService()
+                .getLateActivity(Preferences.getUserAccount())
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Subscriber<List<ActivityBean>>() {
+                    @Override
+                    public void onCompleted() {
 
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        Log.e(TAG, "onError: "+e.getMessage(),e );
+                    }
+
+                    @Override
+                    public void onNext(List<ActivityBean> activityBeans) {
+                        //活动滞后信息
+                        checkListView.setDataToView(activityBeans);
+                    }
+                });
     }
 
     @Override

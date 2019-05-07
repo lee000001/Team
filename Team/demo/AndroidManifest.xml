@@ -333,11 +333,7 @@
             android:label="关键活动详情"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- 给活动成员发送提示消息 -->
-        <activity
-            android:name=".mangement.activity.Alteractivity"
-            android:label="发送提示消息"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" /> <!-- checklistview 选择要发送提示的任务 -->
+        <!-- checklistview 选择要发送提示的任务 -->
         <activity
             android:name=".mangement.activity.MultiselectActivity"
             android:label="选择任务"

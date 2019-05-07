@@ -72,14 +72,14 @@ public final class R {
         public static final int pickerview_time = 0x7f04017f;
     }
     public static final class string {
-        public static final int pickerview_cancel = 0x7f090253;
-        public static final int pickerview_day = 0x7f090254;
-        public static final int pickerview_hours = 0x7f090255;
-        public static final int pickerview_minutes = 0x7f090256;
-        public static final int pickerview_month = 0x7f090257;
-        public static final int pickerview_seconds = 0x7f090258;
-        public static final int pickerview_submit = 0x7f090259;
-        public static final int pickerview_year = 0x7f09025a;
+        public static final int pickerview_cancel = 0x7f090254;
+        public static final int pickerview_day = 0x7f090255;
+        public static final int pickerview_hours = 0x7f090256;
+        public static final int pickerview_minutes = 0x7f090257;
+        public static final int pickerview_month = 0x7f090258;
+        public static final int pickerview_seconds = 0x7f090259;
+        public static final int pickerview_submit = 0x7f09025a;
+        public static final int pickerview_year = 0x7f09025b;
     }
     public static final class styleable {
         public static final int[] pickerview = { 0x7f01026f, 0x7f010270, 0x7f010271, 0x7f010272, 0x7f010273 };

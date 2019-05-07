@@ -59,7 +59,7 @@ public final class R {
         public static final int hms_abort = 0x7f090029;
         public static final int hms_abort_message = 0x7f09002a;
         public static final int hms_bindfaildlg_message = 0x7f09002b;
-        public static final int hms_bindfaildlg_title = 0x7f090132;
+        public static final int hms_bindfaildlg_title = 0x7f090133;
         public static final int hms_cancel = 0x7f09002c;
         public static final int hms_check_failure = 0x7f09002d;
         public static final int hms_check_no_update = 0x7f09002e;

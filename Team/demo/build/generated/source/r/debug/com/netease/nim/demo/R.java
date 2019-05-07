@@ -2593,18 +2593,17 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int layout_srlBackgroundColor=0x7f01020c;
-        /** 填满布局
-         <p>Must be one of the following constant values.</p>
+        /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>Translate</code></td><td>0</td><td></td></tr>
-<tr><td><code>Scale</code></td><td>1</td><td>平行移动</td></tr>
-<tr><td><code>FixedBehind</code></td><td>2</td><td>拉伸形变</td></tr>
-<tr><td><code>FixedFront</code></td><td>3</td><td>固定在背后</td></tr>
-<tr><td><code>MatchLayout</code></td><td>4</td><td>固定在前面</td></tr>
+<tr><td><code>Scale</code></td><td>1</td><td></td></tr>
+<tr><td><code>FixedBehind</code></td><td>2</td><td></td></tr>
+<tr><td><code>FixedFront</code></td><td>3</td><td></td></tr>
+<tr><td><code>MatchLayout</code></td><td>4</td><td></td></tr>
 </table>
          */
         public static final int layout_srlSpinnerStyle=0x7f010031;
@@ -3837,16 +3836,15 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int srlAccentColor=0x7f010032;
-        /** 固定在背后
-         <p>Must be one of the following constant values.</p>
+        /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>Translate</code></td><td>0</td><td></td></tr>
-<tr><td><code>Scale</code></td><td>1</td><td>平行移动</td></tr>
-<tr><td><code>FixedBehind</code></td><td>2</td><td>拉伸形变</td></tr>
+<tr><td><code>Scale</code></td><td>1</td><td></td></tr>
+<tr><td><code>FixedBehind</code></td><td>2</td><td></td></tr>
 </table>
          */
         public static final int srlClassicsSpinnerStyle=0x7f010033;
@@ -8292,103 +8290,104 @@ containing a value of this type.
         public static final int accept_session=0x7f090095;
         public static final int ack_msg_info=0x7f090096;
         public static final int ack_msg_tip=0x7f090097;
-        public static final int activity_detail=0x7f090098;
-        public static final int activity_list=0x7f090099;
-        public static final int activity_management=0x7f09009a;
-        public static final int activity_select_task=0x7f09009b;
-        public static final int add=0x7f09009c;
-        public static final int add_buddy=0x7f09009d;
-        public static final int add_card_pay=0x7f09009e;
-        public static final int add_friend=0x7f09009f;
-        public static final int add_friend_self_tip=0x7f0900a0;
-        public static final int add_friend_verify_tip=0x7f0900a1;
-        public static final int add_trans_tip=0x7f0900a2;
-        public static final int advanced_team=0x7f0900a3;
-        public static final int agree=0x7f0900a4;
-        public static final int alias=0x7f0900a5;
-        public static final int alipay=0x7f0900a6;
+        public static final int activity_alert=0x7f090098;
+        public static final int activity_detail=0x7f090099;
+        public static final int activity_list=0x7f09009a;
+        public static final int activity_management=0x7f09009b;
+        public static final int activity_select_task=0x7f09009c;
+        public static final int add=0x7f09009d;
+        public static final int add_buddy=0x7f09009e;
+        public static final int add_card_pay=0x7f09009f;
+        public static final int add_friend=0x7f0900a0;
+        public static final int add_friend_self_tip=0x7f0900a1;
+        public static final int add_friend_verify_tip=0x7f0900a2;
+        public static final int add_trans_tip=0x7f0900a3;
+        public static final int advanced_team=0x7f0900a4;
+        public static final int agree=0x7f0900a5;
+        public static final int alias=0x7f0900a6;
+        public static final int alipay=0x7f0900a7;
         public static final int app_name=0x7f090074;
-        public static final int appbar_scrolling_view_behavior=0x7f0900a7;
-        public static final int avchat_audio_call_request=0x7f0900a8;
-        public static final int avchat_audio_call_wifi_unavailable_tip=0x7f0900a9;
-        public static final int avchat_audio_to_video_invitation=0x7f0900aa;
-        public static final int avchat_audio_to_video_wait=0x7f0900ab;
-        public static final int avchat_call=0x7f0900ac;
-        public static final int avchat_call_failed=0x7f0900ad;
-        public static final int avchat_call_finish=0x7f0900ae;
-        public static final int avchat_call_reject=0x7f0900af;
-        public static final int avchat_connecting=0x7f0900b0;
-        public static final int avchat_hangup=0x7f0900b1;
-        public static final int avchat_has_hangup=0x7f0900b2;
-        public static final int avchat_in_switch=0x7f0900b3;
-        public static final int avchat_invalid_channel_id=0x7f0900b4;
-        public static final int avchat_local_call_busy=0x7f0900b5;
-        public static final int avchat_local_close_camera=0x7f0900b6;
-        public static final int avchat_local_protocol_low_version=0x7f0900b7;
-        public static final int avchat_net_error_then_quit=0x7f0900b8;
-        public static final int avchat_network_grade_0=0x7f0900b9;
-        public static final int avchat_network_grade_1=0x7f0900ba;
-        public static final int avchat_network_grade_2=0x7f0900bb;
-        public static final int avchat_network_grade_3=0x7f0900bc;
-        public static final int avchat_network_unstable_notificaton=0x7f0900bd;
-        public static final int avchat_no_permission=0x7f0900be;
-        public static final int avchat_no_pick_up=0x7f0900bf;
-        public static final int avchat_no_pickup_call=0x7f0900c0;
-        public static final int avchat_notification=0x7f0900c1;
-        public static final int avchat_peer_busy=0x7f0900c2;
-        public static final int avchat_peer_close_camera=0x7f0900c3;
-        public static final int avchat_peer_protocol_low_version=0x7f0900c4;
-        public static final int avchat_pickup=0x7f0900c5;
-        public static final int avchat_receive=0x7f0900c6;
-        public static final int avchat_refuse=0x7f0900c7;
-        public static final int avchat_switch_to_audio=0x7f0900c8;
-        public static final int avchat_switch_to_video=0x7f0900c9;
-        public static final int avchat_switch_video_reject=0x7f0900ca;
-        public static final int avchat_video_call_request=0x7f0900cb;
-        public static final int avchat_wait_recieve=0x7f0900cc;
-        public static final int begin_chat=0x7f0900cd;
-        public static final int birthday=0x7f0900ce;
-        public static final int black_list=0x7f0900cf;
-        public static final int black_list_send_tip=0x7f0900d0;
-        public static final int black_list_tip=0x7f0900d1;
-        public static final int bottom_sheet_behavior=0x7f0900d2;
-        public static final int btn_pay=0x7f0900d3;
-        public static final int btn_put=0x7f0900d4;
-        public static final int callee_ack_timeout=0x7f0900d5;
-        public static final int callee_reject=0x7f0900d6;
-        public static final int cancel=0x7f0900d7;
-        public static final int cancel_admin=0x7f0900d8;
-        public static final int cancel_muted=0x7f0900d9;
-        public static final int cancel_normal_member=0x7f0900da;
-        public static final int cancel_team_admin=0x7f0900db;
-        public static final int capture_video_size_in_kb=0x7f0900dc;
-        public static final int capture_video_size_in_mb=0x7f0900dd;
-        public static final int card_num_empty=0x7f0900de;
-        public static final int card_num_error=0x7f0900df;
-        public static final int character_counter_pattern=0x7f0900e0;
-        public static final int chat_room=0x7f0900e1;
-        public static final int chat_room_announcement=0x7f0900e2;
-        public static final int chat_room_master=0x7f0900e3;
-        public static final int chat_room_message=0x7f0900e4;
-        public static final int chat_room_online_people=0x7f0900e5;
-        public static final int chat_setting=0x7f0900e6;
-        public static final int chatroom_blacklist=0x7f0900e7;
-        public static final int chatroom_fetch_member_failed=0x7f0900e8;
-        public static final int chatroom_kick_member=0x7f0900e9;
-        public static final int chatroom_muted=0x7f0900ea;
-        public static final int chatroom_set_admin=0x7f0900eb;
-        public static final int check_rp=0x7f0900ec;
-        public static final int choose=0x7f0900ed;
-        public static final int choose_from_photo_album=0x7f0900ee;
-        public static final int clear_all_success=0x7f0900ef;
-        public static final int clear_empty=0x7f0900f0;
-        public static final int clear_index=0x7f0900f1;
-        public static final int clear_msg_history_success=0x7f0900f2;
-        public static final int clear_sdk_cache=0x7f0900f3;
-        public static final int click_set=0x7f0900f4;
-        public static final int client_aos=0x7f0900f5;
-        public static final int client_ios=0x7f0900f6;
-        public static final int close=0x7f0900f7;
+        public static final int appbar_scrolling_view_behavior=0x7f0900a8;
+        public static final int avchat_audio_call_request=0x7f0900a9;
+        public static final int avchat_audio_call_wifi_unavailable_tip=0x7f0900aa;
+        public static final int avchat_audio_to_video_invitation=0x7f0900ab;
+        public static final int avchat_audio_to_video_wait=0x7f0900ac;
+        public static final int avchat_call=0x7f0900ad;
+        public static final int avchat_call_failed=0x7f0900ae;
+        public static final int avchat_call_finish=0x7f0900af;
+        public static final int avchat_call_reject=0x7f0900b0;
+        public static final int avchat_connecting=0x7f0900b1;
+        public static final int avchat_hangup=0x7f0900b2;
+        public static final int avchat_has_hangup=0x7f0900b3;
+        public static final int avchat_in_switch=0x7f0900b4;
+        public static final int avchat_invalid_channel_id=0x7f0900b5;
+        public static final int avchat_local_call_busy=0x7f0900b6;
+        public static final int avchat_local_close_camera=0x7f0900b7;
+        public static final int avchat_local_protocol_low_version=0x7f0900b8;
+        public static final int avchat_net_error_then_quit=0x7f0900b9;
+        public static final int avchat_network_grade_0=0x7f0900ba;
+        public static final int avchat_network_grade_1=0x7f0900bb;
+        public static final int avchat_network_grade_2=0x7f0900bc;
+        public static final int avchat_network_grade_3=0x7f0900bd;
+        public static final int avchat_network_unstable_notificaton=0x7f0900be;
+        public static final int avchat_no_permission=0x7f0900bf;
+        public static final int avchat_no_pick_up=0x7f0900c0;
+        public static final int avchat_no_pickup_call=0x7f0900c1;
+        public static final int avchat_notification=0x7f0900c2;
+        public static final int avchat_peer_busy=0x7f0900c3;
+        public static final int avchat_peer_close_camera=0x7f0900c4;
+        public static final int avchat_peer_protocol_low_version=0x7f0900c5;
+        public static final int avchat_pickup=0x7f0900c6;
+        public static final int avchat_receive=0x7f0900c7;
+        public static final int avchat_refuse=0x7f0900c8;
+        public static final int avchat_switch_to_audio=0x7f0900c9;
+        public static final int avchat_switch_to_video=0x7f0900ca;
+        public static final int avchat_switch_video_reject=0x7f0900cb;
+        public static final int avchat_video_call_request=0x7f0900cc;
+        public static final int avchat_wait_recieve=0x7f0900cd;
+        public static final int begin_chat=0x7f0900ce;
+        public static final int birthday=0x7f0900cf;
+        public static final int black_list=0x7f0900d0;
+        public static final int black_list_send_tip=0x7f0900d1;
+        public static final int black_list_tip=0x7f0900d2;
+        public static final int bottom_sheet_behavior=0x7f0900d3;
+        public static final int btn_pay=0x7f0900d4;
+        public static final int btn_put=0x7f0900d5;
+        public static final int callee_ack_timeout=0x7f0900d6;
+        public static final int callee_reject=0x7f0900d7;
+        public static final int cancel=0x7f0900d8;
+        public static final int cancel_admin=0x7f0900d9;
+        public static final int cancel_muted=0x7f0900da;
+        public static final int cancel_normal_member=0x7f0900db;
+        public static final int cancel_team_admin=0x7f0900dc;
+        public static final int capture_video_size_in_kb=0x7f0900dd;
+        public static final int capture_video_size_in_mb=0x7f0900de;
+        public static final int card_num_empty=0x7f0900df;
+        public static final int card_num_error=0x7f0900e0;
+        public static final int character_counter_pattern=0x7f0900e1;
+        public static final int chat_room=0x7f0900e2;
+        public static final int chat_room_announcement=0x7f0900e3;
+        public static final int chat_room_master=0x7f0900e4;
+        public static final int chat_room_message=0x7f0900e5;
+        public static final int chat_room_online_people=0x7f0900e6;
+        public static final int chat_setting=0x7f0900e7;
+        public static final int chatroom_blacklist=0x7f0900e8;
+        public static final int chatroom_fetch_member_failed=0x7f0900e9;
+        public static final int chatroom_kick_member=0x7f0900ea;
+        public static final int chatroom_muted=0x7f0900eb;
+        public static final int chatroom_set_admin=0x7f0900ec;
+        public static final int check_rp=0x7f0900ed;
+        public static final int choose=0x7f0900ee;
+        public static final int choose_from_photo_album=0x7f0900ef;
+        public static final int clear_all_success=0x7f0900f0;
+        public static final int clear_empty=0x7f0900f1;
+        public static final int clear_index=0x7f0900f2;
+        public static final int clear_msg_history_success=0x7f0900f3;
+        public static final int clear_sdk_cache=0x7f0900f4;
+        public static final int click_set=0x7f0900f5;
+        public static final int client_aos=0x7f0900f6;
+        public static final int client_ios=0x7f0900f7;
+        public static final int close=0x7f0900f8;
         public static final int common_google_play_services_enable_button=0x7f090013;
         public static final int common_google_play_services_enable_text=0x7f090014;
         public static final int common_google_play_services_enable_title=0x7f090015;
@@ -8406,74 +8405,74 @@ containing a value of this type.
         public static final int common_open_on_phone=0x7f090021;
         public static final int common_signin_button_text=0x7f090022;
         public static final int common_signin_button_text_long=0x7f090023;
-        public static final int computer_version=0x7f0900f8;
+        public static final int computer_version=0x7f0900f9;
         public static final int connect_server_fail_prompt_toast=0x7f090027;
-        public static final int connect_vedio_device_fail=0x7f0900f9;
-        public static final int contact_selector=0x7f0900fa;
-        public static final int continue_trans=0x7f0900fb;
-        public static final int copy_has_blank=0x7f0900fc;
-        public static final int copyright=0x7f0900fd;
-        public static final int create=0x7f0900fe;
-        public static final int create_advanced_team=0x7f0900ff;
-        public static final int create_normal_team=0x7f090100;
-        public static final int create_team=0x7f090101;
-        public static final int create_team_failed=0x7f090102;
-        public static final int create_team_success=0x7f090103;
-        public static final int crop=0x7f090104;
-        public static final int custom_notification=0x7f090105;
-        public static final int default_web_client_id=0x7f090106;
-        public static final int delete_has_blank=0x7f090107;
-        public static final int delete_success=0x7f090108;
-        public static final int delete_system_message=0x7f090109;
-        public static final int delete_tip=0x7f09010a;
-        public static final int dismiss_team=0x7f09010b;
-        public static final int dismiss_team_failed=0x7f09010c;
-        public static final int dismiss_team_success=0x7f09010d;
-        public static final int done=0x7f09010e;
-        public static final int doodle_back=0x7f09010f;
-        public static final int doodle_clear=0x7f090110;
-        public static final int download_picture_fail=0x7f090111;
-        public static final int download_progress_description=0x7f090112;
-        public static final int download_text=0x7f090113;
-        public static final int download_video=0x7f090114;
-        public static final int download_video_fail=0x7f090115;
-        public static final int edit=0x7f090116;
-        public static final int email=0x7f090117;
-        public static final int empty=0x7f090118;
-        public static final int end_session_tip_content=0x7f090119;
-        public static final int end_session_tip_head=0x7f09011a;
+        public static final int connect_vedio_device_fail=0x7f0900fa;
+        public static final int contact_selector=0x7f0900fb;
+        public static final int continue_trans=0x7f0900fc;
+        public static final int copy_has_blank=0x7f0900fd;
+        public static final int copyright=0x7f0900fe;
+        public static final int create=0x7f0900ff;
+        public static final int create_advanced_team=0x7f090100;
+        public static final int create_normal_team=0x7f090101;
+        public static final int create_team=0x7f090102;
+        public static final int create_team_failed=0x7f090103;
+        public static final int create_team_success=0x7f090104;
+        public static final int crop=0x7f090105;
+        public static final int custom_notification=0x7f090106;
+        public static final int default_web_client_id=0x7f090107;
+        public static final int delete_has_blank=0x7f090108;
+        public static final int delete_success=0x7f090109;
+        public static final int delete_system_message=0x7f09010a;
+        public static final int delete_tip=0x7f09010b;
+        public static final int dismiss_team=0x7f09010c;
+        public static final int dismiss_team_failed=0x7f09010d;
+        public static final int dismiss_team_success=0x7f09010e;
+        public static final int done=0x7f09010f;
+        public static final int doodle_back=0x7f090110;
+        public static final int doodle_clear=0x7f090111;
+        public static final int download_picture_fail=0x7f090112;
+        public static final int download_progress_description=0x7f090113;
+        public static final int download_text=0x7f090114;
+        public static final int download_video=0x7f090115;
+        public static final int download_video_fail=0x7f090116;
+        public static final int edit=0x7f090117;
+        public static final int email=0x7f090118;
+        public static final int empty=0x7f090119;
+        public static final int end_session_tip_content=0x7f09011a;
+        public static final int end_session_tip_head=0x7f09011b;
         public static final int fcm_fallback_notification_channel_label=0x7f090024;
-        public static final int female=0x7f09011b;
-        public static final int file_browser=0x7f09011c;
-        public static final int file_transfer_state_downloaded=0x7f09011d;
-        public static final int file_transfer_state_undownload=0x7f09011e;
-        public static final int firebase_database_url=0x7f09011f;
-        public static final int forget_pwd=0x7f090120;
-        public static final int format_mylocation=0x7f090121;
-        public static final int forward_to_person=0x7f090122;
-        public static final int forward_to_team=0x7f090123;
-        public static final int friends_map_navigation_web=0x7f090124;
-        public static final int fts_enable=0x7f090125;
-        public static final int fts_prefix_hit=0x7f090126;
-        public static final int gallery_invalid=0x7f090127;
-        public static final int gcm_defaultSenderId=0x7f090128;
-        public static final int gender=0x7f090129;
+        public static final int female=0x7f09011c;
+        public static final int file_browser=0x7f09011d;
+        public static final int file_transfer_state_downloaded=0x7f09011e;
+        public static final int file_transfer_state_undownload=0x7f09011f;
+        public static final int firebase_database_url=0x7f090120;
+        public static final int forget_pwd=0x7f090121;
+        public static final int format_mylocation=0x7f090122;
+        public static final int forward_to_person=0x7f090123;
+        public static final int forward_to_team=0x7f090124;
+        public static final int friends_map_navigation_web=0x7f090125;
+        public static final int fts_enable=0x7f090126;
+        public static final int fts_prefix_hit=0x7f090127;
+        public static final int gallery_invalid=0x7f090128;
+        public static final int gcm_defaultSenderId=0x7f090129;
+        public static final int gender=0x7f09012a;
         public static final int getting_message_fail_prompt_toast=0x7f090028;
         public static final int glorious_recyclerview_load_more_failed=0x7f090083;
         public static final int glorious_recyclerview_loading_more=0x7f090084;
         public static final int glorious_recyclerview_no_more_data=0x7f090085;
-        public static final int google_api_key=0x7f09012a;
-        public static final int google_app_id=0x7f09012b;
-        public static final int google_crash_reporting_api_key=0x7f09012c;
-        public static final int google_storage_bucket=0x7f09012d;
-        public static final int has_exist_in_team=0x7f09012e;
-        public static final int head=0x7f09012f;
-        public static final int head_update_failed=0x7f090130;
-        public static final int head_update_success=0x7f090131;
+        public static final int google_api_key=0x7f09012b;
+        public static final int google_app_id=0x7f09012c;
+        public static final int google_crash_reporting_api_key=0x7f09012d;
+        public static final int google_storage_bucket=0x7f09012e;
+        public static final int has_exist_in_team=0x7f09012f;
+        public static final int head=0x7f090130;
+        public static final int head_update_failed=0x7f090131;
+        public static final int head_update_success=0x7f090132;
         public static final int hms_abort=0x7f090029;
         public static final int hms_abort_message=0x7f09002a;
         public static final int hms_bindfaildlg_message=0x7f09002b;
-        public static final int hms_bindfaildlg_title=0x7f090132;
+        public static final int hms_bindfaildlg_title=0x7f090133;
         public static final int hms_cancel=0x7f09002c;
         public static final int hms_check_failure=0x7f09002d;
         public static final int hms_check_no_update=0x7f09002e;
@@ -8494,141 +8493,141 @@ containing a value of this type.
         public static final int hms_update_message=0x7f09003d;
         public static final int hms_update_message_new=0x7f09003e;
         public static final int hms_update_title=0x7f09003f;
-        public static final int id_card_error=0x7f090133;
-        public static final int idcard_tip=0x7f090134;
-        public static final int iknow=0x7f090135;
-        public static final int im_choose_pic=0x7f090136;
-        public static final int im_choose_video=0x7f090137;
-        public static final int im_choose_video_file_size_too_large=0x7f090138;
-        public static final int image_compressed_size=0x7f090139;
-        public static final int image_show_error=0x7f09013a;
-        public static final int input_account=0x7f09013b;
-        public static final int input_nickname=0x7f09013c;
-        public static final int input_panel_RTS=0x7f09013d;
-        public static final int input_panel_ack_msg=0x7f09013e;
-        public static final int input_panel_audio_call=0x7f09013f;
-        public static final int input_panel_file=0x7f090140;
-        public static final int input_panel_guess=0x7f090141;
-        public static final int input_panel_location=0x7f090142;
-        public static final int input_panel_photo=0x7f090143;
-        public static final int input_panel_snapchat=0x7f090144;
-        public static final int input_panel_take=0x7f090145;
-        public static final int input_panel_tip=0x7f090146;
-        public static final int input_panel_video=0x7f090147;
-        public static final int input_panel_video_call=0x7f090148;
-        public static final int input_password=0x7f090149;
-        public static final int input_pwd=0x7f09014a;
-        public static final int input_verify_code=0x7f09014b;
-        public static final int input_verify_code_title=0x7f09014c;
-        public static final int internet_broken=0x7f09014d;
-        public static final int invite_member=0x7f09014e;
-        public static final int invite_member_failed=0x7f09014f;
-        public static final int invite_member_success=0x7f090150;
-        public static final int is_send_image=0x7f090151;
-        public static final int is_send_multi_image=0x7f090152;
-        public static final int is_send_video=0x7f090153;
-        public static final int jrmf_confirm=0x7f090154;
-        public static final int jrmf_pay_succ=0x7f090155;
-        public static final int jrmf_quit=0x7f090156;
-        public static final int jrmf_reback_dialog=0x7f090157;
-        public static final int jrmf_reback_tip=0x7f090158;
-        public static final int jrmf_rp_deposit_h5_notify_error=0x7f090159;
-        public static final int jrmf_rp_detail_title=0x7f09015a;
-        public static final int jrmf_rp_detail_title_freeze=0x7f09015b;
-        public static final int jrmf_rp_identity_actionbar_mm=0x7f09015c;
-        public static final int jrmf_rp_identity_actionbar_sm=0x7f09015d;
-        public static final int jrmf_rp_identity_bt_next=0x7f09015e;
-        public static final int jrmf_rp_identity_bt_ok=0x7f09015f;
-        public static final int jrmf_rp_identity_left=0x7f090160;
-        public static final int jrmf_rp_identity_psd_text=0x7f090161;
-        public static final int jrmf_rp_identity_right=0x7f090162;
-        public static final int jrmf_rp_identity_table=0x7f090163;
-        public static final int jrmf_rp_no_wx_tip=0x7f090164;
-        public static final int jrmf_trans_raback=0x7f090165;
-        public static final int jrmf_trans_succ=0x7f090166;
-        public static final int jrmf_trans_to=0x7f090167;
-        public static final int jrmf_trans_to_who=0x7f090168;
-        public static final int jrmf_trans_wait=0x7f090169;
-        public static final int jrmf_verify_card_fee=0x7f09016a;
-        public static final int jrmf_w_account_info_title=0x7f09016b;
-        public static final int jrmf_w_account_net_error=0x7f09016c;
-        public static final int jrmf_w_add_card_suc=0x7f09016d;
-        public static final int jrmf_w_card_des=0x7f09016e;
-        public static final int jrmf_w_card_id_error=0x7f09016f;
-        public static final int jrmf_w_card_limit=0x7f090170;
-        public static final int jrmf_w_card_num_error=0x7f090171;
-        public static final int jrmf_w_card_recharge_limit=0x7f090172;
-        public static final int jrmf_w_cardname_card_des=0x7f090173;
-        public static final int jrmf_w_charge=0x7f090174;
-        public static final int jrmf_w_charge_tip_dialog=0x7f090175;
-        public static final int jrmf_w_del_card_des=0x7f090176;
-        public static final int jrmf_w_deposit_fee_tip=0x7f090177;
-        public static final int jrmf_w_deposit_money=0x7f090178;
-        public static final int jrmf_w_deposit_tip=0x7f090179;
-        public static final int jrmf_w_detail_title=0x7f09017a;
-        public static final int jrmf_w_detail_title_freeze=0x7f09017b;
-        public static final int jrmf_w_get_code=0x7f09017c;
-        public static final int jrmf_w_get_deposit_low=0x7f09017d;
-        public static final int jrmf_w_get_deposit_over=0x7f09017e;
-        public static final int jrmf_w_get_pwd_title=0x7f09017f;
-        public static final int jrmf_w_id_card_error=0x7f090180;
-        public static final int jrmf_w_input_amount_error=0x7f090181;
-        public static final int jrmf_w_input_code=0x7f090182;
-        public static final int jrmf_w_input_code_error=0x7f090183;
-        public static final int jrmf_w_input_recharge_amount=0x7f090184;
-        public static final int jrmf_w_loading=0x7f090185;
-        public static final int jrmf_w_look_banks=0x7f090186;
-        public static final int jrmf_w_my_bank_title=0x7f090187;
-        public static final int jrmf_w_my_rp_title=0x7f090188;
-        public static final int jrmf_w_my_wallet_title=0x7f090189;
-        public static final int jrmf_w_name_error=0x7f09018a;
-        public static final int jrmf_w_net_error=0x7f09018b;
-        public static final int jrmf_w_net_error_l=0x7f09018c;
-        public static final int jrmf_w_no_authen=0x7f09018d;
-        public static final int jrmf_w_no_branch=0x7f09018e;
-        public static final int jrmf_w_no_card_bind=0x7f09018f;
-        public static final int jrmf_w_no_city=0x7f090190;
-        public static final int jrmf_w_no_input_amount=0x7f090191;
-        public static final int jrmf_w_no_input_branch=0x7f090192;
-        public static final int jrmf_w_no_sel_branch=0x7f090193;
-        public static final int jrmf_w_no_sel_city=0x7f090194;
-        public static final int jrmf_w_no_sel_province=0x7f090195;
-        public static final int jrmf_w_pay_protocol=0x7f090196;
-        public static final int jrmf_w_phone_num_error=0x7f090197;
-        public static final int jrmf_w_pin_rp=0x7f090198;
-        public static final int jrmf_w_pin_rp_done=0x7f090199;
-        public static final int jrmf_w_pin_rp_other=0x7f09019a;
-        public static final int jrmf_w_pin_rp_other_done=0x7f09019b;
-        public static final int jrmf_w_pwd_error=0x7f09019c;
-        public static final int jrmf_w_pwd_not_same=0x7f09019d;
-        public static final int jrmf_w_recharge_fail=0x7f09019e;
-        public static final int jrmf_w_recharge_money=0x7f09019f;
-        public static final int jrmf_w_recharge_suc=0x7f0901a0;
-        public static final int jrmf_w_req_code=0x7f0901a1;
-        public static final int jrmf_w_rp_no_grab_tip=0x7f0901a2;
-        public static final int jrmf_w_rp_receive_grab_tip1=0x7f0901a3;
-        public static final int jrmf_w_rp_receive_grab_tip2=0x7f0901a4;
-        public static final int jrmf_w_select_bank_card=0x7f0901a5;
-        public static final int jrmf_w_self_rp_has_left=0x7f0901a6;
-        public static final int jrmf_w_send_code_suc=0x7f0901a7;
-        public static final int jrmf_w_set_pwd_error=0x7f0901a8;
-        public static final int jrmf_w_set_pwd_suc=0x7f0901a9;
-        public static final int jrmf_w_set_user_info=0x7f0901aa;
-        public static final int jrmf_w_single_rp=0x7f0901ab;
-        public static final int jrmf_w_single_rp_done=0x7f0901ac;
-        public static final int jrmf_w_sub_bank_city=0x7f0901ad;
-        public static final int jrmf_w_sub_bank_province=0x7f0901ae;
-        public static final int jrmf_w_sup_bank_prompt=0x7f0901af;
-        public static final int jrmf_w_to_buttom=0x7f0901b0;
-        public static final int jrmf_w_unbind_suc=0x7f0901b1;
-        public static final int jrmf_w_update_pwd=0x7f0901b2;
-        public static final int jrmf_w_update_user_info=0x7f0901b3;
-        public static final int jrmf_w_update_userinfo_suc=0x7f0901b4;
-        public static final int jrmf_w_who_rp=0x7f0901b5;
-        public static final int js_bridge=0x7f0901b6;
-        public static final int js_bridge_demonstration=0x7f0901b7;
-        public static final int kickout_content=0x7f0901b8;
-        public static final int kickout_notify=0x7f0901b9;
+        public static final int id_card_error=0x7f090134;
+        public static final int idcard_tip=0x7f090135;
+        public static final int iknow=0x7f090136;
+        public static final int im_choose_pic=0x7f090137;
+        public static final int im_choose_video=0x7f090138;
+        public static final int im_choose_video_file_size_too_large=0x7f090139;
+        public static final int image_compressed_size=0x7f09013a;
+        public static final int image_show_error=0x7f09013b;
+        public static final int input_account=0x7f09013c;
+        public static final int input_nickname=0x7f09013d;
+        public static final int input_panel_RTS=0x7f09013e;
+        public static final int input_panel_ack_msg=0x7f09013f;
+        public static final int input_panel_audio_call=0x7f090140;
+        public static final int input_panel_file=0x7f090141;
+        public static final int input_panel_guess=0x7f090142;
+        public static final int input_panel_location=0x7f090143;
+        public static final int input_panel_photo=0x7f090144;
+        public static final int input_panel_snapchat=0x7f090145;
+        public static final int input_panel_take=0x7f090146;
+        public static final int input_panel_tip=0x7f090147;
+        public static final int input_panel_video=0x7f090148;
+        public static final int input_panel_video_call=0x7f090149;
+        public static final int input_password=0x7f09014a;
+        public static final int input_pwd=0x7f09014b;
+        public static final int input_verify_code=0x7f09014c;
+        public static final int input_verify_code_title=0x7f09014d;
+        public static final int internet_broken=0x7f09014e;
+        public static final int invite_member=0x7f09014f;
+        public static final int invite_member_failed=0x7f090150;
+        public static final int invite_member_success=0x7f090151;
+        public static final int is_send_image=0x7f090152;
+        public static final int is_send_multi_image=0x7f090153;
+        public static final int is_send_video=0x7f090154;
+        public static final int jrmf_confirm=0x7f090155;
+        public static final int jrmf_pay_succ=0x7f090156;
+        public static final int jrmf_quit=0x7f090157;
+        public static final int jrmf_reback_dialog=0x7f090158;
+        public static final int jrmf_reback_tip=0x7f090159;
+        public static final int jrmf_rp_deposit_h5_notify_error=0x7f09015a;
+        public static final int jrmf_rp_detail_title=0x7f09015b;
+        public static final int jrmf_rp_detail_title_freeze=0x7f09015c;
+        public static final int jrmf_rp_identity_actionbar_mm=0x7f09015d;
+        public static final int jrmf_rp_identity_actionbar_sm=0x7f09015e;
+        public static final int jrmf_rp_identity_bt_next=0x7f09015f;
+        public static final int jrmf_rp_identity_bt_ok=0x7f090160;
+        public static final int jrmf_rp_identity_left=0x7f090161;
+        public static final int jrmf_rp_identity_psd_text=0x7f090162;
+        public static final int jrmf_rp_identity_right=0x7f090163;
+        public static final int jrmf_rp_identity_table=0x7f090164;
+        public static final int jrmf_rp_no_wx_tip=0x7f090165;
+        public static final int jrmf_trans_raback=0x7f090166;
+        public static final int jrmf_trans_succ=0x7f090167;
+        public static final int jrmf_trans_to=0x7f090168;
+        public static final int jrmf_trans_to_who=0x7f090169;
+        public static final int jrmf_trans_wait=0x7f09016a;
+        public static final int jrmf_verify_card_fee=0x7f09016b;
+        public static final int jrmf_w_account_info_title=0x7f09016c;
+        public static final int jrmf_w_account_net_error=0x7f09016d;
+        public static final int jrmf_w_add_card_suc=0x7f09016e;
+        public static final int jrmf_w_card_des=0x7f09016f;
+        public static final int jrmf_w_card_id_error=0x7f090170;
+        public static final int jrmf_w_card_limit=0x7f090171;
+        public static final int jrmf_w_card_num_error=0x7f090172;
+        public static final int jrmf_w_card_recharge_limit=0x7f090173;
+        public static final int jrmf_w_cardname_card_des=0x7f090174;
+        public static final int jrmf_w_charge=0x7f090175;
+        public static final int jrmf_w_charge_tip_dialog=0x7f090176;
+        public static final int jrmf_w_del_card_des=0x7f090177;
+        public static final int jrmf_w_deposit_fee_tip=0x7f090178;
+        public static final int jrmf_w_deposit_money=0x7f090179;
+        public static final int jrmf_w_deposit_tip=0x7f09017a;
+        public static final int jrmf_w_detail_title=0x7f09017b;
+        public static final int jrmf_w_detail_title_freeze=0x7f09017c;
+        public static final int jrmf_w_get_code=0x7f09017d;
+        public static final int jrmf_w_get_deposit_low=0x7f09017e;
+        public static final int jrmf_w_get_deposit_over=0x7f09017f;
+        public static final int jrmf_w_get_pwd_title=0x7f090180;
+        public static final int jrmf_w_id_card_error=0x7f090181;
+        public static final int jrmf_w_input_amount_error=0x7f090182;
+        public static final int jrmf_w_input_code=0x7f090183;
+        public static final int jrmf_w_input_code_error=0x7f090184;
+        public static final int jrmf_w_input_recharge_amount=0x7f090185;
+        public static final int jrmf_w_loading=0x7f090186;
+        public static final int jrmf_w_look_banks=0x7f090187;
+        public static final int jrmf_w_my_bank_title=0x7f090188;
+        public static final int jrmf_w_my_rp_title=0x7f090189;
+        public static final int jrmf_w_my_wallet_title=0x7f09018a;
+        public static final int jrmf_w_name_error=0x7f09018b;
+        public static final int jrmf_w_net_error=0x7f09018c;
+        public static final int jrmf_w_net_error_l=0x7f09018d;
+        public static final int jrmf_w_no_authen=0x7f09018e;
+        public static final int jrmf_w_no_branch=0x7f09018f;
+        public static final int jrmf_w_no_card_bind=0x7f090190;
+        public static final int jrmf_w_no_city=0x7f090191;
+        public static final int jrmf_w_no_input_amount=0x7f090192;
+        public static final int jrmf_w_no_input_branch=0x7f090193;
+        public static final int jrmf_w_no_sel_branch=0x7f090194;
+        public static final int jrmf_w_no_sel_city=0x7f090195;
+        public static final int jrmf_w_no_sel_province=0x7f090196;
+        public static final int jrmf_w_pay_protocol=0x7f090197;
+        public static final int jrmf_w_phone_num_error=0x7f090198;
+        public static final int jrmf_w_pin_rp=0x7f090199;
+        public static final int jrmf_w_pin_rp_done=0x7f09019a;
+        public static final int jrmf_w_pin_rp_other=0x7f09019b;
+        public static final int jrmf_w_pin_rp_other_done=0x7f09019c;
+        public static final int jrmf_w_pwd_error=0x7f09019d;
+        public static final int jrmf_w_pwd_not_same=0x7f09019e;
+        public static final int jrmf_w_recharge_fail=0x7f09019f;
+        public static final int jrmf_w_recharge_money=0x7f0901a0;
+        public static final int jrmf_w_recharge_suc=0x7f0901a1;
+        public static final int jrmf_w_req_code=0x7f0901a2;
+        public static final int jrmf_w_rp_no_grab_tip=0x7f0901a3;
+        public static final int jrmf_w_rp_receive_grab_tip1=0x7f0901a4;
+        public static final int jrmf_w_rp_receive_grab_tip2=0x7f0901a5;
+        public static final int jrmf_w_select_bank_card=0x7f0901a6;
+        public static final int jrmf_w_self_rp_has_left=0x7f0901a7;
+        public static final int jrmf_w_send_code_suc=0x7f0901a8;
+        public static final int jrmf_w_set_pwd_error=0x7f0901a9;
+        public static final int jrmf_w_set_pwd_suc=0x7f0901aa;
+        public static final int jrmf_w_set_user_info=0x7f0901ab;
+        public static final int jrmf_w_single_rp=0x7f0901ac;
+        public static final int jrmf_w_single_rp_done=0x7f0901ad;
+        public static final int jrmf_w_sub_bank_city=0x7f0901ae;
+        public static final int jrmf_w_sub_bank_province=0x7f0901af;
+        public static final int jrmf_w_sup_bank_prompt=0x7f0901b0;
+        public static final int jrmf_w_to_buttom=0x7f0901b1;
+        public static final int jrmf_w_unbind_suc=0x7f0901b2;
+        public static final int jrmf_w_update_pwd=0x7f0901b3;
+        public static final int jrmf_w_update_user_info=0x7f0901b4;
+        public static final int jrmf_w_update_userinfo_suc=0x7f0901b5;
+        public static final int jrmf_w_who_rp=0x7f0901b6;
+        public static final int js_bridge=0x7f0901b7;
+        public static final int js_bridge_demonstration=0x7f0901b8;
+        public static final int kickout_content=0x7f0901b9;
+        public static final int kickout_notify=0x7f0901ba;
         public static final int leak_canary_analysis_failed=0x7f090054;
         public static final int leak_canary_class_has_leaked=0x7f090055;
         public static final int leak_canary_class_has_leaked_retaining=0x7f090056;
@@ -8661,71 +8660,71 @@ containing a value of this type.
         public static final int leak_canary_share_with=0x7f090071;
         public static final int leak_canary_storage_permission_activity_label=0x7f090072;
         public static final int leak_canary_toast_heap_dump=0x7f090073;
-        public static final int led=0x7f0901ba;
-        public static final int left_right=0x7f0901bb;
-        public static final int left_text=0x7f0901bc;
+        public static final int led=0x7f0901bb;
+        public static final int left_right=0x7f0901bc;
+        public static final int left_text=0x7f0901bd;
         public static final int load_end=0x7f090075;
         public static final int load_failed=0x7f090076;
         public static final int loading=0x7f090077;
-        public static final int local_db_migration=0x7f0901bd;
-        public static final int location_address_fail=0x7f0901be;
-        public static final int location_address_unkown=0x7f0901bf;
-        public static final int location_loading=0x7f0901c0;
-        public static final int location_map=0x7f0901c1;
-        public static final int location_navigate=0x7f0901c2;
-        public static final int location_open_map_error=0x7f0901c3;
-        public static final int login=0x7f0901c4;
-        public static final int login_exception=0x7f0901c5;
-        public static final int login_failed=0x7f0901c6;
-        public static final int login_has_account=0x7f0901c7;
-        public static final int login_hint_account=0x7f0901c8;
-        public static final int login_hint_password=0x7f0901c9;
-        public static final int logining=0x7f0901ca;
-        public static final int logout=0x7f0901cb;
-        public static final int look_up_original_photo_format=0x7f0901cc;
-        public static final int look_video_fail=0x7f0901cd;
-        public static final int look_video_fail_try_again=0x7f0901ce;
-        public static final int luck_rp=0x7f0901cf;
-        public static final int main_msg_list_clear_sticky_on_top=0x7f0901d0;
-        public static final int main_msg_list_delete_chatting=0x7f0901d1;
-        public static final int main_msg_list_sticky_on_top=0x7f0901d2;
-        public static final int main_tab_contact=0x7f0901d3;
-        public static final int main_tab_session=0x7f0901d4;
-        public static final int male=0x7f0901d5;
-        public static final int mangement=0x7f0901d6;
-        public static final int memory_out=0x7f0901d7;
-        public static final int menu=0x7f0901d8;
-        public static final int message_clear=0x7f0901d9;
-        public static final int message_history_query=0x7f0901da;
-        public static final int message_info=0x7f0901db;
-        public static final int message_search_no_result=0x7f0901dc;
-        public static final int message_search_title=0x7f0901dd;
-        public static final int mobile_version=0x7f0901de;
-        public static final int move_out_blacklist=0x7f0901df;
-        public static final int msg_notice=0x7f0901e0;
-        public static final int msg_search=0x7f0901e1;
-        public static final int msg_search_limit=0x7f0901e2;
-        public static final int msg_speaker=0x7f0901e3;
-        public static final int msg_type_audio=0x7f0901e4;
-        public static final int msg_type_image=0x7f0901e5;
-        public static final int multi_image_compressed_size=0x7f0901e6;
-        public static final int multiport_logging=0x7f0901e7;
-        public static final int multiport_logout=0x7f0901e8;
-        public static final int multiport_manager=0x7f0901e9;
-        public static final int multiport_push=0x7f0901ea;
-        public static final int mute_duration=0x7f0901eb;
-        public static final int mute_msg=0x7f0901ec;
-        public static final int my_location=0x7f0901ed;
-        public static final int my_team_card=0x7f0901ee;
-        public static final int name_error=0x7f0901ef;
-        public static final int name_tip=0x7f0901f0;
-        public static final int net_broken=0x7f0901f1;
-        public static final int net_error_l=0x7f0901f2;
-        public static final int network_error=0x7f0901f3;
-        public static final int network_is_not_available=0x7f0901f4;
-        public static final int nickname=0x7f0901f5;
-        public static final int nickname_empty=0x7f0901f6;
-        public static final int nim_robot_title=0x7f0901f7;
+        public static final int local_db_migration=0x7f0901be;
+        public static final int location_address_fail=0x7f0901bf;
+        public static final int location_address_unkown=0x7f0901c0;
+        public static final int location_loading=0x7f0901c1;
+        public static final int location_map=0x7f0901c2;
+        public static final int location_navigate=0x7f0901c3;
+        public static final int location_open_map_error=0x7f0901c4;
+        public static final int login=0x7f0901c5;
+        public static final int login_exception=0x7f0901c6;
+        public static final int login_failed=0x7f0901c7;
+        public static final int login_has_account=0x7f0901c8;
+        public static final int login_hint_account=0x7f0901c9;
+        public static final int login_hint_password=0x7f0901ca;
+        public static final int logining=0x7f0901cb;
+        public static final int logout=0x7f0901cc;
+        public static final int look_up_original_photo_format=0x7f0901cd;
+        public static final int look_video_fail=0x7f0901ce;
+        public static final int look_video_fail_try_again=0x7f0901cf;
+        public static final int luck_rp=0x7f0901d0;
+        public static final int main_msg_list_clear_sticky_on_top=0x7f0901d1;
+        public static final int main_msg_list_delete_chatting=0x7f0901d2;
+        public static final int main_msg_list_sticky_on_top=0x7f0901d3;
+        public static final int main_tab_contact=0x7f0901d4;
+        public static final int main_tab_session=0x7f0901d5;
+        public static final int male=0x7f0901d6;
+        public static final int mangement=0x7f0901d7;
+        public static final int memory_out=0x7f0901d8;
+        public static final int menu=0x7f0901d9;
+        public static final int message_clear=0x7f0901da;
+        public static final int message_history_query=0x7f0901db;
+        public static final int message_info=0x7f0901dc;
+        public static final int message_search_no_result=0x7f0901dd;
+        public static final int message_search_title=0x7f0901de;
+        public static final int mobile_version=0x7f0901df;
+        public static final int move_out_blacklist=0x7f0901e0;
+        public static final int msg_notice=0x7f0901e1;
+        public static final int msg_search=0x7f0901e2;
+        public static final int msg_search_limit=0x7f0901e3;
+        public static final int msg_speaker=0x7f0901e4;
+        public static final int msg_type_audio=0x7f0901e5;
+        public static final int msg_type_image=0x7f0901e6;
+        public static final int multi_image_compressed_size=0x7f0901e7;
+        public static final int multiport_logging=0x7f0901e8;
+        public static final int multiport_logout=0x7f0901e9;
+        public static final int multiport_manager=0x7f0901ea;
+        public static final int multiport_push=0x7f0901eb;
+        public static final int mute_duration=0x7f0901ec;
+        public static final int mute_msg=0x7f0901ed;
+        public static final int my_location=0x7f0901ee;
+        public static final int my_team_card=0x7f0901ef;
+        public static final int name_error=0x7f0901f0;
+        public static final int name_tip=0x7f0901f1;
+        public static final int net_broken=0x7f0901f2;
+        public static final int net_error_l=0x7f0901f3;
+        public static final int network_error=0x7f0901f4;
+        public static final int network_is_not_available=0x7f0901f5;
+        public static final int nickname=0x7f0901f6;
+        public static final int nickname_empty=0x7f0901f7;
+        public static final int nim_robot_title=0x7f0901f8;
         public static final int nim_status_bar_audio_message=0x7f090078;
         public static final int nim_status_bar_custom_message=0x7f090079;
         public static final int nim_status_bar_file_message=0x7f09007a;
@@ -8737,300 +8736,300 @@ containing a value of this type.
         public static final int nim_status_bar_ticker_text=0x7f090080;
         public static final int nim_status_bar_unsupported_message=0x7f090081;
         public static final int nim_status_bar_video_message=0x7f090082;
-        public static final int nim_status_connecting=0x7f0901f8;
-        public static final int nim_status_logining=0x7f0901f9;
-        public static final int nim_status_unlogin=0x7f0901fa;
-        public static final int no_announcement=0x7f0901fb;
+        public static final int nim_status_connecting=0x7f0901f9;
+        public static final int nim_status_logining=0x7f0901fa;
+        public static final int nim_status_unlogin=0x7f0901fb;
+        public static final int no_announcement=0x7f0901fc;
         public static final int no_available_network_prompt_toast=0x7f090040;
-        public static final int no_disturb=0x7f0901fc;
-        public static final int no_disturb_tips=0x7f0901fd;
-        public static final int no_normal_team=0x7f0901fe;
-        public static final int no_permission=0x7f0901ff;
-        public static final int no_rp=0x7f090200;
-        public static final int no_rp_normal=0x7f090201;
-        public static final int no_team=0x7f090202;
-        public static final int normal_rp=0x7f090203;
-        public static final int normal_team=0x7f090204;
-        public static final int normal_team_invalid_tip=0x7f090205;
-        public static final int normal_team_name=0x7f090206;
-        public static final int normal_team_not_exist=0x7f090207;
-        public static final int not_allow_empty=0x7f090208;
-        public static final int notice_content=0x7f090209;
-        public static final int now_allow_space=0x7f09020a;
-        public static final int nrtc_setting_other=0x7f09020b;
-        public static final int nrtc_setting_other_device_default_rotation=0x7f09020c;
-        public static final int nrtc_setting_other_device_default_rotation_key=0x7f09020d;
-        public static final int nrtc_setting_other_device_rotation_fixed_offset=0x7f09020e;
-        public static final int nrtc_setting_other_device_rotation_fixed_offset_key=0x7f09020f;
-        public static final int nrtc_setting_other_server_record_audio=0x7f090210;
-        public static final int nrtc_setting_other_server_record_audio_key=0x7f090211;
-        public static final int nrtc_setting_other_server_record_video=0x7f090212;
-        public static final int nrtc_setting_other_server_record_video_key=0x7f090213;
-        public static final int nrtc_setting_vie=0x7f090214;
-        public static final int nrtc_setting_vie_crop_ratio=0x7f090215;
-        public static final int nrtc_setting_vie_crop_ratio_key=0x7f090216;
-        public static final int nrtc_setting_vie_default_front_camera=0x7f090217;
-        public static final int nrtc_setting_vie_default_front_camera_key=0x7f090218;
-        public static final int nrtc_setting_vie_fps_reported=0x7f090219;
-        public static final int nrtc_setting_vie_fps_reported_key=0x7f09021a;
-        public static final int nrtc_setting_vie_hw_decoder=0x7f09021b;
-        public static final int nrtc_setting_vie_hw_decoder_key=0x7f09021c;
-        public static final int nrtc_setting_vie_hw_encoder=0x7f09021d;
-        public static final int nrtc_setting_vie_hw_encoder_key=0x7f09021e;
-        public static final int nrtc_setting_vie_max_bitrate=0x7f09021f;
-        public static final int nrtc_setting_vie_max_bitrate_key=0x7f090220;
-        public static final int nrtc_setting_vie_quality=0x7f090221;
-        public static final int nrtc_setting_vie_quality_key=0x7f090222;
-        public static final int nrtc_setting_vie_rotation=0x7f090223;
-        public static final int nrtc_setting_vie_rotation_key=0x7f090224;
-        public static final int nrtc_setting_voe=0x7f090225;
-        public static final int nrtc_setting_voe_audio_aec=0x7f090226;
-        public static final int nrtc_setting_voe_audio_aec_key=0x7f090227;
-        public static final int nrtc_setting_voe_audio_ns=0x7f090228;
-        public static final int nrtc_setting_voe_audio_ns_key=0x7f090229;
-        public static final int nrtc_setting_voe_call_proximity=0x7f09022a;
-        public static final int nrtc_setting_voe_call_proximity_key=0x7f09022b;
-        public static final int nrtc_setting_voe_high_quality=0x7f09022c;
-        public static final int nrtc_setting_voe_high_quality_key=0x7f09022d;
-        public static final int nrtc_settings=0x7f09022e;
-        public static final int off_line=0x7f09022f;
-        public static final int ok=0x7f090230;
-        public static final int on_line=0x7f090231;
-        public static final int on_line_busy=0x7f090232;
-        public static final int on_line_mac=0x7f090233;
-        public static final int on_line_pc=0x7f090234;
-        public static final int on_line_web=0x7f090235;
-        public static final int online=0x7f090236;
-        public static final int open=0x7f090237;
-        public static final int open_rp=0x7f090238;
-        public static final int operation_too_frequent=0x7f090239;
-        public static final int other=0x7f09023a;
-        public static final int over_team_capacity=0x7f09023b;
-        public static final int over_team_member_capacity=0x7f09023c;
-        public static final int password_toggle_content_description=0x7f09023d;
-        public static final int path_password_eye=0x7f09023e;
-        public static final int path_password_eye_mask_strike_through=0x7f09023f;
-        public static final int path_password_eye_mask_visible=0x7f090240;
-        public static final int path_password_strike_through=0x7f090241;
-        public static final int pay_failure=0x7f090242;
-        public static final int pay_waiting=0x7f090243;
-        public static final int phone=0x7f090244;
-        public static final int phone_number=0x7f090245;
-        public static final int phone_tip=0x7f090246;
-        public static final int pic_and_video=0x7f090247;
-        public static final int picker_image_album_empty=0x7f090248;
-        public static final int picker_image_album_loading=0x7f090249;
-        public static final int picker_image_error=0x7f09024a;
-        public static final int picker_image_exceed_max_image_select=0x7f09024b;
-        public static final int picker_image_folder=0x7f09024c;
-        public static final int picker_image_folder_info=0x7f09024d;
-        public static final int picker_image_preview=0x7f09024e;
-        public static final int picker_image_preview_original=0x7f09024f;
-        public static final int picker_image_preview_original_select=0x7f090250;
-        public static final int picker_image_send=0x7f090251;
-        public static final int picker_image_send_select=0x7f090252;
-        public static final int pickerview_cancel=0x7f090253;
-        public static final int pickerview_day=0x7f090254;
-        public static final int pickerview_hours=0x7f090255;
-        public static final int pickerview_minutes=0x7f090256;
-        public static final int pickerview_month=0x7f090257;
-        public static final int pickerview_seconds=0x7f090258;
-        public static final int pickerview_submit=0x7f090259;
-        public static final int pickerview_year=0x7f09025a;
-        public static final int picture_save_fail=0x7f09025b;
-        public static final int picture_save_to=0x7f09025c;
-        public static final int pin_rp_done=0x7f09025d;
-        public static final int pin_rp_other=0x7f09025e;
-        public static final int pin_rp_other_done=0x7f09025f;
-        public static final int please_pay=0x7f090260;
-        public static final int prepare_data=0x7f090261;
-        public static final int private_config_note=0x7f090262;
-        public static final int privatization_config=0x7f090263;
-        public static final int push_no_detail=0x7f090264;
-        public static final int pwd_not_same=0x7f090265;
-        public static final int quit_normal_team=0x7f090266;
-        public static final int quit_normal_team_failed=0x7f090267;
-        public static final int quit_normal_team_success=0x7f090268;
-        public static final int quit_team=0x7f090269;
-        public static final int quit_team_failed=0x7f09026a;
-        public static final int quit_team_success=0x7f09026b;
-        public static final int re_send_code=0x7f09026c;
-        public static final int reach_capacity=0x7f09026d;
-        public static final int reach_team_member_capacity=0x7f09026e;
-        public static final int readed=0x7f09026f;
-        public static final int recapture=0x7f090270;
-        public static final int receive_session=0x7f090271;
-        public static final int recent_sticky=0x7f090272;
-        public static final int record_audio=0x7f090273;
-        public static final int record_audio_end=0x7f090274;
-        public static final int recording_cancel=0x7f090275;
-        public static final int recording_cancel_tip=0x7f090276;
-        public static final int recording_error=0x7f090277;
-        public static final int recording_init_failed=0x7f090278;
-        public static final int recording_max_time=0x7f090279;
-        public static final int red_packet=0x7f09027a;
-        public static final int register=0x7f09027b;
-        public static final int register_account_tip=0x7f09027c;
-        public static final int register_failed=0x7f09027d;
-        public static final int register_nick_name_tip=0x7f09027e;
-        public static final int register_password_tip=0x7f09027f;
-        public static final int register_success=0x7f090280;
-        public static final int registering=0x7f090281;
-        public static final int reject=0x7f090282;
-        public static final int reject_session=0x7f090283;
-        public static final int remove=0x7f090284;
-        public static final int remove_friend=0x7f090285;
-        public static final int remove_friend_success=0x7f090286;
-        public static final int remove_friend_tip=0x7f090287;
-        public static final int remove_member=0x7f090288;
-        public static final int remove_member_failed=0x7f090289;
-        public static final int remove_member_success=0x7f09028a;
-        public static final int repeat_download_message=0x7f09028b;
-        public static final int repeat_send_has_blank=0x7f09028c;
-        public static final int repeat_send_message=0x7f09028d;
-        public static final int res_pwd_succ=0x7f09028e;
-        public static final int revoke_failed=0x7f09028f;
-        public static final int ring=0x7f090290;
-        public static final int robot_start_chat=0x7f090291;
-        public static final int rp_expire=0x7f090292;
-        public static final int rp_no_grab_tip=0x7f090293;
-        public static final int rp_push_content=0x7f090294;
-        public static final int rp_receive_grab_tip1=0x7f090295;
-        public static final int rp_receive_grab_tip2=0x7f090296;
-        public static final int save=0x7f090297;
-        public static final int save_to_device=0x7f090298;
-        public static final int sdcard_not_enough_error=0x7f090299;
-        public static final int sdcard_not_enough_head_error=0x7f09029a;
-        public static final int sdcard_not_exist_error=0x7f09029b;
-        public static final int search=0x7f09029c;
-        public static final int search_advanced_team=0x7f09029d;
-        public static final int search_join_team=0x7f09029e;
+        public static final int no_disturb=0x7f0901fd;
+        public static final int no_disturb_tips=0x7f0901fe;
+        public static final int no_normal_team=0x7f0901ff;
+        public static final int no_permission=0x7f090200;
+        public static final int no_rp=0x7f090201;
+        public static final int no_rp_normal=0x7f090202;
+        public static final int no_team=0x7f090203;
+        public static final int normal_rp=0x7f090204;
+        public static final int normal_team=0x7f090205;
+        public static final int normal_team_invalid_tip=0x7f090206;
+        public static final int normal_team_name=0x7f090207;
+        public static final int normal_team_not_exist=0x7f090208;
+        public static final int not_allow_empty=0x7f090209;
+        public static final int notice_content=0x7f09020a;
+        public static final int now_allow_space=0x7f09020b;
+        public static final int nrtc_setting_other=0x7f09020c;
+        public static final int nrtc_setting_other_device_default_rotation=0x7f09020d;
+        public static final int nrtc_setting_other_device_default_rotation_key=0x7f09020e;
+        public static final int nrtc_setting_other_device_rotation_fixed_offset=0x7f09020f;
+        public static final int nrtc_setting_other_device_rotation_fixed_offset_key=0x7f090210;
+        public static final int nrtc_setting_other_server_record_audio=0x7f090211;
+        public static final int nrtc_setting_other_server_record_audio_key=0x7f090212;
+        public static final int nrtc_setting_other_server_record_video=0x7f090213;
+        public static final int nrtc_setting_other_server_record_video_key=0x7f090214;
+        public static final int nrtc_setting_vie=0x7f090215;
+        public static final int nrtc_setting_vie_crop_ratio=0x7f090216;
+        public static final int nrtc_setting_vie_crop_ratio_key=0x7f090217;
+        public static final int nrtc_setting_vie_default_front_camera=0x7f090218;
+        public static final int nrtc_setting_vie_default_front_camera_key=0x7f090219;
+        public static final int nrtc_setting_vie_fps_reported=0x7f09021a;
+        public static final int nrtc_setting_vie_fps_reported_key=0x7f09021b;
+        public static final int nrtc_setting_vie_hw_decoder=0x7f09021c;
+        public static final int nrtc_setting_vie_hw_decoder_key=0x7f09021d;
+        public static final int nrtc_setting_vie_hw_encoder=0x7f09021e;
+        public static final int nrtc_setting_vie_hw_encoder_key=0x7f09021f;
+        public static final int nrtc_setting_vie_max_bitrate=0x7f090220;
+        public static final int nrtc_setting_vie_max_bitrate_key=0x7f090221;
+        public static final int nrtc_setting_vie_quality=0x7f090222;
+        public static final int nrtc_setting_vie_quality_key=0x7f090223;
+        public static final int nrtc_setting_vie_rotation=0x7f090224;
+        public static final int nrtc_setting_vie_rotation_key=0x7f090225;
+        public static final int nrtc_setting_voe=0x7f090226;
+        public static final int nrtc_setting_voe_audio_aec=0x7f090227;
+        public static final int nrtc_setting_voe_audio_aec_key=0x7f090228;
+        public static final int nrtc_setting_voe_audio_ns=0x7f090229;
+        public static final int nrtc_setting_voe_audio_ns_key=0x7f09022a;
+        public static final int nrtc_setting_voe_call_proximity=0x7f09022b;
+        public static final int nrtc_setting_voe_call_proximity_key=0x7f09022c;
+        public static final int nrtc_setting_voe_high_quality=0x7f09022d;
+        public static final int nrtc_setting_voe_high_quality_key=0x7f09022e;
+        public static final int nrtc_settings=0x7f09022f;
+        public static final int off_line=0x7f090230;
+        public static final int ok=0x7f090231;
+        public static final int on_line=0x7f090232;
+        public static final int on_line_busy=0x7f090233;
+        public static final int on_line_mac=0x7f090234;
+        public static final int on_line_pc=0x7f090235;
+        public static final int on_line_web=0x7f090236;
+        public static final int online=0x7f090237;
+        public static final int open=0x7f090238;
+        public static final int open_rp=0x7f090239;
+        public static final int operation_too_frequent=0x7f09023a;
+        public static final int other=0x7f09023b;
+        public static final int over_team_capacity=0x7f09023c;
+        public static final int over_team_member_capacity=0x7f09023d;
+        public static final int password_toggle_content_description=0x7f09023e;
+        public static final int path_password_eye=0x7f09023f;
+        public static final int path_password_eye_mask_strike_through=0x7f090240;
+        public static final int path_password_eye_mask_visible=0x7f090241;
+        public static final int path_password_strike_through=0x7f090242;
+        public static final int pay_failure=0x7f090243;
+        public static final int pay_waiting=0x7f090244;
+        public static final int phone=0x7f090245;
+        public static final int phone_number=0x7f090246;
+        public static final int phone_tip=0x7f090247;
+        public static final int pic_and_video=0x7f090248;
+        public static final int picker_image_album_empty=0x7f090249;
+        public static final int picker_image_album_loading=0x7f09024a;
+        public static final int picker_image_error=0x7f09024b;
+        public static final int picker_image_exceed_max_image_select=0x7f09024c;
+        public static final int picker_image_folder=0x7f09024d;
+        public static final int picker_image_folder_info=0x7f09024e;
+        public static final int picker_image_preview=0x7f09024f;
+        public static final int picker_image_preview_original=0x7f090250;
+        public static final int picker_image_preview_original_select=0x7f090251;
+        public static final int picker_image_send=0x7f090252;
+        public static final int picker_image_send_select=0x7f090253;
+        public static final int pickerview_cancel=0x7f090254;
+        public static final int pickerview_day=0x7f090255;
+        public static final int pickerview_hours=0x7f090256;
+        public static final int pickerview_minutes=0x7f090257;
+        public static final int pickerview_month=0x7f090258;
+        public static final int pickerview_seconds=0x7f090259;
+        public static final int pickerview_submit=0x7f09025a;
+        public static final int pickerview_year=0x7f09025b;
+        public static final int picture_save_fail=0x7f09025c;
+        public static final int picture_save_to=0x7f09025d;
+        public static final int pin_rp_done=0x7f09025e;
+        public static final int pin_rp_other=0x7f09025f;
+        public static final int pin_rp_other_done=0x7f090260;
+        public static final int please_pay=0x7f090261;
+        public static final int prepare_data=0x7f090262;
+        public static final int private_config_note=0x7f090263;
+        public static final int privatization_config=0x7f090264;
+        public static final int push_no_detail=0x7f090265;
+        public static final int pwd_not_same=0x7f090266;
+        public static final int quit_normal_team=0x7f090267;
+        public static final int quit_normal_team_failed=0x7f090268;
+        public static final int quit_normal_team_success=0x7f090269;
+        public static final int quit_team=0x7f09026a;
+        public static final int quit_team_failed=0x7f09026b;
+        public static final int quit_team_success=0x7f09026c;
+        public static final int re_send_code=0x7f09026d;
+        public static final int reach_capacity=0x7f09026e;
+        public static final int reach_team_member_capacity=0x7f09026f;
+        public static final int readed=0x7f090270;
+        public static final int recapture=0x7f090271;
+        public static final int receive_session=0x7f090272;
+        public static final int recent_sticky=0x7f090273;
+        public static final int record_audio=0x7f090274;
+        public static final int record_audio_end=0x7f090275;
+        public static final int recording_cancel=0x7f090276;
+        public static final int recording_cancel_tip=0x7f090277;
+        public static final int recording_error=0x7f090278;
+        public static final int recording_init_failed=0x7f090279;
+        public static final int recording_max_time=0x7f09027a;
+        public static final int red_packet=0x7f09027b;
+        public static final int register=0x7f09027c;
+        public static final int register_account_tip=0x7f09027d;
+        public static final int register_failed=0x7f09027e;
+        public static final int register_nick_name_tip=0x7f09027f;
+        public static final int register_password_tip=0x7f090280;
+        public static final int register_success=0x7f090281;
+        public static final int registering=0x7f090282;
+        public static final int reject=0x7f090283;
+        public static final int reject_session=0x7f090284;
+        public static final int remove=0x7f090285;
+        public static final int remove_friend=0x7f090286;
+        public static final int remove_friend_success=0x7f090287;
+        public static final int remove_friend_tip=0x7f090288;
+        public static final int remove_member=0x7f090289;
+        public static final int remove_member_failed=0x7f09028a;
+        public static final int remove_member_success=0x7f09028b;
+        public static final int repeat_download_message=0x7f09028c;
+        public static final int repeat_send_has_blank=0x7f09028d;
+        public static final int repeat_send_message=0x7f09028e;
+        public static final int res_pwd_succ=0x7f09028f;
+        public static final int revoke_failed=0x7f090290;
+        public static final int ring=0x7f090291;
+        public static final int robot_start_chat=0x7f090292;
+        public static final int rp_expire=0x7f090293;
+        public static final int rp_no_grab_tip=0x7f090294;
+        public static final int rp_push_content=0x7f090295;
+        public static final int rp_receive_grab_tip1=0x7f090296;
+        public static final int rp_receive_grab_tip2=0x7f090297;
+        public static final int save=0x7f090298;
+        public static final int save_to_device=0x7f090299;
+        public static final int sdcard_not_enough_error=0x7f09029a;
+        public static final int sdcard_not_enough_head_error=0x7f09029b;
+        public static final int sdcard_not_exist_error=0x7f09029c;
+        public static final int search=0x7f09029d;
+        public static final int search_advanced_team=0x7f09029e;
+        public static final int search_join_team=0x7f09029f;
         public static final int search_menu_title=0x7f090025;
-        public static final int select_custom_notification_target=0x7f09029f;
-        public static final int self_rp_has_left=0x7f0902a0;
-        public static final int send=0x7f0902a1;
-        public static final int send_ack_msg=0x7f0902a2;
-        public static final int send_code=0x7f0902a3;
-        public static final int send_custom_notification_failed=0x7f0902a4;
-        public static final int send_custom_notification_success=0x7f0902a5;
-        public static final int send_custom_notification_tip=0x7f0902a6;
-        public static final int send_custom_notification_to_buddy=0x7f0902a7;
-        public static final int send_custom_notification_to_team=0x7f0902a8;
-        public static final int session_end_record=0x7f0902a9;
-        public static final int set_head_image=0x7f0902aa;
-        public static final int set_normal_member=0x7f0902ab;
-        public static final int set_success=0x7f0902ac;
-        public static final int set_team_admin=0x7f0902ad;
-        public static final int set_temp_mute_not_notify=0x7f0902ae;
-        public static final int set_temp_mute_notify=0x7f0902af;
-        public static final int setting_about=0x7f0902b0;
-        public static final int setting_close=0x7f0902b1;
-        public static final int setting_private_config=0x7f0902b2;
-        public static final int settings=0x7f0902b3;
-        public static final int signature=0x7f0902b4;
-        public static final int single_rp=0x7f0902b5;
-        public static final int single_rp_done=0x7f0902b6;
-        public static final int snapchat_longclick_to_view=0x7f0902b7;
-        public static final int start_camera_to_record_failed=0x7f0902b8;
-        public static final int start_session=0x7f0902b9;
-        public static final int start_session_record=0x7f0902ba;
+        public static final int select_custom_notification_target=0x7f0902a0;
+        public static final int self_rp_has_left=0x7f0902a1;
+        public static final int send=0x7f0902a2;
+        public static final int send_ack_msg=0x7f0902a3;
+        public static final int send_code=0x7f0902a4;
+        public static final int send_custom_notification_failed=0x7f0902a5;
+        public static final int send_custom_notification_success=0x7f0902a6;
+        public static final int send_custom_notification_tip=0x7f0902a7;
+        public static final int send_custom_notification_to_buddy=0x7f0902a8;
+        public static final int send_custom_notification_to_team=0x7f0902a9;
+        public static final int session_end_record=0x7f0902aa;
+        public static final int set_head_image=0x7f0902ab;
+        public static final int set_normal_member=0x7f0902ac;
+        public static final int set_success=0x7f0902ad;
+        public static final int set_team_admin=0x7f0902ae;
+        public static final int set_temp_mute_not_notify=0x7f0902af;
+        public static final int set_temp_mute_notify=0x7f0902b0;
+        public static final int setting_about=0x7f0902b1;
+        public static final int setting_close=0x7f0902b2;
+        public static final int setting_private_config=0x7f0902b3;
+        public static final int settings=0x7f0902b4;
+        public static final int signature=0x7f0902b5;
+        public static final int single_rp=0x7f0902b6;
+        public static final int single_rp_done=0x7f0902b7;
+        public static final int snapchat_longclick_to_view=0x7f0902b8;
+        public static final int start_camera_to_record_failed=0x7f0902b9;
+        public static final int start_session=0x7f0902ba;
+        public static final int start_session_record=0x7f0902bb;
         public static final int status_bar_notification_info_overflow=0x7f090026;
-        public static final int stop_fail_maybe_stopped=0x7f0902bb;
-        public static final int t_avchat_create_room_fail=0x7f0902bc;
-        public static final int t_avchat_join_fail_not_exist=0x7f0902bd;
-        public static final int t_avchat_not_start_with_less_member=0x7f0902be;
-        public static final int t_avchat_push_content=0x7f0902bf;
-        public static final int t_avchat_start=0x7f0902c0;
-        public static final int target_has_end_session=0x7f0902c1;
-        public static final int task=0x7f0902c2;
-        public static final int task_add_activity=0x7f0902c3;
-        public static final int task_add_task=0x7f0902c4;
-        public static final int task_calender=0x7f0902c5;
-        public static final int task_data_analysis=0x7f0902c6;
-        public static final int task_detail=0x7f0902c7;
-        public static final int task_management=0x7f0902c8;
-        public static final int task_message=0x7f0902c9;
-        public static final int task_schedule=0x7f0902ca;
-        public static final int task_search=0x7f0902cb;
-        public static final int team_admin=0x7f0902cc;
-        public static final int team_admin_invite=0x7f0902cd;
-        public static final int team_admin_update=0x7f0902ce;
-        public static final int team_allow_anyone_join=0x7f0902cf;
-        public static final int team_announce_content=0x7f0902d0;
-        public static final int team_announce_hint=0x7f0902d1;
-        public static final int team_announce_notice=0x7f0902d2;
-        public static final int team_announce_title=0x7f0902d3;
-        public static final int team_annourcement=0x7f0902d4;
-        public static final int team_apply_sending=0x7f0902d5;
-        public static final int team_apply_to_join=0x7f0902d6;
-        public static final int team_apply_to_join_send_success=0x7f0902d7;
-        public static final int team_authentication=0x7f0902d8;
-        public static final int team_create_notice=0x7f0902d9;
-        public static final int team_creator=0x7f0902da;
-        public static final int team_everyone_invite=0x7f0902db;
-        public static final int team_everyone_update=0x7f0902dc;
-        public static final int team_extension=0x7f0902dd;
-        public static final int team_extension_hint=0x7f0902de;
-        public static final int team_identity=0x7f0902df;
-        public static final int team_info_update=0x7f0902e0;
-        public static final int team_introduce=0x7f0902e1;
-        public static final int team_introduce_hint=0x7f0902e2;
-        public static final int team_invalid_tip=0x7f0902e3;
-        public static final int team_invite=0x7f0902e4;
-        public static final int team_invite_members_failed=0x7f0902e5;
-        public static final int team_invite_members_success=0x7f0902e6;
-        public static final int team_invitee_authentication=0x7f0902e7;
-        public static final int team_invitee_need_authen=0x7f0902e8;
-        public static final int team_invitee_not_need_authen=0x7f0902e9;
-        public static final int team_join=0x7f0902ea;
-        public static final int team_join_success=0x7f0902eb;
-        public static final int team_member=0x7f0902ec;
-        public static final int team_member_info=0x7f0902ed;
-        public static final int team_member_remove_confirm=0x7f0902ee;
-        public static final int team_name=0x7f0902ef;
-        public static final int team_name_toast=0x7f0902f0;
-        public static final int team_need_authentication=0x7f0902f1;
-        public static final int team_nickname=0x7f0902f2;
-        public static final int team_nickname_none=0x7f0902f3;
-        public static final int team_not_allow_anyone_join=0x7f0902f4;
-        public static final int team_not_exist=0x7f0902f5;
-        public static final int team_notification_config=0x7f0902f6;
-        public static final int team_notify_all=0x7f0902f7;
-        public static final int team_notify_manager=0x7f0902f8;
-        public static final int team_notify_mute=0x7f0902f9;
-        public static final int team_num_limit=0x7f0902fa;
-        public static final int team_number_not_exist=0x7f0902fb;
-        public static final int team_search_hint=0x7f0902fc;
-        public static final int team_send_message_not_allow=0x7f0902fd;
-        public static final int team_settings_name=0x7f0902fe;
-        public static final int team_settings_set_name=0x7f0902ff;
-        public static final int team_transfer_failed=0x7f090300;
-        public static final int team_transfer_success=0x7f090301;
-        public static final int team_transfer_without_member=0x7f090302;
-        public static final int team_update_cancel=0x7f090303;
-        public static final int team_update_failed=0x7f090304;
+        public static final int stop_fail_maybe_stopped=0x7f0902bc;
+        public static final int t_avchat_create_room_fail=0x7f0902bd;
+        public static final int t_avchat_join_fail_not_exist=0x7f0902be;
+        public static final int t_avchat_not_start_with_less_member=0x7f0902bf;
+        public static final int t_avchat_push_content=0x7f0902c0;
+        public static final int t_avchat_start=0x7f0902c1;
+        public static final int target_has_end_session=0x7f0902c2;
+        public static final int task=0x7f0902c3;
+        public static final int task_add_activity=0x7f0902c4;
+        public static final int task_add_task=0x7f0902c5;
+        public static final int task_calender=0x7f0902c6;
+        public static final int task_data_analysis=0x7f0902c7;
+        public static final int task_detail=0x7f0902c8;
+        public static final int task_management=0x7f0902c9;
+        public static final int task_message=0x7f0902ca;
+        public static final int task_schedule=0x7f0902cb;
+        public static final int task_search=0x7f0902cc;
+        public static final int team_admin=0x7f0902cd;
+        public static final int team_admin_invite=0x7f0902ce;
+        public static final int team_admin_update=0x7f0902cf;
+        public static final int team_allow_anyone_join=0x7f0902d0;
+        public static final int team_announce_content=0x7f0902d1;
+        public static final int team_announce_hint=0x7f0902d2;
+        public static final int team_announce_notice=0x7f0902d3;
+        public static final int team_announce_title=0x7f0902d4;
+        public static final int team_annourcement=0x7f0902d5;
+        public static final int team_apply_sending=0x7f0902d6;
+        public static final int team_apply_to_join=0x7f0902d7;
+        public static final int team_apply_to_join_send_success=0x7f0902d8;
+        public static final int team_authentication=0x7f0902d9;
+        public static final int team_create_notice=0x7f0902da;
+        public static final int team_creator=0x7f0902db;
+        public static final int team_everyone_invite=0x7f0902dc;
+        public static final int team_everyone_update=0x7f0902dd;
+        public static final int team_extension=0x7f0902de;
+        public static final int team_extension_hint=0x7f0902df;
+        public static final int team_identity=0x7f0902e0;
+        public static final int team_info_update=0x7f0902e1;
+        public static final int team_introduce=0x7f0902e2;
+        public static final int team_introduce_hint=0x7f0902e3;
+        public static final int team_invalid_tip=0x7f0902e4;
+        public static final int team_invite=0x7f0902e5;
+        public static final int team_invite_members_failed=0x7f0902e6;
+        public static final int team_invite_members_success=0x7f0902e7;
+        public static final int team_invitee_authentication=0x7f0902e8;
+        public static final int team_invitee_need_authen=0x7f0902e9;
+        public static final int team_invitee_not_need_authen=0x7f0902ea;
+        public static final int team_join=0x7f0902eb;
+        public static final int team_join_success=0x7f0902ec;
+        public static final int team_member=0x7f0902ed;
+        public static final int team_member_info=0x7f0902ee;
+        public static final int team_member_remove_confirm=0x7f0902ef;
+        public static final int team_name=0x7f0902f0;
+        public static final int team_name_toast=0x7f0902f1;
+        public static final int team_need_authentication=0x7f0902f2;
+        public static final int team_nickname=0x7f0902f3;
+        public static final int team_nickname_none=0x7f0902f4;
+        public static final int team_not_allow_anyone_join=0x7f0902f5;
+        public static final int team_not_exist=0x7f0902f6;
+        public static final int team_notification_config=0x7f0902f7;
+        public static final int team_notify_all=0x7f0902f8;
+        public static final int team_notify_manager=0x7f0902f9;
+        public static final int team_notify_mute=0x7f0902fa;
+        public static final int team_num_limit=0x7f0902fb;
+        public static final int team_number_not_exist=0x7f0902fc;
+        public static final int team_search_hint=0x7f0902fd;
+        public static final int team_send_message_not_allow=0x7f0902fe;
+        public static final int team_settings_name=0x7f0902ff;
+        public static final int team_settings_set_name=0x7f090300;
+        public static final int team_transfer_failed=0x7f090301;
+        public static final int team_transfer_success=0x7f090302;
+        public static final int team_transfer_without_member=0x7f090303;
+        public static final int team_update_cancel=0x7f090304;
+        public static final int team_update_failed=0x7f090305;
         public static final int third_app_dl_cancel_download_prompt_ex=0x7f090041;
         public static final int third_app_dl_install_failed=0x7f090042;
         public static final int third_app_dl_sure_cancel_download=0x7f090043;
-        public static final int time_from=0x7f090305;
-        public static final int time_from_default=0x7f090306;
-        public static final int time_to=0x7f090307;
-        public static final int time_to_default=0x7f090308;
-        public static final int timer_default=0x7f090309;
-        public static final int to_buttom=0x7f09030a;
-        public static final int tools_selected=0x7f09030b;
-        public static final int trade_suc=0x7f09030c;
-        public static final int trans_little_tip=0x7f09030d;
-        public static final int trans_repeat_tip=0x7f09030e;
-        public static final int trans_voice_failed=0x7f09030f;
-        public static final int transfer_team=0x7f090310;
-        public static final int unknow_size=0x7f090311;
-        public static final int unread=0x7f090312;
-        public static final int unsupport_desc=0x7f090313;
-        public static final int unsupport_title=0x7f090314;
-        public static final int update_failed=0x7f090315;
-        public static final int update_success=0x7f090316;
-        public static final int upload_text=0x7f090317;
+        public static final int time_from=0x7f090306;
+        public static final int time_from_default=0x7f090307;
+        public static final int time_to=0x7f090308;
+        public static final int time_to_default=0x7f090309;
+        public static final int timer_default=0x7f09030a;
+        public static final int to_buttom=0x7f09030b;
+        public static final int tools_selected=0x7f09030c;
+        public static final int trade_suc=0x7f09030d;
+        public static final int trans_little_tip=0x7f09030e;
+        public static final int trans_repeat_tip=0x7f09030f;
+        public static final int trans_voice_failed=0x7f090310;
+        public static final int transfer_team=0x7f090311;
+        public static final int unknow_size=0x7f090312;
+        public static final int unread=0x7f090313;
+        public static final int unsupport_desc=0x7f090314;
+        public static final int unsupport_title=0x7f090315;
+        public static final int update_failed=0x7f090316;
+        public static final int update_success=0x7f090317;
+        public static final int upload_text=0x7f090318;
         public static final int upsdk_app_dl_installing=0x7f090044;
         public static final int upsdk_app_download_info_new=0x7f090045;
         public static final int upsdk_app_size=0x7f090046;
@@ -9047,29 +9046,29 @@ containing a value of this type.
         public static final int upsdk_ota_title=0x7f090051;
         public static final int upsdk_update_check_no_new_version=0x7f090052;
         public static final int upsdk_updating=0x7f090053;
-        public static final int user_info_update_cancel=0x7f090318;
-        public static final int user_info_update_failed=0x7f090319;
-        public static final int user_info_update_success=0x7f09031a;
-        public static final int user_information=0x7f09031b;
-        public static final int user_not_exsit=0x7f09031c;
-        public static final int user_profile=0x7f09031d;
-        public static final int user_tips=0x7f09031e;
-        public static final int verify_code_suss=0x7f09031f;
-        public static final int verify_reminder=0x7f090320;
-        public static final int vibrate=0x7f090321;
-        public static final int video_exception=0x7f090322;
-        public static final int video_play=0x7f090323;
-        public static final int video_record=0x7f090324;
-        public static final int video_record_begin=0x7f090325;
-        public static final int video_record_short=0x7f090326;
-        public static final int video_record_symbol=0x7f090327;
-        public static final int voice_to_text=0x7f090328;
-        public static final int w_rp_no_grab_tip=0x7f090329;
-        public static final int waitfor_image_local=0x7f09032a;
-        public static final int web_version=0x7f09032b;
-        public static final int who_rp=0x7f09032c;
-        public static final int withdrawn_msg=0x7f09032d;
-        public static final int without_content=0x7f09032e;
+        public static final int user_info_update_cancel=0x7f090319;
+        public static final int user_info_update_failed=0x7f09031a;
+        public static final int user_info_update_success=0x7f09031b;
+        public static final int user_information=0x7f09031c;
+        public static final int user_not_exsit=0x7f09031d;
+        public static final int user_profile=0x7f09031e;
+        public static final int user_tips=0x7f09031f;
+        public static final int verify_code_suss=0x7f090320;
+        public static final int verify_reminder=0x7f090321;
+        public static final int vibrate=0x7f090322;
+        public static final int video_exception=0x7f090323;
+        public static final int video_play=0x7f090324;
+        public static final int video_record=0x7f090325;
+        public static final int video_record_begin=0x7f090326;
+        public static final int video_record_short=0x7f090327;
+        public static final int video_record_symbol=0x7f090328;
+        public static final int voice_to_text=0x7f090329;
+        public static final int w_rp_no_grab_tip=0x7f09032a;
+        public static final int waitfor_image_local=0x7f09032b;
+        public static final int web_version=0x7f09032c;
+        public static final int who_rp=0x7f09032d;
+        public static final int withdrawn_msg=0x7f09032e;
+        public static final int without_content=0x7f09032f;
     }
     public static final class style {
         public static final int ActionMenuTheme=0x7f0c00ad;
@@ -9497,16 +9496,12 @@ containing a value of this type.
         public static final int dialog_message_text_style=0x7f0c01a7;
         public static final int dialog_title_text_style=0x7f0c01a8;
         public static final int easy_dialog_edit_text_style=0x7f0c01a9;
-        /**  后面的activity变暗 
-         */
         public static final int easy_dialog_style=0x7f0c01aa;
         public static final int edit_text_style=0x7f0c01ab;
         public static final int global_search_bg=0x7f0c01ac;
         public static final int grid_view=0x7f0c01ad;
         public static final int horizontal_deep_thick_divider=0x7f0c01ae;
         public static final int horizontal_light_thin_divider=0x7f0c01af;
-        /**  是否允许背景模糊 
-         */
         public static final int jrmf_b_dialog=0x7f0c01b0;
         public static final int jrmf_rp_commondialog=0x7f0c01b1;
         public static final int leak_canary_LeakCanary_Base=0x7f0c0099;
@@ -12429,7 +12424,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #BallPulseFooter_srlAccentColor com.netease.nim.demo:srlAccentColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #BallPulseFooter_srlClassicsSpinnerStyle com.netease.nim.demo:srlClassicsSpinnerStyle}</code></td><td>固定在背后</td></tr>
+           <tr><td><code>{@link #BallPulseFooter_srlClassicsSpinnerStyle com.netease.nim.demo:srlClassicsSpinnerStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #BallPulseFooter_srlPrimaryColor com.netease.nim.demo:srlPrimaryColor}</code></td><td></td></tr>
            </table>
            @see #BallPulseFooter_srlAccentColor
@@ -12455,9 +12450,8 @@ containing a value of this type.
         */
         public static final int BallPulseFooter_srlAccentColor = 0;
         /**
-          <p>
-          @attr description
-          固定在背后
+          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#srlClassicsSpinnerStyle}
+          attribute's value can be found in the {@link #BallPulseFooter} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -12467,10 +12461,9 @@ containing a value of this type.
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>Translate</code></td><td>0</td><td></td></tr>
-<tr><td><code>Scale</code></td><td>1</td><td>平行移动</td></tr>
-<tr><td><code>FixedBehind</code></td><td>2</td><td>拉伸形变</td></tr>
+<tr><td><code>Scale</code></td><td>1</td><td></td></tr>
+<tr><td><code>FixedBehind</code></td><td>2</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name com.netease.nim.demo:srlClassicsSpinnerStyle
         */
         public static final int BallPulseFooter_srlClassicsSpinnerStyle = 1;
@@ -13071,7 +13064,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ClassicsFooter_srlAccentColor com.netease.nim.demo:srlAccentColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ClassicsFooter_srlClassicsSpinnerStyle com.netease.nim.demo:srlClassicsSpinnerStyle}</code></td><td>固定在背后</td></tr>
+           <tr><td><code>{@link #ClassicsFooter_srlClassicsSpinnerStyle com.netease.nim.demo:srlClassicsSpinnerStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #ClassicsFooter_srlDrawableArrow com.netease.nim.demo:srlDrawableArrow}</code></td><td></td></tr>
            <tr><td><code>{@link #ClassicsFooter_srlDrawableArrowSize com.netease.nim.demo:srlDrawableArrowSize}</code></td><td></td></tr>
            <tr><td><code>{@link #ClassicsFooter_srlDrawableMarginRight com.netease.nim.demo:srlDrawableMarginRight}</code></td><td></td></tr>
@@ -13115,9 +13108,8 @@ containing a value of this type.
         */
         public static final int ClassicsFooter_srlAccentColor = 0;
         /**
-          <p>
-          @attr description
-          固定在背后
+          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#srlClassicsSpinnerStyle}
+          attribute's value can be found in the {@link #ClassicsFooter} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -13127,10 +13119,9 @@ containing a value of this type.
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>Translate</code></td><td>0</td><td></td></tr>
-<tr><td><code>Scale</code></td><td>1</td><td>平行移动</td></tr>
-<tr><td><code>FixedBehind</code></td><td>2</td><td>拉伸形变</td></tr>
+<tr><td><code>Scale</code></td><td>1</td><td></td></tr>
+<tr><td><code>FixedBehind</code></td><td>2</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name com.netease.nim.demo:srlClassicsSpinnerStyle
         */
         public static final int ClassicsFooter_srlClassicsSpinnerStyle = 1;
@@ -13270,7 +13261,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ClassicsHeader_srlAccentColor com.netease.nim.demo:srlAccentColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ClassicsHeader_srlClassicsSpinnerStyle com.netease.nim.demo:srlClassicsSpinnerStyle}</code></td><td>固定在背后</td></tr>
+           <tr><td><code>{@link #ClassicsHeader_srlClassicsSpinnerStyle com.netease.nim.demo:srlClassicsSpinnerStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #ClassicsHeader_srlDrawableArrow com.netease.nim.demo:srlDrawableArrow}</code></td><td></td></tr>
            <tr><td><code>{@link #ClassicsHeader_srlDrawableArrowSize com.netease.nim.demo:srlDrawableArrowSize}</code></td><td></td></tr>
            <tr><td><code>{@link #ClassicsHeader_srlDrawableMarginRight com.netease.nim.demo:srlDrawableMarginRight}</code></td><td></td></tr>
@@ -13321,9 +13312,8 @@ containing a value of this type.
         */
         public static final int ClassicsHeader_srlAccentColor = 0;
         /**
-          <p>
-          @attr description
-          固定在背后
+          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#srlClassicsSpinnerStyle}
+          attribute's value can be found in the {@link #ClassicsHeader} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -13333,10 +13323,9 @@ containing a value of this type.
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>Translate</code></td><td>0</td><td></td></tr>
-<tr><td><code>Scale</code></td><td>1</td><td>平行移动</td></tr>
-<tr><td><code>FixedBehind</code></td><td>2</td><td>拉伸形变</td></tr>
+<tr><td><code>Scale</code></td><td>1</td><td></td></tr>
+<tr><td><code>FixedBehind</code></td><td>2</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name com.netease.nim.demo:srlClassicsSpinnerStyle
         */
         public static final int ClassicsHeader_srlClassicsSpinnerStyle = 1;
@@ -21068,7 +21057,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SmartRefreshLayout_Layout_layout_srlBackgroundColor com.netease.nim.demo:layout_srlBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmartRefreshLayout_Layout_layout_srlSpinnerStyle com.netease.nim.demo:layout_srlSpinnerStyle}</code></td><td>填满布局</td></tr>
+           <tr><td><code>{@link #SmartRefreshLayout_Layout_layout_srlSpinnerStyle com.netease.nim.demo:layout_srlSpinnerStyle}</code></td><td></td></tr>
            </table>
            @see #SmartRefreshLayout_Layout_layout_srlBackgroundColor
            @see #SmartRefreshLayout_Layout_layout_srlSpinnerStyle
@@ -21092,9 +21081,8 @@ containing a value of this type.
         */
         public static final int SmartRefreshLayout_Layout_layout_srlBackgroundColor = 1;
         /**
-          <p>
-          @attr description
-          填满布局
+          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#layout_srlSpinnerStyle}
+          attribute's value can be found in the {@link #SmartRefreshLayout_Layout} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -21104,12 +21092,11 @@ containing a value of this type.
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>Translate</code></td><td>0</td><td></td></tr>
-<tr><td><code>Scale</code></td><td>1</td><td>平行移动</td></tr>
-<tr><td><code>FixedBehind</code></td><td>2</td><td>拉伸形变</td></tr>
-<tr><td><code>FixedFront</code></td><td>3</td><td>固定在背后</td></tr>
-<tr><td><code>MatchLayout</code></td><td>4</td><td>固定在前面</td></tr>
+<tr><td><code>Scale</code></td><td>1</td><td></td></tr>
+<tr><td><code>FixedBehind</code></td><td>2</td><td></td></tr>
+<tr><td><code>FixedFront</code></td><td>3</td><td></td></tr>
+<tr><td><code>MatchLayout</code></td><td>4</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name com.netease.nim.demo:layout_srlSpinnerStyle
         */
         public static final int SmartRefreshLayout_Layout_layout_srlSpinnerStyle = 0;

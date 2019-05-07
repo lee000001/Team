@@ -192,12 +192,12 @@
         "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\775ce53506c7673e47574c7b47bb5921\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\task_category_spinner.xml",
-        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\task_category_spinner.xml"
-    },
-    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\jrmf_rp_activity_my_rp.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\jrmfRpWalletlib\\build\\intermediates\\bundles\\debug\\res\\layout\\jrmf_rp_activity_my_rp.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\task_category_spinner.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\task_category_spinner.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_message.xml",
@@ -256,12 +256,12 @@
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\jrmfRpWalletlib\\build\\intermediates\\bundles\\debug\\res\\layout\\jrmf_w_layout_line_959595.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_activity.xml",
-        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_message_activity.xml"
-    },
-    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_activity.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_message_activity.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_ref_row.xml",
@@ -272,12 +272,12 @@
         "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bad5e67a90ba5a4033fc610eaac4d407\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\push_expandable_big_text_notification.xml",
-        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\push-internal-3.6.3.aar\\a08a345791f44b910bb4ecf1f9a678ef\\res\\layout\\push_expandable_big_text_notification.xml"
-    },
-    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\task_detail_layout.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\task_detail_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\push_expandable_big_text_notification.xml",
+        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\push-internal-3.6.3.aar\\a08a345791f44b910bb4ecf1f9a678ef\\res\\layout\\push_expandable_big_text_notification.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\chat_room_item.xml",
@@ -364,12 +364,12 @@
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res-rp\\layout\\red_packet_item.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_advanced_team_nickname_activity.xml",
-        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_advanced_team_nickname_activity.xml"
-    },
-    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_zbra_loading_progress_bar.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_zbra_loading_progress_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_advanced_team_nickname_activity.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_advanced_team_nickname_activity.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_preview_image_layout_zoom_control.xml",
@@ -380,16 +380,16 @@
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_image_layout_multi_touch.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\add_task_activity.xml",
-        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\add_task_activity.xml"
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_mass_message_activity.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_mass_message_activity.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\jrmf_rp_base_dialog.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\jrmfRpWalletlib\\build\\intermediates\\bundles\\debug\\res\\layout\\jrmf_rp_base_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_mass_message_activity.xml",
-        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_mass_message_activity.xml"
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\add_task_activity.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\add_task_activity.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_picture.xml",
@@ -564,16 +564,16 @@
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\user_profile_item.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\775ce53506c7673e47574c7b47bb5921\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_advanced_team_create_announce.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_advanced_team_create_announce.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\jrmf_b_floating_label_text_view.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\jrmfRpWalletlib\\build\\intermediates\\bundles\\debug\\res\\layout\\jrmf_b_floating_label_text_view.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_advanced_team_create_announce.xml",
-        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_advanced_team_create_announce.xml"
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\775ce53506c7673e47574c7b47bb5921\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\jrmf_rp_item_rp_history.xml",
@@ -652,12 +652,12 @@
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\chat_room_master_tab.xml"
     },
     {
-        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\chat_room_tab_layout.xml",
-        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\chat_room_tab_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_album_activity.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_picker_album_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\chat_room_tab_layout.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\chat_room_tab_layout.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_popup_menu_layout.xml",

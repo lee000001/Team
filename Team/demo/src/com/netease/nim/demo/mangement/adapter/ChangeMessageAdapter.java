@@ -111,8 +111,8 @@ public class ChangeMessageAdapter extends BaseAdapter {
     private void getTask() {
         TaskHepler.getRxService()
                 .getTaskById(messageBean.getMid_tid())
-                .observeOn(Schedulers.io())
-                .subscribeOn(AndroidSchedulers.mainThread())
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Subscriber<TaskBean>() {
                     @Override
                     public void onCompleted() {
@@ -135,8 +135,8 @@ public class ChangeMessageAdapter extends BaseAdapter {
     private void getActivity() {
         ActivityHelper.getRxService()
                 .getActivityById(messageBean.getMid_tid())
-                .observeOn(Schedulers.io())
-                .subscribeOn(AndroidSchedulers.mainThread())
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Subscriber<ActivityBean>() {
                     @Override
                     public void onCompleted() {
