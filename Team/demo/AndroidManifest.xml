@@ -335,7 +335,7 @@
             android:theme="@style/AppTheme.NoActionBar" /> <!-- 给活动成员发送提示消息 -->
         <!-- checklistview 选择要发送提示的任务 -->
         <activity
-            android:name=".mangement.activity.MultiselectActivity"
+            android:name=".mangement.activity.TaskLateActivity"
             android:label="选择任务"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- 任务日历 -->

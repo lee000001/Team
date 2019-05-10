@@ -140,6 +140,10 @@
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\setting_item_base.xml"
     },
     {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\check_list_item.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\check_list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\hms_download_progress.xml",
         "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\base-2.6.0.301.aar\\16865699256e340284afa03d65f5a961\\res\\layout\\hms_download_progress.xml"
     },
@@ -306,6 +310,10 @@
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\js_bridge_activity.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\js_bridge_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\task_late_item.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\task_late_item.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\jrmf_b_dialog_progress.xml",
@@ -814,6 +822,10 @@
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\jrmf_b_divider.xml",
         "source": "C:\\Users\\lee\\Desktop\\git\\Team\\jrmfRpWalletlib\\build\\intermediates\\bundles\\debug\\res\\layout\\jrmf_b_divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\late_task_activity.xml",
+        "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\layout\\late_task_activity.xml"
     },
     {
         "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_chat_room_message_fragment.xml",

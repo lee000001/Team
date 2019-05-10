@@ -1106,7 +1106,7 @@ ADDED from C:\Users\lee\Desktop\git\Team\demo\AndroidManifest.xml:331:9-335:59
 		ADDED from C:\Users\lee\Desktop\git\Team\demo\AndroidManifest.xml:335:13-56
 	android:name
 		ADDED from C:\Users\lee\Desktop\git\Team\demo\AndroidManifest.xml:332:13-65
-activity#com.netease.nim.demo.mangement.activity.MultiselectActivity
+activity#com.netease.nim.demo.mangement.activity.TaskLateActivity
 ADDED from C:\Users\lee\Desktop\git\Team\demo\AndroidManifest.xml:337:9-341:59
 	android:screenOrientation
 		ADDED from C:\Users\lee\Desktop\git\Team\demo\AndroidManifest.xml:340:13-49
@@ -1115,7 +1115,7 @@ ADDED from C:\Users\lee\Desktop\git\Team\demo\AndroidManifest.xml:337:9-341:59
 	android:theme
 		ADDED from C:\Users\lee\Desktop\git\Team\demo\AndroidManifest.xml:341:13-56
 	android:name
-		ADDED from C:\Users\lee\Desktop\git\Team\demo\AndroidManifest.xml:338:13-67
+		ADDED from C:\Users\lee\Desktop\git\Team\demo\AndroidManifest.xml:338:13-64
 activity#com.netease.nim.demo.mangement.activity.TaskCalenderActivity
 ADDED from C:\Users\lee\Desktop\git\Team\demo\AndroidManifest.xml:342:9-346:59
 	android:screenOrientation

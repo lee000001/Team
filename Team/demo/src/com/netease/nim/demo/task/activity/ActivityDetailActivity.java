@@ -67,12 +67,40 @@ public class ActivityDetailActivity extends UI implements View.OnClickListener {
         //活动间传值
         activityBean = (ActivityBean) intent.getSerializableExtra("activity");
         task = (TaskBean) intent.getSerializableExtra("task");
-
-        isCreator=task.getTcreator().equals(Preferences.getUserAccount());
-        init();
-
         getMember(activityBean);
+        if(task==null){
+            setTask();
+        }else {
+            isCreator=task.getTcreator().equals(Preferences.getUserAccount());
+            init();
+        }
 
+
+    }
+
+    private void setTask() {
+        TaskHepler.getRxService()
+                .getTaskById(activityBean.getAid_tid())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribeOn(Schedulers.io())
+                .subscribe(new Subscriber<TaskBean>() {
+                    @Override
+                    public void onCompleted() {
+
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        Log.d(TAG, "onError: "+e.getMessage());
+                    }
+
+                    @Override
+                    public void onNext(TaskBean taskBean) {
+                        task=taskBean;
+                        isCreator=task.getTcreator().equals(Preferences.getUserAccount());
+                        init();
+                    }
+                });
     }
 
     private void init() {
