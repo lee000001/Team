@@ -35,6 +35,6 @@ public interface RxActivityService {
      * 通过tid获取任务详细信息
      * @return
      */
-    @GET("activity/getTaskById")
+    @GET("activity/getActivityById")
     Observable<ActivityBean> getActivityById(@Query("aid") int aid);
 }

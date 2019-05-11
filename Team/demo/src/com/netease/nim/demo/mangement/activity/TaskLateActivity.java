@@ -174,13 +174,8 @@ public class TaskLateActivity extends UI implements View.OnClickListener {
 
                 break;
             case R.id.btn_send:
-                selectedDatas = new ArrayList<>();
-                for(DataHolder d:dataList){
-                    if(d.checked){
-                        selectedDatas.add(d.activity);
-                    }
-                }
-//                Log.d(TAG, "onClick: "+selectedDatas.toString());
+               
+                ManagementHelper.sendLateMsg(this,selectedDatas);
                 break;
 
         }

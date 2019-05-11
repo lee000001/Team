@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.app.entity.ActivityBean;
 import com.app.entity.MessageBean;
 import com.app.entity.Task_Activity;
 import com.app.entity.UserInfo;
@@ -35,6 +36,13 @@ public class MessageHandler {
 	public List<MessageBean> getMsg(@RequestParam(value="accid") String accid){
 		return messageService.getMsg(accid);
 			
+	}
+	@RequestMapping(value="/lateMessage",method = RequestMethod.POST)
+	@ResponseBody
+	public void updateActivity(
+			@RequestBody List<ActivityBean> list){
+		
+		messageService.lateMessage(list);
 	}
 
 

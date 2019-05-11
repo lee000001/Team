@@ -1,6 +1,7 @@
 buildscript {
     repositories {
         maven { url 'https://fabric-artifacts.s3.amazonaws.com/public' }
+
     }
 
     dependencies {

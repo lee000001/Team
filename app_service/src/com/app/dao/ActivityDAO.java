@@ -64,5 +64,11 @@ public interface ActivityDAO {
 	  */
 	 public ActivityBean getActivityById(int aid);
 
+	 /**
+	  * 获取滞后的活动信息
+	  * @param accid
+	  * @return
+	  */
+	 public List<ActivityBean> getLateActivity(String accid);
 
 }

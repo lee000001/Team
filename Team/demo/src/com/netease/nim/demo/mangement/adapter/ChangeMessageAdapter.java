@@ -22,6 +22,7 @@ import com.netease.nim.demo.task.activity.ActivityDetailActivity;
 import com.netease.nim.demo.task.activity.TaskDetailActivity;
 import com.netease.nim.demo.task.helper.ActivityHelper;
 import com.netease.nim.demo.task.helper.TaskHepler;
+import com.netease.nim.uikit.common.ToastHelper;
 import com.netease.nim.uikit.common.ui.imageview.CircleImageView;
 
 import java.util.List;
@@ -44,8 +45,8 @@ public class ChangeMessageAdapter extends BaseAdapter {
         this.list = list;
         this.context=context;
         inflater=LayoutInflater.from(context);
-        getActivity();
-        getTask();
+//        getActivity();
+//        getTask();
     }
 
 
@@ -96,10 +97,12 @@ public class ChangeMessageAdapter extends BaseAdapter {
 //                }else {
 //                    //查看活动
 //                }
-                Intent intent=new Intent(context,ActivityDetailActivity.class);
-                intent.putExtra("task",task);
-                intent.putExtra("activity",activityBean);
-                context.startActivity(intent);
+//                Intent intent=new Intent(context,ActivityDetailActivity.class);
+//                intent.putExtra("task",task);
+//                intent.putExtra("activity",activityBean);
+//                context.startActivity(intent);
+                ToastHelper.showToast(context,"点击");
+                getActivity(messageBean);
             }
         });
 
@@ -132,9 +135,9 @@ public class ChangeMessageAdapter extends BaseAdapter {
     }
 
 
-    private void getActivity() {
+    private void getActivity(MessageBean msg) {
         ActivityHelper.getRxService()
-                .getActivityById(messageBean.getMid_tid())
+                .getActivityById(msg.getMid_aid())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Subscriber<ActivityBean>() {
@@ -150,7 +153,12 @@ public class ChangeMessageAdapter extends BaseAdapter {
 
                     @Override
                     public void onNext(ActivityBean ActivityBean) {
-                       activityBean=ActivityBean;
+
+                        activityBean=ActivityBean;
+                        Intent intent=new Intent(context,ActivityDetailActivity.class);
+//                        intent.putExtra("task",task);
+                        intent.putExtra("activity",activityBean);
+                        context.startActivity(intent);
                     }
                 });
     }

@@ -143,5 +143,23 @@ public class ActivityDAOImpl implements ActivityDAO{
 		 return a;
 	}
 
+	@Override
+	public List<ActivityBean> getLateActivity(String accid) {
+		// TODO Auto-generated method stub
+		Session session=sessionFactory.openSession();
+		String sql=String.format("SELECT * FROM activity a WHERE  datediff("
+				+ "a.endDate,NOW())<7 "
+				+ "and datediff(a.endDate,NOW())>0 "
+				+ "AND a.astate=1 "
+				+ "AND a.aid_tid in "
+				+ "(SELECT tid from task t "
+				+ "where t.tcreator='%s');",accid);
+		Query query=session.createSQLQuery(sql).addEntity(ActivityBean.class);
+		List<ActivityBean> list=query.list();
+		session.close();
+		System.out.println(sql);
+		return list;
+	}
+
 	
 }

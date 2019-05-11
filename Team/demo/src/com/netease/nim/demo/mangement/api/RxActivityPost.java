@@ -22,5 +22,7 @@ public interface RxActivityPost {
     @POST("activity/updateActivity")   //提交接口0.......-  ··
     Call<ResponseBody> updateActivity(@Body RequestBody info);
 
+    @POST("message/lateMessage")   //提交滞后消息
+    Call<ResponseBody> sendLateMsg(@Body RequestBody info);
 
 }

@@ -1,5 +1,6 @@
 package com.app.dao.impl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.Criteria;
@@ -13,6 +14,7 @@ import org.springframework.stereotype.Repository;
 
 import com.app.dao.MessageDAO;
 import com.app.dao.UserInfoDAO;
+import com.app.entity.ActivityBean;
 import com.app.entity.MessageBean;
 import com.app.entity.UserInfo;
 @Repository("MessageDAO")
@@ -39,5 +41,38 @@ public class MessageDAOImpl implements MessageDAO{
 		tx.commit();
 		session.close();
 		return list;
+	}
+
+	@Override
+	public void lateMessage(List<ActivityBean> list) {
+		// TODO Auto-generated method stub
+		Session session=sessionFactory.openSession();
+		MessageBean msg;
+		Transaction tx=session.beginTransaction();
+		for(ActivityBean a:list)  //查询到的消息全部设置为已读
+		{
+			String sql=String.format("SELECT * FROM userinfo WHERE accid in\r\n" + 
+					"(SELECT accid FROM activity_user WHERE aid=%d)", a.getAid());
+			Query query=session.createSQLQuery(sql).addEntity(UserInfo.class);
+			List<UserInfo> users=query.list();
+			for(UserInfo u:users) {
+				msg=new MessageBean();
+				msg.setIsRead(0);
+//				msg.setMid(a.getAid());
+				msg.setMid_aid(a.getAid());
+				msg.setMid_tid(a.getAid_tid());
+				msg.setMsg("您的任务将要结束请尽快完成");
+				msg.setReceiver(u.getAccid());
+				msg.setMtype(0);
+				session.save(msg);
+				System.out.println(msg.toString());
+			}
+			
+			
+		}
+		
+		tx.commit();
+		session.close();
+		
 	}
 }

@@ -86,6 +86,14 @@ public class ActivityServiceImpl implements ActivityService {
 	}
 
 
+
+	@Override
+	public List<ActivityBean> getLateActivity(String accid) {
+		// TODO Auto-generated method stub
+		return activityDAO.getLateActivity(accid);
+	}
+
+
 	
 
 

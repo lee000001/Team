@@ -17,6 +17,8 @@ import com.netease.nim.demo.task.api.AddTask;
 import com.netease.nim.demo.task.helper.AlterDialogHelper;
 import com.netease.nim.uikit.common.ToastHelper;
 
+import java.util.List;
+
 import okhttp3.RequestBody;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
@@ -278,6 +280,61 @@ public class ManagementHelper {
             public void onFailure(Call<ResponseBody> call, Throwable t) {
                 Log.e(TAG,"onError"+t.getMessage());
                 ToastHelper.showToast(context,"删除失败");
+            }
+
+        });
+
+    }
+    public static void sendLateMsg(final Context context, List<ActivityBean> list)
+    {
+        GsonBuilder builder=new GsonBuilder();
+        Gson gson=builder.create();
+        String json="[";
+        //将用户信息转换成json
+        for(ActivityBean a:list){
+            json+=gson.toJson(a,ActivityBean.class);
+            json+=",";
+        }
+        json=json.substring(0,json.lastIndexOf(','));
+        json+="]";
+
+
+
+        Retrofit retrofit=new Retrofit.Builder()
+
+                .baseUrl(Constant.APP_SERVICE_URL)
+
+                .addConverterFactory( GsonConverterFactory.create())
+
+                .build();
+
+        RxActivityPost post=retrofit.create(RxActivityPost.class);
+
+        final RequestBody body=RequestBody.create(okhttp3.MediaType.parse("application/json; charset=utf-8"),json);
+        Log.d(TAG, "解析json:"+json);
+
+        Call<ResponseBody> call=post.sendLateMsg(body);
+
+        call.enqueue(new Callback<ResponseBody>() {
+
+            @Override
+
+            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+
+                if(response.isSuccessful()){
+                    Log.e(TAG,"成功"+response.code());//这里是用于测试，服务器返回的数据就是提交的数据。
+                    ToastHelper.showToast(context,"发送成功");
+
+                }else
+                {
+                    ToastHelper.showToast(context,"失败");
+                }
+            }
+            @Override
+
+            public void onFailure(Call<ResponseBody> call, Throwable t) {
+                Log.e(TAG,"onError"+t.getMessage());
+                ToastHelper.showToast(context,"失败");
             }
 
         });

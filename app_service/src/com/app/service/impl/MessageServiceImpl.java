@@ -8,6 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.app.dao.MessageDAO;
 import com.app.dao.UserInfoDAO;
+import com.app.entity.ActivityBean;
 import com.app.entity.MessageBean;
 import com.app.entity.UserInfo;
 import com.app.service.MessageService;
@@ -23,6 +24,12 @@ public class MessageServiceImpl implements MessageService {
 	public List<MessageBean> getMsg(String accid) {
 		// TODO Auto-generated method stub
 		return messageDAO.getMsg(accid);
+	}
+
+	@Override
+	public void lateMessage(List<ActivityBean> list) {
+		// TODO Auto-generated method stub
+		messageDAO.lateMessage(list);
 	}
 
 }

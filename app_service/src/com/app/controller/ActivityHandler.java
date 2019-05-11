@@ -108,5 +108,11 @@ public class ActivityHandler {
 	}
 	
 
-	
+	@RequestMapping("/getLateActivity")
+	@ResponseBody
+	public List<ActivityBean> getLateActivity(@RequestParam(value="accid") String accid){
+		
+		return activityService.getLateActivity(accid);
+		
+	}
 }
