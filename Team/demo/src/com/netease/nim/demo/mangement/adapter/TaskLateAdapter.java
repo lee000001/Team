@@ -2,7 +2,6 @@ package com.netease.nim.demo.mangement.adapter;
 
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,11 +13,7 @@ import android.widget.TextView;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.bean.ActivityBean;
 import com.netease.nim.demo.bean.TaskBean;
-import com.netease.nim.demo.mangement.activity.DataHolder;
-import com.netease.nim.demo.task.activity.ActivityDetailActivity;
-import com.netease.nim.demo.task.activity.TaskDetailActivity;
-import com.netease.nim.demo.task.helper.TaskHepler;
-import com.netease.nim.uikit.common.framework.infra.Task;
+import com.netease.nim.demo.mangement.DataHolder;
 
 import java.util.List;
 

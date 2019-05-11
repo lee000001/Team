@@ -4,42 +4,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
-<Button
-    android:id="@+id/btn_custom"
-    android:text="自定义方案"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    />
-
-    <Button
-        android:id="@+id/btn_alter"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="发送警告" />
-   <Button
-       android:id="@+id/btn_calender"
-       android:text="显示任务日历"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-      />
-
-   <Button
-       android:id="@+id/btn_search"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="搜索" />
-
-    <Button
-        android:text="数据分析"
-        android:id="@+id/btn_analysis"
+        android:text="5656565666666666666666666666666666666666666666666666666666666666666666666"
+        android:visibility="invisible"/>
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_custom"
+            android:text="自定义方案"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
 
-    <Button
-        android:text="任务管理"
-        android:id="@+id/btn_management"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_alter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发送警告" />
+        <Button
+            android:id="@+id/btn_calender"
+            android:text="显示任务日历"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="搜索" />
+
+        <Button
+            android:text="数据分析"
+            android:id="@+id/btn_analysis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="任务管理"
+            android:id="@+id/btn_management"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
 </LinearLayout>

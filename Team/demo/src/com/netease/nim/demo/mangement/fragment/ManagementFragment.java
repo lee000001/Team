@@ -48,8 +48,6 @@ public class ManagementFragment extends TFragment implements View.OnClickListene
     private  View view;
     private Button btn_custom;
     private Button btn_alter;
-    private EditText et_msg;
-    private List<String> memberUids;
     private Button btn_calender;
     private Button btn_search;
     private Button btn_analysis;
@@ -83,74 +81,9 @@ public class ManagementFragment extends TFragment implements View.OnClickListene
         btn_management = view.findViewById(R.id.btn_management);
         btn_management.setOnClickListener(this);
 
-//        et_msg = view.findViewById(R.id.et_msg);
-        memberUids = new ArrayList<>();
-        memberUids.add("10001");
-        memberUids.add("10004");
 
     }
 
-    private void sendCustomMsg() {
-        SnapChatAttachment attachment=new SnapChatAttachment();
-
-        IMMessage message = MessageBuilder.createCustomMessage(
-                "10001", SessionTypeEnum.P2P,"下次", attachment
-        );
-        NIMClient.getService(MsgService.class).sendMessage(message, false);
-    }
-
-    private void SendMessage(String msg, List<String> membersUids) {
-        // 该帐号为示例，请先注册
-        String account = "10001";
-        for(String accid:membersUids)
-        {
-            // 以单聊类型为例
-            SessionTypeEnum sessionType = SessionTypeEnum.P2P;
-            String text = "（任务提示消息）"+msg;
-            // 创建一个文本消息
-            IMMessage textMessage = MessageBuilder.createTextMessage(accid, sessionType, text);
-            // 发送给对方
-            NIMClient.getService(MsgService.class).sendMessage(textMessage, false);
-        }
-    }
-
-    private void send() throws JSONException {
-        // 构造自定义通知，指定接收者
-        CustomNotification notification = new CustomNotification();
-        String receiverId="10001";
-        SessionTypeEnum sessionType=SessionTypeEnum.P2P;
-        notification.setSessionId(receiverId);
-        notification.setSessionType(sessionType);
-
-// 构建通知的具体内容。为了可扩展性，这里采用 json 格式，以 "id" 作为类型区分。
-        JSONObject json = new JSONObject();
-        json.put("id", "2");
-        JSONObject data = new JSONObject();
-        data.put("body", "the_content_for_display");
-        data.put("url", "url_of_the_game_or_anything_else");
-        json.put("data", data);
-        notification.setContent(json.toString());
-
-// 设置该消息需要保证送达
-        notification.setSendToOnlineUserOnly(false);
-
-// 设置 APNS 的推送文本
-        notification.setApnsText("the_content_for_apns");
-
-// 自定义推送属性
-        Map<String,Object> pushPayload = new HashMap<>();
-        pushPayload.put("key1", "payload 1");
-        pushPayload.put("key2", 2015);
-        notification.setPushPayload(pushPayload);
-        CustomNotificationConfig config = new CustomNotificationConfig();
-        config.enablePush = true;
-        config.enableUnreadCount = true;
-        notification.setConfig(config);
-
-// 发送自定义通知
-        NIMClient.getService(MsgService.class).sendCustomNotification(notification);
-
-    }
 
     @Override
     public void onClick(View v) {

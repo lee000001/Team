@@ -7,15 +7,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.bean.ActivityBean;
-import com.netease.nim.demo.bean.TaskBean;
 import com.netease.nim.demo.config.preference.Preferences;
-import com.netease.nim.demo.main.fragment.MangementListFragment;
+import com.netease.nim.demo.mangement.DataHolder;
 import com.netease.nim.demo.mangement.ManagementHelper;
 
 
@@ -174,8 +171,8 @@ public class TaskLateActivity extends UI implements View.OnClickListener {
 
                 break;
             case R.id.btn_send:
-               
                 ManagementHelper.sendLateMsg(this,selectedDatas);
+                finish();
                 break;
 
         }

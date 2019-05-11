@@ -1,4 +1,4 @@
-package com.netease.nim.demo.mangement.activity;
+package com.netease.nim.demo.mangement;
 
 
 import com.netease.nim.demo.bean.ActivityBean;

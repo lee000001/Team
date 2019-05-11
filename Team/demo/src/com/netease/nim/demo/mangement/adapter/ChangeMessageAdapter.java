@@ -85,23 +85,13 @@ public class ChangeMessageAdapter extends BaseAdapter {
             @Override
             public void onClick(View v) {
                 holder.btn_read.setVisibility(View.INVISIBLE); //已读按钮隐藏
+
                 //设为已读
             }
         });
         holder.btn_detail.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-//                if (messageBean.getMtype()==0){
-//                    //查看任务消息
-//                    openTask();
-//                }else {
-//                    //查看活动
-//                }
-//                Intent intent=new Intent(context,ActivityDetailActivity.class);
-//                intent.putExtra("task",task);
-//                intent.putExtra("activity",activityBean);
-//                context.startActivity(intent);
-                ToastHelper.showToast(context,"点击");
+            public void onClick(View v) { 
                 getActivity(messageBean);
             }
         });
