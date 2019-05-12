@@ -29,6 +29,7 @@ import com.netease.nim.uikit.common.fragment.TFragment;
 import com.suke.widget.SwitchButton;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -245,12 +246,14 @@ public class TasksFragment extends TFragment {
                         if(dataAdapter==null)   //初始化
                         {
                             datas.addAll(taskBeans);
+                            Collections.reverse(datas);
                             initAdapter();
                         }
                         else
                         {
                             datas.clear();
                             datas.addAll(taskBeans);
+                            Collections.reverse(datas);
                         }
                         refreshLayout.setRefreshing(false);
                         dataAdapter.notifyDataSetChanged();

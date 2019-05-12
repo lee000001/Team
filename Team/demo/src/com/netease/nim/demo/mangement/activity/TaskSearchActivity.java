@@ -35,6 +35,7 @@ public class TaskSearchActivity extends UI {
 
     private static final String TAG = "TaskSearchActivity";
     private TaskDataAdapter adapter;
+    private String key;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +67,7 @@ public class TaskSearchActivity extends UI {
                     tv_tip.setText("待完成");
                     isCreator = false;
                 }
+                getData(key);
             }
         });
         //设置默认开启搜索框
@@ -82,12 +84,14 @@ public class TaskSearchActivity extends UI {
             public boolean onQueryTextSubmit(String query) {
                 //此处添加查询开始后的具体时间和方法
                 getData(query);
+                key = query;
                 return true;
             }
 
             @Override
             public boolean onQueryTextChange(String newText) {
                 getData(newText);
+                key=newText;
                 return true;
             }
         });
@@ -115,6 +119,7 @@ public class TaskSearchActivity extends UI {
                         if(taskBeans==null){
                             taskBeanList=new ArrayList<>();
                         }else{
+                            taskBeanList.clear();
                             taskBeanList.addAll(taskBeans);
                         }
                         if(adapter==null){

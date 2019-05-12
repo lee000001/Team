@@ -171,6 +171,12 @@ public class TaskDetailActivity extends UI {
         recyclerView.setAdapter(dataAdapter);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        getData();
+    }
+
     /**
      * 获取成员信息
      */

@@ -74,6 +74,12 @@ public class TaskScheduleActivity extends UI {
 
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        getData();
+    }
+
     private void getData() {
         ActivityHelper.getRxService().getActivities(task.getTid())
                 .subscribeOn(Schedulers.io())

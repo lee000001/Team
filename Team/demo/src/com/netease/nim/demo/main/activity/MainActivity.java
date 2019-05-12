@@ -103,6 +103,7 @@ public class MainActivity extends UI implements ViewPager.OnPageChangeListener, 
         }
     };
     private AlertDialog dialog;
+    private Intent startIntent;
 
 
     public static void start(Context context) {
@@ -147,7 +148,7 @@ public class MainActivity extends UI implements ViewPager.OnPageChangeListener, 
     }
     private void initTip() {
         //启动任务消息变更服务
-        Intent startIntent = new Intent(this, MessageService.class);
+        startIntent = new Intent(this, MessageService.class);
         startService(startIntent);
     }
 
@@ -196,6 +197,7 @@ public class MainActivity extends UI implements ViewPager.OnPageChangeListener, 
         if(list.size()>0&&!dialog.isShowing()){
             showDialog(list);
         }
+        stopService(startIntent);
 
 
     }

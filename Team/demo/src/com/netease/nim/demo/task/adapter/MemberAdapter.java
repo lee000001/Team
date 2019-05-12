@@ -125,7 +125,7 @@ public class MemberAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
     @Override
     public int getItemCount() {
-        return list.size()+1;
+        return isEdit?list.size()+1:list.size();
     }
 
 

@@ -19,6 +19,7 @@ import com.netease.nim.uikit.common.activity.ToolBarOptions;
 import com.netease.nim.uikit.common.activity.UI;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import rx.Subscriber;
@@ -83,6 +84,7 @@ public class ActivityListActivity extends UI {
                     public void onNext(List<ActivityBean> activityBeans) {
                         activityBeanList.clear();
                         activityBeanList.addAll(activityBeans);
+                        Collections.reverse(activityBeanList);
                         if(adapter==null){
                             initListviewAdapter(activityBeanList);
                         }else {

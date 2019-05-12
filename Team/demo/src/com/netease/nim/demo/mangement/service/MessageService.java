@@ -10,12 +10,14 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 
 import com.netease.nim.demo.Constant;
+import com.netease.nim.demo.bean.ActivityBean;
 import com.netease.nim.demo.bean.MessageBean;
 import com.netease.nim.demo.config.preference.Preferences;
 import com.netease.nim.demo.mangement.api.RxManagementService;
 
 import org.greenrobot.eventbus.EventBus;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Retrofit;
@@ -44,8 +46,10 @@ public class MessageService extends Service {
         Log.d(TAG, "onStartCommand() executed");
 
         doRequestByRxRetrofit();
+        getLateMessage();
+
         AlarmManager manager= (AlarmManager) getSystemService(ALARM_SERVICE);
-        int second=5000;
+        int second=50000;
         long triggerAtTime= SystemClock.elapsedRealtime()+second;
         Intent intent1=new Intent(this, MessageService.class);
         PendingIntent pi= PendingIntent.getService(this,0,intent1,0);
@@ -97,6 +101,48 @@ public class MessageService extends Service {
 
 
                 });
+
+    }
+    /**
+     * 获取任务变更消息
+     */
+    private void getLateMessage() {
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl(Constant.APP_SERVICE_URL)//基础URL 建议以 / 结尾
+                .addConverterFactory(GsonConverterFactory.create())//设置 Json 转换器
+                .addCallAdapterFactory(RxJavaCallAdapterFactory.create())//RxJava 适配器
+                .build();
+        RxManagementService rxjavaService = retrofit.create(RxManagementService.class);
+        rxjavaService .getLateActivity(Preferences.getUserAccount())
+                .subscribeOn(Schedulers.io())//IO线程加载数据
+                .observeOn(AndroidSchedulers.mainThread())//主线程显示数据
+                .subscribe(new Subscriber<List<ActivityBean>>() {
+                    @Override
+                    public void onCompleted() {
+
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        Log.d(TAG, "onError: "+e.getMessage());
+                    }
+
+                    @Override
+                    public void onNext(List<ActivityBean> activityBeans) {
+                        List<MessageBean> messageBeanList=new ArrayList<>();
+                        for(ActivityBean a:activityBeans){
+                            MessageBean msg=new MessageBean();
+                            msg.setMid_aid(a.getAid());
+                            msg.setMsg("有新的关键活动将要结束");
+                            msg.setMid_tid(a.getAid_tid());
+                            messageBeanList.add(msg);
+                        }
+                        EventBus.getDefault().postSticky(messageBeanList);
+                    }
+
+
+                });
+
     }
 
 }

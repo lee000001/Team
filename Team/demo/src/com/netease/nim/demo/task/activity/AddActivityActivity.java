@@ -303,7 +303,7 @@ public class AddActivityActivity extends UI {
         @Override
         public void onClick(View v) {
 //            EventBus.getDefault().postSticky(activityBeanList);
-            AddTaskAcitivity.activityBeanList.addAll(activityBeanList);
+//            AddTaskAcitivity.activityBeanList.addAll(activityBeanList);
             finish();
         }
     };
