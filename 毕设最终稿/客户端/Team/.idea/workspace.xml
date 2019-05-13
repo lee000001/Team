@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13728fa4-867c-46f6-ada6-df900e0f3e61" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/taskHistory/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/generated/source/buildConfig/debug/com/netease/nim/demo/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/generated/source/buildConfig/debug/com/netease/nim/demo/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/build-info/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/build-info/debug/build-info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/AboutActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/AboutActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/ManagementHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/ManagementHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/service/MessageService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/service/MessageService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/mangement/service/MessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/ActivityListActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/ActivityListActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/ActivityListActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/ActivityListActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/AddActivityActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/AddActivityActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/TaskDetailActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/TaskDetailActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/TaskDetailActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/TaskDetailActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/TaskDetailActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/TaskDetailActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/TaskScheduleActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/TaskScheduleActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/TaskScheduleActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/TaskScheduleActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/TaskScheduleActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/activity/TaskScheduleActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/adapter/MemberAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/adapter/MemberAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/fragment/TasksFragment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/fragment/TasksFragment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/fragment/TasksFragment$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/fragment/TasksFragment$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/fragment/TasksFragment$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/fragment/TasksFragment$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/fragment/TasksFragment$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/fragment/TasksFragment$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/fragment/TasksFragment$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/fragment/TasksFragment$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/fragment/TasksFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/fragment/TasksFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/helper/ActivityHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/helper/ActivityHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/helper/TaskHepler.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/task/helper/TaskHepler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/AboutActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/AboutActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/main/activity/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/ManagementHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/ManagementHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/activity/TaskSearchActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/service/MessageService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/service/MessageService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/mangement/service/MessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/ActivityListActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/ActivityListActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/ActivityListActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/ActivityListActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/AddActivityActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/AddActivityActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/TaskDetailActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/TaskDetailActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/TaskDetailActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/TaskDetailActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/TaskDetailActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/TaskDetailActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/TaskScheduleActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/TaskScheduleActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/TaskScheduleActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/TaskScheduleActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/TaskScheduleActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/activity/TaskScheduleActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/adapter/MemberAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/adapter/MemberAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/fragment/TasksFragment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/fragment/TasksFragment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/fragment/TasksFragment$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/fragment/TasksFragment$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/fragment/TasksFragment$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/fragment/TasksFragment$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/fragment/TasksFragment$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/fragment/TasksFragment$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/fragment/TasksFragment$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/fragment/TasksFragment$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/fragment/TasksFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/fragment/TasksFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/helper/ActivityHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/helper/ActivityHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/helper/TaskHepler.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental-verifier/debug/com/netease/nim/demo/task/helper/TaskHepler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageDebug/debug/zip-cache/E7Y9U64A1ckZNEmmjkD5K36ZHjQ=" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageDebug/debug/zip-cache/E7Y9U64A1ckZNEmmjkD5K36ZHjQ=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/zip-cache/E7Y9U64A1ckZNEmmjkD5K36ZHjQ=" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/zip-cache/E7Y9U64A1ckZNEmmjkD5K36ZHjQ=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-resources/resources-debug.ir.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/layout/fragment_mangement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/layout/fragment_mangement.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_0.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_0.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_1.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_1.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_2.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_2.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_3.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_3.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_4.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_4.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_5.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_5.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_6.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_6.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_7.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/split-apk/debug/slices/slice_7.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/635/com/netease/nim/demo/task/fragment/TasksFragment$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/635/com/netease/nim/demo/task/fragment/TasksFragment$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/635/com/netease/nim/demo/task/fragment/TasksFragment$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/635/com/netease/nim/demo/task/fragment/TasksFragment$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/635/com/netease/nim/demo/task/fragment/TasksFragment$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/635/com/netease/nim/demo/task/fragment/TasksFragment$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/635/com/netease/nim/demo/task/fragment/TasksFragment$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/635/com/netease/nim/demo/task/fragment/TasksFragment$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/635/com/netease/nim/demo/task/fragment/TasksFragment$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/635/com/netease/nim/demo/task/fragment/TasksFragment$5.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/635/com/netease/nim/demo/task/fragment/TasksFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/635/com/netease/nim/demo/task/fragment/TasksFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/636/com/netease/nim/demo/task/adapter/MemberAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/636/com/netease/nim/demo/task/adapter/MemberAdapter.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/637/com/netease/nim/demo/mangement/service/MessageService$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/637/com/netease/nim/demo/mangement/service/MessageService$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/637/com/netease/nim/demo/mangement/service/MessageService.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/637/com/netease/nim/demo/mangement/service/MessageService.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/BuildConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/BuildConfig.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/Constant.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/638/com/netease/nim/demo/Constant.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/639/com/netease/nim/demo/mangement/activity/TaskSearchActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/639/com/netease/nim/demo/mangement/activity/TaskSearchActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/639/com/netease/nim/demo/mangement/activity/TaskSearchActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/639/com/netease/nim/demo/mangement/activity/TaskSearchActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/639/com/netease/nim/demo/mangement/activity/TaskSearchActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/639/com/netease/nim/demo/mangement/activity/TaskSearchActivity$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/639/com/netease/nim/demo/mangement/activity/TaskSearchActivity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/639/com/netease/nim/demo/mangement/activity/TaskSearchActivity$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/639/com/netease/nim/demo/mangement/activity/TaskSearchActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/639/com/netease/nim/demo/mangement/activity/TaskSearchActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/mangement/ManagementHelper.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/mangement/ManagementHelper.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/ActivityListActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/ActivityListActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/ActivityListActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/ActivityListActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/AddActivityActivity$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/AddActivityActivity$6.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/TaskDetailActivity$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/TaskDetailActivity$5.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/TaskDetailActivity$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/TaskDetailActivity$6.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/TaskDetailActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/TaskDetailActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/TaskScheduleActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/TaskScheduleActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/TaskScheduleActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/TaskScheduleActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/TaskScheduleActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/640/com/netease/nim/demo/task/activity/TaskScheduleActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/641/com/netease/nim/demo/task/helper/ActivityHelper.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/641/com/netease/nim/demo/task/helper/ActivityHelper.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/641/com/netease/nim/demo/task/helper/TaskHepler.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/641/com/netease/nim/demo/task/helper/TaskHepler.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/AboutActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/AboutActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity$5.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity$6.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity$7.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity$7.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexBuilder/debug/642/com/netease/nim/demo/main/activity/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/1/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/1/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/2/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/3/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/4/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/4/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/5/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/6/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/6/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/7/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/7/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/8/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dexMerger/debug/8/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/AboutActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/AboutActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/main/activity/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/ManagementHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/ManagementHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/activity/TaskSearchActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/activity/TaskSearchActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/activity/TaskSearchActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/activity/TaskSearchActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/activity/TaskSearchActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/activity/TaskSearchActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/activity/TaskSearchActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/activity/TaskSearchActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/activity/TaskSearchActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/activity/TaskSearchActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/service/MessageService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/service/MessageService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/mangement/service/MessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/ActivityListActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/ActivityListActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/ActivityListActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/ActivityListActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/AddActivityActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/AddActivityActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/TaskDetailActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/TaskDetailActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/TaskDetailActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/TaskDetailActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/TaskDetailActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/TaskDetailActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/TaskScheduleActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/TaskScheduleActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/TaskScheduleActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/TaskScheduleActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/TaskScheduleActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/activity/TaskScheduleActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/adapter/MemberAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/adapter/MemberAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/fragment/TasksFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/fragment/TasksFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/helper/ActivityHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/helper/ActivityHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/helper/TaskHepler.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRun/debug/0/com/netease/nim/demo/task/helper/TaskHepler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/buildId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/buildId.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/com/netease/nim/demo/task/fragment/TasksFragment$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/com/netease/nim/demo/task/fragment/TasksFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/0/com/netease/nim/demo/task/fragment/TasksFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/1/buildId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/1/buildId.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/1/com/netease/nim/demo/task/adapter/MemberAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/1/com/netease/nim/demo/task/adapter/MemberAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/2/buildId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/2/buildId.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/2/com/netease/nim/demo/mangement/service/MessageService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/2/com/netease/nim/demo/mangement/service/MessageService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/2/com/netease/nim/demo/mangement/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/2/com/netease/nim/demo/mangement/service/MessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/3/com/netease/nim/demo/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/4/buildId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/4/buildId.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/4/com/netease/nim/demo/mangement/activity/TaskSearchActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/4/com/netease/nim/demo/mangement/activity/TaskSearchActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/4/com/netease/nim/demo/mangement/activity/TaskSearchActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/4/com/netease/nim/demo/mangement/activity/TaskSearchActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/4/com/netease/nim/demo/mangement/activity/TaskSearchActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/4/com/netease/nim/demo/mangement/activity/TaskSearchActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/4/com/netease/nim/demo/mangement/activity/TaskSearchActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/4/com/netease/nim/demo/mangement/activity/TaskSearchActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/4/com/netease/nim/demo/mangement/activity/TaskSearchActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/4/com/netease/nim/demo/mangement/activity/TaskSearchActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/buildId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/buildId.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/mangement/ManagementHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/mangement/ManagementHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/ActivityListActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/ActivityListActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/ActivityListActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/ActivityListActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/AddActivityActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/AddActivityActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/TaskDetailActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/TaskDetailActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/TaskDetailActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/TaskDetailActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/TaskDetailActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/TaskDetailActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/TaskScheduleActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/TaskScheduleActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/TaskScheduleActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/TaskScheduleActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/TaskScheduleActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/5/com/netease/nim/demo/task/activity/TaskScheduleActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/6/buildId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/6/buildId.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/6/com/netease/nim/demo/task/helper/ActivityHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/6/com/netease/nim/demo/task/helper/ActivityHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/6/com/netease/nim/demo/task/helper/TaskHepler.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/6/com/netease/nim/demo/task/helper/TaskHepler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/buildId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/buildId.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/AboutActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/AboutActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/instantRunSlicer/debug/7/com/netease/nim/demo/main/activity/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build/outputs/apk/debug/demo-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build/outputs/apk/debug/demo-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/res/layout/fragment_mangement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/res/layout/fragment_mangement.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/main/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/main/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/TaskSearchActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/TaskSearchActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/AddActivityActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/AddActivityActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskScheduleActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskScheduleActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/adapter/MemberAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/adapter/MemberAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/fragment/TasksFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/fragment/TasksFragment.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Team" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/fragment/TasksFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="255" column="55" selection-start-line="255" selection-start-column="55" selection-end-line="255" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityListActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="86" column="60" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityDetailActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="68" column="62" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskDetailActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="169" column="28" selection-start-line="169" selection-start-column="28" selection-end-line="169" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/adapter/MemberAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="88" column="77" selection-start-line="88" selection-start-column="77" selection-end-line="88" selection-end-column="77" />
+              <folding>
+                <element signature="e#4295#4296#0" expanded="true" />
+                <element signature="e#4337#4338#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskScheduleActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/ManagementHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="298" column="18" selection-start-line="298" selection-start-column="18" selection-end-line="298" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/service/MessageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/main/activity/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="199" column="33" selection-start-line="199" selection-start-column="33" selection-end-line="199" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/api/RxManagementService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="56" column="78" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.netease.nim.demo.task.view.TitleTextView</find>
+      <find>setContent</find>
+      <find>#FFFFFF</find>
+      <find>colorAccent</find>
+      <find>et_task_name</find>
+      <find>setTaskId()</find>
+      <find>findViewById</find>
+      <find>private</find>
+      <find>Temp</find>
+      <find>NotificationAdapter.</find>
+      <find>RxActivityService</find>
+      <find>Management</find>
+      <find>Activity</find>
+      <find>ExpressAdapter</find>
+      <find>NotificationBean</find>
+      <find>setm</find>
+      <find>messageBeanList</find>
+      <find>_task</find>
+      <find>activityBeanList</find>
+      <find>AddTaskAcitivity.activityBeanList</find>
+      <find>Task</find>
+      <find>layout</find>
+      <find>TaskBean</find>
+      <find>datalist</find>
+      <find>task</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>com.netease.nim.demo.task.view.LRTextView</replace>
+      <replace>getTv_right().setText</replace>
+      <replace>et_activity_name</replace>
+      <replace>convertView.findViewById</replace>
+      <replace>Task_Activity</replace>
+      <replace>RxManagementService</replace>
+      <replace>Mangement</replace>
+      <replace>TaskScheduleAdapter</replace>
+      <replace>TaskBean</replace>
+      <replace>list</replace>
+      <replace>ActivityBean</replace>
+      <replace>AddTaskAcitivity.activityBeanList</replace>
+      <replace>activityBeanList</replace>
+      <replace>Activity</replace>
+      <replace>DataHolder</replace>
+      <replace>dataList</replace>
+      <replace>activity</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo/res/layout/activity_task_message.xml" />
+        <option value="$PROJECT_DIR$/demo/res/layout/task_item_show_layout.xml" />
+        <option value="$PROJECT_DIR$/demo/res/layout/activity_detail_activity.xml" />
+        <option value="$PROJECT_DIR$/demo/res/layout/task_detail_layout.xml" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/DataManagementActivity.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/TaskManagementActivity.java" />
+        <option value="$PROJECT_DIR$/demo/res/layout/activity_management_activity.xml" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/bean/ActivityBean.java" />
+        <option value="$PROJECT_DIR$/demo/res/layout/activity_item_show_layout.xml" />
+        <option value="$PROJECT_DIR$/demo/res/layout/activity_item_edit_layout.xml" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/ActivityManagementActivity.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/adapter/ActivityManagementAdapter.java" />
+        <option value="$PROJECT_DIR$/demo/res/layout/add_activity_activity.xml" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/bean/Task_Activity.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/AddTaskAcitivity.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/helper/TaskHepler.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/api/RxTaskInfoService.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/helper/ActivityHelper.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/AlertActivity.java" />
+        <option value="$PROJECT_DIR$/demo/res/layout/vm_test.xml" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/view/demo/TestViewModel.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/view/demo/AcitvityViewModel.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/api/RxManagementService.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/MultiselectActivity.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/adapter/ListitemAdapter.java" />
+        <option value="$PROJECT_DIR$/demo/res/layout/check_list_item.xml" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/DataHolder.java" />
+        <option value="$PROJECT_DIR$/demo/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/demo/res/layout/late_task_activity.xml" />
+        <option value="$PROJECT_DIR$/demo/res/layout/task_late_item.xml" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/adapter/TaskLateAdapter.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityDetailActivity.java" />
+        <option value="$PROJECT_DIR$/demo/build.gradle" />
+        <option value="$PROJECT_DIR$/demo/res/layout/change_message_item.xml" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/api/RxActivityService.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/api/RxActivityPost.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/ManagementHelper.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/TaskLateActivity.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/adapter/ChangeMessageAdapter.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/fragment/ManagementFragment.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/Constant.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/TaskSearchActivity.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskScheduleActivity.java" />
+        <option value="$PROJECT_DIR$/demo/res/layout/fragment_mangement.xml" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/AddActivityActivity.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/adapter/MemberAdapter.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskDetailActivity.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/fragment/TasksFragment.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityListActivity.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/service/MessageService.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/main/activity/MainActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="685" />
+    <option name="y" value="293" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AndroidUnknownAttribute</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
+              <item name="demo" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
+              <item name="demo" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
+              <item name="demo" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
+              <item name="demo" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
+              <item name="demo" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
+              <item name="demo" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="mangement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
+              <item name="demo" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="mangement" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
+              <item name="demo" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="mangement" type="462c0819:PsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
+              <item name="demo" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="mangement" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
+              <item name="demo" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
+              <item name="demo" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
+              <item name="demo" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="device.picker.selection" value="Pixel_2_API_27" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/demo/res/drawable-hdpi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FinalDesign/Team" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lee\Desktop\Team\demo\res\drawable-xxhdpi" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.netease.nim.demo.management.activity" />
+      <recent name="com.netease.nim.demo.task.activity" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.netease.nim.demo.task.activity" />
+      <recent name="com.netease.nim.demo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.netease.nim.demo.mangement.activity" />
+      <recent name="com.netease.nim.demo.mangement.adapter" />
+      <recent name="com.netease.nim.demo.mangement.api" />
+      <recent name="com.netease.nim.demo.bean" />
+      <recent name="com.netease.nim.demo.mangement.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lee\Desktop\Team\demo\res\layout" />
+      <recent name="C:\Users\lee\Desktop\Team\demo\res\drawable" />
+      <recent name="C:\Users\lee\Desktop\Team\demo\res\drawable-xxhdpi" />
+      <recent name="C:\Users\lee\Desktop\Team\demo\res\drawable-hdpi" />
+      <recent name="C:\Users\lee\Desktop\Team\demo\res\values-en" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.demo">
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="demo" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Android App.demo" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13728fa4-867c-46f6-ada6-df900e0f3e61" name="Default" comment="" />
+      <created>1553779628417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553779628417</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49722737" visible="true" weight="0.16353887" />
+      <window_info id="Structure" order="1" sideWeight="0.5029586" side_tool="true" weight="0.10991957" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Build Variants" order="4" sideWeight="0.5027726" side_tool="true" weight="0.10991957" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Captures" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Resources Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4953083" weight="0.22946176" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50469166" side_tool="true" weight="0.22946176" />
+      <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.49865952" visible="true" weight="0.27620396" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.29088473" />
+      <window_info anchor="right" id="Gradle" order="5" sideWeight="0.49506903" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Assistant" order="8" weight="0.3297587" />
+      <window_info anchor="right" id="Device File Explorer" order="9" sideWeight="0.504931" side_tool="true" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/view/TaskStep.java</url>
+          <line>223</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/ChangeMessageActivity.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/AddActivityActivity.java</url>
+          <line>304</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/AddTaskAcitivity.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="demo">
+        <watch expression="activityBeanList" language="JAVA" />
+        <watch expression="et_activity_content.getText().toString()" language="JAVA" />
+        <watch expression="container.getChildCount()" language="JAVA" />
+        <watch expression="container" language="JAVA" />
+        <watch expression="task" language="JAVA" />
+        <watch expression="tid" language="JAVA" />
+        <watch expression="tv_start.getText().toString()" language="JAVA" />
+        <watch expression="list" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>list</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tv_start.getText().toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tid</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>task</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>container</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>container.getChildCount()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>et_activity_content.getText().toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>activityBeanList</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/api/RxTaskInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="65" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/alter_activity.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/AlertActivity.java" />
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/TaskManagementActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1355">
+          <caret line="100" column="30" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/vm_test.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/helper/ActivityHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/view/demo/TestEntity.java" />
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/ActivityManagementActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/DataAnalysisActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/view/checkListView/CheckListEntity.java" />
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/view/checkListView/KylinCheckListImpl.java" />
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/view/checkListView/CheckViewModel.java" />
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/view/checkListView/KylinCheckListView.java" />
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/view/checkListView/KylinOnCheckListener.java" />
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/muti_check_task_activity.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/view/demo/ActivityViewModel.java" />
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/check_list_item.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="49" selection-end-line="102" />
+          <folding>
+            <element signature="e#1366#1387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/view/helper/DimensionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="337" column="62" selection-start-line="337" selection-start-column="62" selection-end-line="337" selection-end-column="62" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/activity_detail_activity.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/late_task_activity.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/adapter/TaskLateAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="103" column="57" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/task_late_item.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/api/RxActivityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/AddTaskAcitivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2261">
+          <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/helper/TaskHepler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="144" column="5" selection-start-line="96" selection-start-column="3" selection-end-line="144" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/api/AddTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/api/RxTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/api/RxActivityPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/DataHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/adapter/ChangeMessageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="73" column="52" lean-forward="true" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2956#3114#0" expanded="true" />
+            <element signature="e#3113#3114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/change_message_item.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/TaskLateActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2755">
+          <caret line="174" column="25" selection-start-line="174" selection-start-column="25" selection-end-line="174" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/ChangeMessageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/activity/TaskSearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="121" column="49" selection-start-line="121" selection-start-column="49" selection-end-line="121" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/fragment/ManagementFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/fragment_mangement.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/AddActivityActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="305" column="73" selection-start-line="305" selection-start-column="73" selection-end-line="305" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="68" column="62" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="169" column="28" selection-start-line="169" selection-start-column="28" selection-end-line="169" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/adapter/MemberAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="88" column="77" selection-start-line="88" selection-start-column="77" selection-end-line="88" selection-end-column="77" />
+          <folding>
+            <element signature="e#4295#4296#0" expanded="true" />
+            <element signature="e#4337#4338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/fragment/TasksFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="255" column="55" selection-start-line="255" selection-start-column="55" selection-end-line="255" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/ActivityListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="86" column="60" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/task/activity/TaskScheduleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/ManagementHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="298" column="18" selection-start-line="298" selection-start-column="18" selection-end-line="298" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/api/RxManagementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="56" column="78" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/mangement/service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/main/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="199" column="33" selection-start-line="199" selection-start-column="33" selection-end-line="199" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

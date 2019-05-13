@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout-iw\\upsdk_app_dl_progress_dialog.xml",
+        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\base-2.6.0.301.aar\\16865699256e340284afa03d65f5a961\\res\\layout-iw\\upsdk_app_dl_progress_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\layout-iw\\upsdk_ota_update_view.xml",
+        "source": "C:\\Users\\lee\\.gradle\\caches\\transforms-1\\files-1.1\\base-2.6.0.301.aar\\16865699256e340284afa03d65f5a961\\res\\layout-iw\\upsdk_ota_update_view.xml"
+    }
+]

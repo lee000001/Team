@@ -197,7 +197,7 @@ public class MainActivity extends UI implements ViewPager.OnPageChangeListener, 
         if(list.size()>0&&!dialog.isShowing()){
             showDialog(list);
         }
-        stopService(startIntent);
+//        stopService(startIntent);
 
 
     }

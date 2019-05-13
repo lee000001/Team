@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.xpc:gloriousrecyclerview:0.2.6@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gloriousrecyclerview-0.2.6.aar/749f4e8279558c4b6f39c2abba9f6373/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gloriousrecyclerview-0.2.6.aar/749f4e8279558c4b6f39c2abba9f6373/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xpc/gloriousrecyclerview/0.2.6/5bfe42228fa2d31223bdee07d56e5947d9bfd4d7/gloriousrecyclerview-0.2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

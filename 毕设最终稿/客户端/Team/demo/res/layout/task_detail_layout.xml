@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:divider="@drawable/divider"
+    android:showDividers="middle"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextAppearance="@style/Toolbar.TitleText">
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="任务成员"
+        android:textSize="@dimen/task_detail_textsize"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#ECF1F5"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+    <TextView
+        android:text="任务内容"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/task_detail_textsize"/>
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="8"></TextView>
+    <com.netease.nim.demo.task.view.LRTextView
+        android:id="@+id/tv_tid"
+        app:left_text="任务编号"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.netease.nim.demo.task.view.LRTextView>
+
+
+    <com.netease.nim.demo.task.view.LRTextView
+        android:id="@+id/tv_name"
+        app:left_text="名称"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.netease.nim.demo.task.view.LRTextView>
+
+    <com.netease.nim.demo.task.view.LRTextView
+        android:id="@+id/tv_state"
+        app:left_text="状态"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.netease.nim.demo.task.view.LRTextView>
+
+    <com.netease.nim.demo.task.view.LRTextView
+        android:id="@+id/tv_creator"
+        app:left_text="创建者"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.netease.nim.demo.task.view.LRTextView>
+
+    <com.netease.nim.demo.task.view.LRTextView
+        android:id="@+id/tv_startDate"
+        app:left_text="开始日期"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></com.netease.nim.demo.task.view.LRTextView>
+    <com.netease.nim.demo.task.view.LRTextView
+        android:id="@+id/tv_endDate"
+        app:left_text="结束日期"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      ></com.netease.nim.demo.task.view.LRTextView>
+
+    <Button
+        android:id="@+id/btn_activtiy"
+        android:text="查看关键活动"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editview"/>
+    <Button
+        android:id="@+id/btn_management_activity"
+        android:text="管理关键活动"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editview"/>
+    <Button
+        android:id="@+id/btn_schedule"
+        android:text="查看当前任务进度"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editview"/>
+
+
+
+</LinearLayout>

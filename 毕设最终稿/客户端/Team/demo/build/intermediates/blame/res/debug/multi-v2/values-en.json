@@ -1,0 +1,120 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\values-en\\array.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "219"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "258"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,105,162",
+                        "endColumns": "49,56,46",
+                        "endOffsets": "100,157,204"
+                    },
+                    "to": {
+                        "startLines": "11,12,13",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "309,359,416",
+                        "endColumns": "49,56,46",
+                        "endOffsets": "354,411,458"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,13,9,6,7,8,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,194,288,1004,648,370,461,565,734,818,912",
+                        "endColumns": "45,92,93,81,88,85,90,103,82,83,93,91",
+                        "endOffsets": "96,189,283,365,1088,729,456,560,643,813,907,999"
+                    },
+                    "to": {
+                        "startLines": "10,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "263,463,556,650,732,821,907,998,1102,1185,1269,1363",
+                        "endColumns": "45,92,93,81,88,85,90,103,82,83,93,91",
+                        "endOffsets": "304,551,645,727,816,902,993,1097,1180,1264,1358,1450"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\build\\intermediates\\res\\merged\\debug\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\values-en\\array.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "219"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "258"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lee\\Desktop\\git\\Team\\uikit\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,105,162",
+                        "endColumns": "49,56,46",
+                        "endOffsets": "100,157,204"
+                    },
+                    "to": {
+                        "startLines": "11,12,13",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "309,359,416",
+                        "endColumns": "49,56,46",
+                        "endOffsets": "354,411,458"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lee\\Desktop\\git\\Team\\demo\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,13,9,6,7,8,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,194,288,1004,648,370,461,565,734,818,912",
+                        "endColumns": "45,92,93,81,88,85,90,103,82,83,93,91",
+                        "endOffsets": "96,189,283,365,1088,729,456,560,643,813,907,999"
+                    },
+                    "to": {
+                        "startLines": "10,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "263,463,556,650,732,821,907,998,1102,1185,1269,1363",
+                        "endColumns": "45,92,93,81,88,85,90,103,82,83,93,91",
+                        "endOffsets": "304,551,645,727,816,902,993,1097,1180,1264,1358,1450"
+                    }
+                }
+            ]
+        }
+    ]
+}
