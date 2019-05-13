@@ -150,6 +150,7 @@ public class TaskLateActivity extends UI implements View.OnClickListener {
                 for (int i = 0; i <dataList.size() ; i++) {
 
                     dataList.get(i).checked=true;
+                    selectedDatas.clear();
 
                 }
 
@@ -160,10 +161,11 @@ public class TaskLateActivity extends UI implements View.OnClickListener {
             //取消全部选中
 
             case R.id.btn_all_unsel:
-
+                selectedDatas.clear();
                 for (int i = 0; i <dataList.size() ; i++) {
 
                     dataList.get(i).checked=false;
+                    selectedDatas.add(dataList.get(i).activity);
 
                 }
 

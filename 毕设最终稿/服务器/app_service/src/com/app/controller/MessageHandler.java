@@ -34,6 +34,8 @@ public class MessageHandler {
 	@RequestMapping("/msg")
 	@ResponseBody
 	public List<MessageBean> getMsg(@RequestParam(value="accid") String accid){
+		
+		
 		return messageService.getMsg(accid);
 			
 	}

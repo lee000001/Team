@@ -46,10 +46,10 @@ public class MessageService extends Service {
         Log.d(TAG, "onStartCommand() executed");
 
         doRequestByRxRetrofit();
-        getLateMessage();
+//        getLateMessage();
 
         AlarmManager manager= (AlarmManager) getSystemService(ALARM_SERVICE);
-        int second=50000;
+        int second=5000;
         long triggerAtTime= SystemClock.elapsedRealtime()+second;
         Intent intent1=new Intent(this, MessageService.class);
         PendingIntent pi= PendingIntent.getService(this,0,intent1,0);
