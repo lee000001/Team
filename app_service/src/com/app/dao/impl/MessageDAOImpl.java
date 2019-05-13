@@ -40,6 +40,8 @@ public class MessageDAOImpl implements MessageDAO{
 		System.out.println("消息到达");
 		tx.commit();
 		session.close();
+		
+		
 		return list;
 	}
 
